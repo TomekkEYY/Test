@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            style="@style/TopLogo"
+            android:src="@drawable/tsw_signets_logo" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signet_info"
+            style="@style/MainMenuButton"
+            android:onClick="startBasicInformation"
+            android:text="@string/signet_info" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpace" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpace" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpace" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signet_overview"
+            style="@style/MainMenuButton"
+            android:onClick="startSignetOverview"
+            android:text="@string/signet_overview" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpace" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpace" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpace" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signet_quests"
+            style="@style/MainMenuButton"
+            android:onClick="startQuests"
+            android:text="@string/signet_quests" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpace" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpace" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpace" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signet_farming"
+            style="@style/MainMenuButton"
+            android:onClick="startFarmingLocations"
+            android:text="@string/signet_farming" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

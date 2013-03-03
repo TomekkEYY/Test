@@ -1,0 +1,66 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- top logos style -->
+    <style name="TopLogo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/margin_top_logo</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_logo</item>
+        <item name="android:maxHeight">200dp</item>
+        <item name="android:maxWidth">150dp</item>
+    </style>
+
+    <!-- linearlayout separator -->
+    <style name="SeparatorLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:weightSum">1.0</item>
+    </style>
+
+    <!-- black left and right space for border separator -->
+    <style name="SeparatorBlackSpaceBorder" parent="BlackSeparatorData">
+        <item name="android:layout_weight">0.05</item>
+    </style>
+
+    <!-- border separator -->
+    <style name="SeparatorWhiteSpaceBorder" parent="WhiteSeparatorData">
+        <item name="android:layout_weight">0.9</item>
+    </style>
+
+    <!-- black left and right space for separator -->
+    <style name="SeparatorBlackSpace" parent="BlackSeparatorData">
+        <item name="android:layout_weight">0.1</item>
+    </style>
+
+    <!-- separator -->
+    <style name="SeparatorWhiteSpace" parent="WhiteSeparatorData">
+        <item name="android:layout_weight">0.8</item>
+    </style>
+
+    <!-- white separator data -->
+    <style name="WhiteSeparatorData">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <!-- black separator data -->
+    <style name="BlackSeparatorData">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- main manu button -->
+    <style name="MainMenuButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@android:color/background_light</item>
+        <item name="android:textSize">@dimen/text_size_menu</item>
+    </style>
+
+</resources>
