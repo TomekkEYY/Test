@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.eyyeyy.tsw_signets.common.BasicInformationActivity;
@@ -26,7 +27,20 @@ public class MainActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.options_menu, menu);
 		return true;
+	}
 
+	public void showInfoMenu(MenuItem item) {
+		// TODO add dialog info and add it to all other activities
+	}
+
+	public void openRateAndCommentMenu(MenuItem item) {
+		// TODO open google market app and add it to all other activities
+	}
+
+	public void resetQuestsMenu(MenuItem item) {
+		// TODO reset quests timer + dialog
+		// ("you want really erase all timermarkes?") and add it to all other
+		// activities
 	}
 
 	public void startBasicInformation(View view) {

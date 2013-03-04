@@ -56,11 +56,31 @@
     <!-- main manu button -->
     <style name="MainMenuButton">
         <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_height">@dimen/main_button_height</item>
         <item name="android:layout_gravity">left</item>
         <item name="android:background">@drawable/button</item>
         <item name="android:textColor">@android:color/background_light</item>
         <item name="android:textSize">@dimen/text_size_menu</item>
+    </style>
+
+    <!-- standard text appearance -->
+    <style name="StandardTextAppearance">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/text_view_padding</item>
+    </style>
+
+    <!-- view toggle button -->
+    <style name="ViewToggleButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/toggle_button_height</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingTop">@dimen/text_view_padding</item>
+        <item name="android:paddingLeft">@dimen/text_view_padding</item>
+        <item name="android:paddingBottom">@dimen/text_view_padding</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@android:color/background_light</item>
+        <item name="android:textSize">@dimen/text_size_text</item>
     </style>
 
 </resources>

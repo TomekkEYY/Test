@@ -4,6 +4,11 @@
     <dimen name="margin_top_logo">15dp</dimen>
     <dimen name="text_size_menu">12dp</dimen>
     <dimen name="text_view_padding">7dp</dimen>
+    <dimen name="text_size_text">20dp</dimen>
+    <dimen name="toggle_button_height">40dp</dimen>
+    <dimen name="main_button_height">80dp</dimen>
+    <dimen name="blank_height_size">40dp</dimen>
+    <dimen name="blank_width_size">50dp</dimen>
     <!-- Rate dialog -->
     <dimen name="dialog_logo_padding">5sp</dimen>
     <dimen name="dialog_text_padding">7sp</dimen>

@@ -2,14 +2,37 @@
 <resources>
 
     <string name="app_name">TSW - Signets</string>
+
+    <!-- main menu -->
     <string name="signet_info">Basic information</string>
     <string name="signet_overview">Signet overview</string>
     <string name="signet_quests">Quests</string>
     <string name="signet_farming">Farming locations</string>
 
-    <!-- settings menu items -->
-    <string name="rate_and_comment_menu">Rate and Comment</string>
-    <string name="more_apps">More Apps</string>
+    <!-- basic information -->
+    <string name="what_are_signets">> What are Signets?</string>
+    <string name="what_are_signets_close">> CLOSE What are Signets?</string>
+    <string name="basic_information_part1">Signets are part of the endgame gearing in TSW that provide a proc effect or passive stat boost. 
+        They can be attached to a talisman or weapon with a Signet Slot in order to combine the effect with the item itself.</string>
+    <string name="basic_information_part2">Signets are divided into three types: green, blue and purple. It takes ten identical green 
+        signets to form a blue signet of the same name and ten identical blue signets to form a purple signet.\n(Note: you need 100 green 
+        signets with the same name to build one purple signet)</string>
+    <string name="basic_information_part3">(Note: an overview of all available signets can be found in the "Main Menu" > "Signet Overview")	</string>
+    <string name="attach">> Signet Attaching</string>
+    <string name="attach_close">> CLOSE Signet Attaching</string>
+    <string name="basic_information_part4">To attach a signet, place the item and the signet in the Assembly window and click the “Assambly” 
+        button. The item must be at full durability. \n(Note: the item must be at full durability) </string>
+    <string name="basic_information_part5">If an item contains a signet you can overwrite it with a new one. \n(Note: the old signet will be 
+        destroyed)</string>
+    <string name="where_do_i_get_signets">> Where do I get Signets?</string>
+    <string name="where_do_i_get_signets_close">> CLOSE Where do I get Signets?</string>
+    <string name="find_signets_text">Signets cannot be crafted, but there are three possibilities to get signets:\n 
+	> dropped by Nightmare and Lair mobs\n 
+	(Note: drop rate is low)\n
+	(Note: where to find these mobs can be found in the Main Menu > Farming Locations)\n\n
+	> Quests (Note: one Signet Bag as reward after completion; 68 hour cooldown)\n
+	(Note: which quests guarantee signets and their locations can be found in the Main Menu > Quests)\n\n
+	> brought in/at the Bank or Mail in London under  Buy > Upgrade > Signets ( TODO get exact names)\n(Note: very expensive)	</string>
 
     <!-- AppRater -->
     <string name="rate_and_comment">"Rate and Comment"</string>
@@ -18,6 +41,11 @@
     <string name="no_thanks">"No, thanks"</string>
     <!-- delete at the end -->
     <string name="placeholder">Placeholder</string>
+    <string name="placeholder_long">Placeholder - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd 
+        gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores 
+        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_basic_information">BasicInformationActivity</string>
