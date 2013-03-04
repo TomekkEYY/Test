@@ -19,7 +19,9 @@
             <View style="@style/SeparatorBlackSpaceBorder" >
             </View>
 
-            <View style="@style/SeparatorWhiteSpaceBorder" >
+            <View
+                android:id="@+id/separator_white"
+                style="@style/SeparatorWhiteSpaceBorder" >
             </View>
 
             <View style="@style/SeparatorBlackSpaceBorder" >

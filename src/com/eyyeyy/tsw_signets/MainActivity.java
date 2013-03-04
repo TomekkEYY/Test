@@ -10,6 +10,7 @@ import com.eyyeyy.tsw_signets.common.BasicInformationActivity;
 import com.eyyeyy.tsw_signets.common.FarmingLocationsActivity;
 import com.eyyeyy.tsw_signets.common.QuestsActivity;
 import com.eyyeyy.tsw_signets.common.SignetOverviewActivity;
+import com.eyyeyy.tsw_signets.utils.AppRater;
 
 public class MainActivity extends Activity {
 
@@ -17,13 +18,15 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_activity);
+		AppRater.app_launched(this);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main_activity, menu);
+		getMenuInflater().inflate(R.menu.options_menu, menu);
 		return true;
+
 	}
 
 	public void startBasicInformation(View view) {
