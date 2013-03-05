@@ -11,6 +11,14 @@
         <item name="android:maxWidth">150dp</item>
     </style>
 
+    <style name="ImageFarmingLocation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:maxHeight">200dp</item>
+        <item name="android:maxWidth">150dp</item>
+    </style>
+
     <!-- linearlayout separator -->
     <style name="SeparatorLinearLayout">
         <item name="android:layout_width">match_parent</item>
@@ -70,13 +78,33 @@
         <item name="android:padding">@dimen/text_view_padding</item>
     </style>
 
+    <style name="FarmingLocationsTextAppearance">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/text_view_padding</item>
+    </style>
+
     <!-- view toggle button -->
     <style name="ViewToggleButton">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">@dimen/toggle_button_height</item>
         <item name="android:gravity">left</item>
         <item name="android:paddingTop">@dimen/text_view_padding</item>
-        <item name="android:paddingLeft">@dimen/text_view_padding</item>
+        <item name="android:paddingLeft">@dimen/button_padding_left</item>
+        <item name="android:paddingBottom">@dimen/text_view_padding</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@android:color/background_light</item>
+        <item name="android:textSize">@dimen/text_size_text</item>
+    </style>
+
+    <!-- view toggle close button -->
+    <style name="ViewToggleButtonRight">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/toggle_button_height</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingTop">@dimen/text_view_padding</item>
+        <item name="android:paddingRight">@dimen/button_padding_right</item>
         <item name="android:paddingBottom">@dimen/text_view_padding</item>
         <item name="android:background">@drawable/button</item>
         <item name="android:textColor">@android:color/background_light</item>

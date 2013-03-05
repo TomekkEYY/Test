@@ -79,7 +79,7 @@
 
         <Button
             android:id="@+id/visibility_signet_info_close"
-            style="@style/ViewToggleButton"
+            style="@style/ViewToggleButtonRight"
             android:text="@string/what_are_signets_close"
             android:visibility="gone" />
         <!-- END What are Signets? -->
@@ -133,7 +133,7 @@
 
         <Button
             android:id="@+id/visibility_attach_signet_close"
-            style="@style/ViewToggleButton"
+            style="@style/ViewToggleButtonRight"
             android:text="@string/attach_close"
             android:visibility="gone" />
 
@@ -174,17 +174,35 @@
 
         <ImageView
             android:id="@+id/bank_mail_london"
-            style="@style/TopLogo"
+            android:layout_width="175dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_top_logo"
+            android:layout_marginTop="@dimen/margin_top_logo"
+            android:maxHeight="200dp"
+            android:maxWidth="150dp"
             android:src="@drawable/buy_signets_london2"
             android:visibility="gone" />
 
         <Button
             android:id="@+id/visibility_where_do_i_get_signets_close"
-            style="@style/ViewToggleButton"
+            style="@style/ViewToggleButtonRight"
             android:text="@string/where_do_i_get_signets_close"
             android:visibility="gone" />
 
         <!-- END Where do I find Signets -->
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>

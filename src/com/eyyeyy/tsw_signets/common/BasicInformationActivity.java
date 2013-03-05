@@ -3,6 +3,7 @@ package com.eyyeyy.tsw_signets.common;
 import android.app.Activity;
 import android.os.Bundle;
 import android.text.Html;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -13,6 +14,9 @@ import android.widget.TextView;
 import com.eyyeyy.tsw_signets.R;
 
 public class BasicInformationActivity extends Activity {
+
+	private ViewGroup linearLayoutBasicInformation;
+	private View viewHolder;
 
 	// "What are Signets?
 	private View whatAreSignetsBlank;
@@ -40,9 +44,6 @@ public class BasicInformationActivity extends Activity {
 
 	private Button whereDoIGetSignetsVisibilityButton;
 	private Button whereDoIGetSignetsVisibilityButtonClose;
-
-	private ViewGroup linearLayoutBasicInformation;
-	private View viewHolder;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -100,6 +101,44 @@ public class BasicInformationActivity extends Activity {
 		whereDoIGetSignetsVisibilityButton.setOnClickListener(whereDoIGetSignetsVisibilityListener);
 		whereDoIGetSignetsVisibilityButtonClose.setOnClickListener(whereDoIGetSignetsVisibilityCloseListener);
 	}
+
+	// @Override
+	// protected void onResume() {
+	// super.onResume();
+	// // Get the between instance stored values
+	// SharedPreferences preferences = getPreferences(MODE_PRIVATE);
+	//
+	// // Set the values of the UI
+	// for (int i = 1; i < linearLayoutBasicInformation.getChildCount(); i++) {
+	// linearLayoutBasicInformation.getChildAt(i).setVisibility(
+	// preferences.getInt(linearLayoutBasicInformation.getChildAt(i).toString(),
+	// 2));
+	// }
+	//
+	// }
+
+	// @Override
+	// protected void onPause() {
+	// super.onPause();
+	//
+	// SharedPreferences preferences = getPreferences(MODE_PRIVATE);
+	// SharedPreferences.Editor editor = preferences.edit();
+	//
+	// for (int i = 1; i < linearLayoutBasicInformation.getChildCount(); i++) {
+	// if (linearLayoutBasicInformation.getChildAt(i).getVisibility() ==
+	// View.GONE) {
+	// editor.putInt(linearLayoutBasicInformation.getChildAt(i).toString(), 2);
+	// } else if (linearLayoutBasicInformation.getChildAt(i).getVisibility() ==
+	// View.VISIBLE) {
+	// editor.putInt(linearLayoutBasicInformation.getChildAt(i).toString(), 0);
+	// } else {
+	// editor.putInt(linearLayoutBasicInformation.getChildAt(i).toString(), 1);
+	// }
+	//
+	// }
+	//
+	// editor.commit();
+	// }
 
 	// "What are Signets?" Open Button onCLickListener
 	OnClickListener whatAreSignetVisibilityListener = new OnClickListener() {
@@ -206,5 +245,14 @@ public class BasicInformationActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.options_menu, menu);
 		return true;
+	}
+
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+			moveTaskToBack(true);
+			return true;
+		}
+		return super.onKeyDown(keyCode, event);
 	}
 }
