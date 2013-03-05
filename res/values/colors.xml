@@ -7,5 +7,10 @@
 
     <!-- A dark Holo shade of red -->
     <color name="holo_red_dark">#ffcc0000</color>
+    <!-- delete at the end if not needed -->
+    <color name="important_word">#ff4444</color>
+    <color name="green_signet">#99cc00</color>
+    <color name="blue_signet">#33b5b5</color>
+    <color name="purple_signet">#aa66cc</color>
 
 </resources>

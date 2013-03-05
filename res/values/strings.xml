@@ -13,27 +13,36 @@
     <string name="what_are_signets">> What are Signets?</string>
     <string name="what_are_signets_close">> CLOSE What are Signets?</string>
     <string name="basic_information_part1">Signets are part of the endgame gearing in TSW that provide a proc effect or passive stat boost. 
-        They can be attached to a talisman or weapon with a Signet Slot in order to combine the effect with the item itself.</string>
-    <string name="basic_information_part2">Signets are divided into three types: green, blue and purple. It takes ten identical green 
-        signets to form a blue signet of the same name and ten identical blue signets to form a purple signet.\n(Note: you need 100 green 
-        signets with the same name to build one purple signet)</string>
-    <string name="basic_information_part3">(Note: an overview of all available signets can be found in the "Main Menu" > "Signet Overview")	</string>
+        They can be attached to a talisman or weapon with an &lt;font color=&quot;#ff4444&quot;&gt;[Empty Signet Slot]&lt;/font&gt; in order 
+        to combine the effect with the item itself.</string>
+    <string name="basic_information_part2">Signets are divided into three types: &lt;font color=&quot;#99cc00&quot;&gt;green&lt;/font&gt;, 
+        &lt;font color=&quot;#33b5b5&quot;&gt;blue&lt;/font&gt; and &lt;font color=&quot;#aa66cc&quot;&gt;purple&lt;/font&gt;. It takes 
+        ten identical green signets to form a blue signet of the same name and ten identical blue signets to form a purple signet.&lt;br&gt;(Note: 
+        you need 100 green signets with the same name to build one purple signet)</string>
+    <string name="basic_information_part3">(Note: an overview of all available signets can be found in the &lt;font color=&quot;#ff4444&quot;&gt;
+        [App Main Menu] > [Signet Overview]&lt;/font&gt;)	</string>
     <string name="attach">> Signet Attaching</string>
     <string name="attach_close">> CLOSE Signet Attaching</string>
-    <string name="basic_information_part4">To attach a signet, place the item and the signet in the Assembly window and click the “Assambly” 
-        button. The item must be at full durability. \n(Note: the item must be at full durability) </string>
-    <string name="basic_information_part5">If an item contains a signet you can overwrite it with a new one. \n(Note: the old signet will be 
-        destroyed)</string>
+    <string name="basic_information_part4">To attach a signet, place the item and the signet in the &lt;font color=&quot;#ff4444&quot;&gt;
+        [Assembly Window]&lt;/font&gt; and click the &lt;font color=&quot;#ff4444&quot;&gt;[ASSEMBLE]&lt;/font&gt; 
+        button.&lt;br&gt;(Note: the item must be at &lt;font color=&quot;#ff4444&quot;&gt;full durability&lt;/font&gt;)&lt;br&gt;(Note: 
+        read the signet description as 
+        signets can only be attached to the item type specified there. Detailed description of each signet can be found in the &lt;font 
+        color=&quot;#ff4444&quot;&gt;[App Main Menu] > [Signet Overview]&lt;/font&gt;)</string>
+    <string name="basic_information_part5">If an item contains a signet you can overwrite it with a new one.&lt;br&gt;(Note: the old signet will be 
+        &lt;font color=&quot;#ff4444&quot;&gt;destroyed&lt;/font&gt;)</string>
     <string name="where_do_i_get_signets">> Where do I get Signets?</string>
     <string name="where_do_i_get_signets_close">> CLOSE Where do I get Signets?</string>
-    <string name="find_signets_text">Signets cannot be crafted, but there are three possibilities to get signets:\n 
-	> dropped by Nightmare and Lair mobs\n 
-	(Note: drop rate is low)\n
-	(Note: where to find these mobs can be found in the Main Menu > Farming Locations)\n\n
-	> Quests (Note: one Signet Bag as reward after completion; 68 hour cooldown)\n
-	(Note: which quests guarantee signets and their locations can be found in the Main Menu > Quests)\n\n
-	> brought in/at the Bank or Mail in London under  Buy > Upgrade > Signets ( TODO get exact names)\n(Note: very expensive)	</string>
-
+    <string name="find_signets_text">Signets cannot be crafted, but there are three possibilities to get signets:&lt;br&gt;
+        > dropped by &lt;font color=&quot;#ff4444&quot;&gt;Nightmare and Lair mobs&lt;/font&gt;&lt;br&gt;(Note: drop rate is low)
+        &lt;br&gt;(Note: the location of these mobs can be found in the &lt;font color=&quot;#ff4444&quot;&gt;[App Main Menu] > 
+        [Farming Locations]&lt;/font&gt;)&lt;br&gt;&lt;br&gt;> &lt;font color=&quot;#ff4444&quot;&gt;Quests&lt;/font&gt;&lt;br&gt;
+        (Note: one &lt;font color=&quot;#ff4444&quot;&gt;[Signet Bag]&lt;/font&gt; as reward after completion; 68 hour cooldown)
+        &lt;br&gt;(Note: which quests guarantee 
+        signets and their locations can be found in the &lt;font color=&quot;#ff4444&quot;&gt;[App Main Menu] > 
+        [Quests]&lt;/font&gt;)&lt;br&gt;&lt;br&gt;> B&amp;D Bank or Ealdwic Post Office in &lt;font color=&quot;#ff4444&quot;&gt;
+        London&lt;/font&gt;. 
+        [BUY] > [Upgrade(ItemType)] > [Signet(SubType)]&lt;br&gt;(Note: high prices)</string>
     <!-- AppRater -->
     <string name="rate_and_comment">"Rate and Comment"</string>
     <string name="rate_and_comment_support">"If you enjoy using this app, please take a moment to rate it. Thanks for your support!"</string>

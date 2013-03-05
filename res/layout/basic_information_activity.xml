@@ -45,15 +45,16 @@
         <TextView
             android:id="@+id/signet_info_part1"
             style="@style/StandardTextAppearance"
-            android:text="@string/basic_information_part1"
             android:visibility="gone" />
+        <!-- android:text="@string/basic_information_part1" -->
+
 
         <!-- weapon with a free Signet Slot -->
 
         <ImageView
             android:id="@+id/picture_free_signet_slot"
             style="@style/TopLogo"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/weapon_empty_signet_slot"
             android:visibility="gone" />
 
         <TextView
@@ -67,7 +68,7 @@
         <ImageView
             android:id="@+id/picture_10signet10"
             style="@style/TopLogo"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/upgradesignets"
             android:visibility="gone" />
 
         <TextView
@@ -79,7 +80,7 @@
         <Button
             android:id="@+id/visibility_signet_info_close"
             style="@style/ViewToggleButton"
-            android:text="@string/attach_close"
+            android:text="@string/what_are_signets_close"
             android:visibility="gone" />
         <!-- END What are Signets? -->
 
@@ -121,7 +122,7 @@
         <ImageView
             android:id="@+id/picture_singet_item_assembly_window"
             style="@style/TopLogo"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/item_signet_assamble"
             android:visibility="gone" />
 
         <TextView
@@ -174,7 +175,7 @@
         <ImageView
             android:id="@+id/bank_mail_london"
             style="@style/TopLogo"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/buy_signets_london2"
             android:visibility="gone" />
 
         <Button
