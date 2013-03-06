@@ -48,8 +48,8 @@
 
         <ImageView
             android:id="@+id/special_buffs"
-            style="@style/TopLogo"
-            android:src="@drawable/placeholder"
+            style="@style/ImageFarmingLocation"
+            android:src="@drawable/special_buffs"
             android:visibility="gone" />
 
         <TextView
@@ -99,7 +99,7 @@
         <ImageView
             android:id="@+id/map_kingsmouth_nm_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/kingsmouth_nm_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -125,7 +125,7 @@
         <ImageView
             android:id="@+id/map_kingsmouth_lair_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/kingsmouth_lair_map"
             android:visibility="gone" />
 
         <Button
@@ -170,7 +170,7 @@
         <ImageView
             android:id="@+id/map_savage_nm_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/savage_nm_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -196,7 +196,7 @@
         <ImageView
             android:id="@+id/map_savage_lair_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/savage_lair_map"
             android:visibility="gone" />
 
         <Button
@@ -241,7 +241,7 @@
         <ImageView
             android:id="@+id/map_blue_nm_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/blue_nm_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -267,7 +267,7 @@
         <ImageView
             android:id="@+id/map_blue_lair_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/blue_lair_map"
             android:visibility="gone" />
 
         <Button
@@ -312,7 +312,7 @@
         <ImageView
             android:id="@+id/map_scorched_nm_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/sorced_nm_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -338,7 +338,7 @@
         <ImageView
             android:id="@+id/map_scorched_lair_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/sorced_lair_map"
             android:visibility="gone" />
 
         <Button
@@ -383,7 +383,7 @@
         <ImageView
             android:id="@+id/map_sun_nm_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/sun_nm_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -409,7 +409,7 @@
         <ImageView
             android:id="@+id/map_sun_lair_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/sun_lair_map"
             android:visibility="gone" />
 
         <Button
@@ -454,7 +454,7 @@
         <ImageView
             android:id="@+id/map_farm_nm_image1"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/farm_nm1_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -480,7 +480,7 @@
         <ImageView
             android:id="@+id/map_farm_nm_image2"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/farm_nm2_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -506,7 +506,7 @@
         <ImageView
             android:id="@+id/map_farm_nm_image3"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/farm_nm3_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -532,7 +532,7 @@
         <ImageView
             android:id="@+id/map_farm_lair_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/farm_lair_map"
             android:visibility="gone" />
 
         <Button
@@ -577,7 +577,7 @@
         <ImageView
             android:id="@+id/map_forest_nm_image1"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/forest_nm1_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -603,7 +603,7 @@
         <ImageView
             android:id="@+id/map_forest_nm_image2"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/forest_nm2_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -629,7 +629,7 @@
         <ImageView
             android:id="@+id/map_forest_nm_image3"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/forest_nm3_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -655,7 +655,7 @@
         <ImageView
             android:id="@+id/map_forest_lair_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/forest_lair_map"
             android:visibility="gone" />
 
         <Button
@@ -700,7 +700,7 @@
         <ImageView
             android:id="@+id/map_fangs_nm_image1"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/fangs_nm1_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -726,7 +726,7 @@
         <ImageView
             android:id="@+id/map_fangs_nm_image2"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/fangs_nm2_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -752,7 +752,7 @@
         <ImageView
             android:id="@+id/map_fangs_nm_image3"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/fangs_nm3_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -778,7 +778,7 @@
         <ImageView
             android:id="@+id/map_fangs_nm_image4"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/fangs_nm4_map"
             android:visibility="gone" />
 
         <LinearLayout
@@ -804,7 +804,7 @@
         <ImageView
             android:id="@+id/map_fangs_lair_image"
             style="@style/ImageFarmingLocation"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/fangs_lair_map"
             android:visibility="gone" />
 
         <Button

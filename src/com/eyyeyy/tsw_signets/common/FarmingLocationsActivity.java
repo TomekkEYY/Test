@@ -111,6 +111,14 @@ public class FarmingLocationsActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.farming_locations_activity);
 
+
+
+	}
+	
+@Override
+	protected void onStart() {
+		super.onStart();
+		
 		linearLayoutFarmingLocations = (ViewGroup) findViewById(R.id.ll_farming_locations);
 
 		// Basics Views
@@ -278,9 +286,9 @@ public class FarmingLocationsActivity extends Activity {
 		// Carpathian Fangs Buttons onClickListener
 		fangsFarmingLocations.setOnClickListener(fangsFarmingLocationsListener);
 		fangsFarmingLocationsClose.setOnClickListener(fangsFarmingLocationsCloseListener);
-
-	}
-
+		
+	};
+	
 	// Basics Open Button onCLickListener
 	OnClickListener basicsFarmingLocationsButtonListener = new OnClickListener() {
 		public void onClick(View v) {

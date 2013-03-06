@@ -52,8 +52,11 @@ public class BasicInformationActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.basic_information_activity);
+		setContentView(R.layout.basic_information_activity);	
+	}
 
+	protected void onStart() {
+		super.onStart();
 		linearLayoutBasicInformation = (ViewGroup) findViewById(R.id.ll_basic_information);
 
 		// "What are Signets?" Views
@@ -104,49 +107,7 @@ public class BasicInformationActivity extends Activity {
 		// "Where do I get Signets?" Buttons onClickListener
 		whereDoIGetSignetsVisibilityButton.setOnClickListener(whereDoIGetSignetsVisibilityListener);
 		whereDoIGetSignetsVisibilityButtonClose.setOnClickListener(whereDoIGetSignetsVisibilityCloseListener);
-	}
-
-	// TODO delete it later
-	// @Override
-	// protected void onRestart() {
-	// super.onRestart();
-	// // Get the between instance stored values
-	// SharedPreferences preferences = getPreferences(MODE_PRIVATE);
-	// preferences = getPreferences(MODE_PRIVATE);
-	//
-	// if (preferences != null) {
-	// // Set the values of the UI
-	// for (int i = 1; i < linearLayoutBasicInformation.getChildCount(); i++) {
-	// linearLayoutBasicInformation.getChildAt(i).setVisibility(
-	// preferences.getInt(linearLayoutBasicInformation.getChildAt(i).toString(),
-	// View.VISIBLE));
-	// }
-	// }
-	// }
-	//
-	// @Override
-	// protected void onStop() {
-	// super.onStop();
-	//
-	// SharedPreferences preferences = getPreferences(MODE_PRIVATE);
-	// SharedPreferences.Editor editor = preferences.edit();
-	//
-	// for (int i = 1; i < linearLayoutBasicInformation.getChildCount(); i++) {
-	// if (linearLayoutBasicInformation.getChildAt(i).getVisibility() ==
-	// View.GONE) {
-	// editor.putInt(linearLayoutBasicInformation.getChildAt(i).toString(),
-	// View.GONE);
-	// } else if (linearLayoutBasicInformation.getChildAt(i).getVisibility() ==
-	// View.VISIBLE) {
-	// editor.putInt(linearLayoutBasicInformation.getChildAt(i).toString(),
-	// View.VISIBLE);
-	// } else {
-	// editor.putInt(linearLayoutBasicInformation.getChildAt(i).toString(),
-	// View.INVISIBLE);
-	// }
-	// }
-	// editor.commit();
-	// }
+	};
 
 	// "What are Signets?" Open Button onCLickListener
 	OnClickListener whatAreSignetVisibilityListener = new OnClickListener() {

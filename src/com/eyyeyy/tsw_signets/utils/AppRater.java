@@ -18,11 +18,10 @@ import android.widget.TextView;
 import com.eyyeyy.tsw_signets.R;
 
 public class AppRater {
-	private final static String APP_TITLE = "TSW - Signets";
 	private final static String APP_PNAME = "com.eyyeyy.tsw_signets";
 
-	private final static int DAYS_UNTIL_PROMPT = 1;
-	private final static int LAUNCHES_UNTIL_PROMPT = 3;
+	private final static int DAYS_UNTIL_PROMPT = 0;
+	private final static int LAUNCHES_UNTIL_PROMPT = 0;
 
 	public static void app_launched(Context mContext) {
 		SharedPreferences prefs = mContext.getSharedPreferences("apprater", 0);
