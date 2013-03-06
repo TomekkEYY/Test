@@ -13,6 +13,10 @@ import android.widget.TextView;
 
 import com.eyyeyy.tsw_signets.R;
 
+/**
+ * @author tiwaniec
+ * 
+ */
 public class BasicInformationActivity extends Activity {
 
 	private ViewGroup linearLayoutBasicInformation;
@@ -102,24 +106,27 @@ public class BasicInformationActivity extends Activity {
 		whereDoIGetSignetsVisibilityButtonClose.setOnClickListener(whereDoIGetSignetsVisibilityCloseListener);
 	}
 
+	// TODO delete it later
 	// @Override
-	// protected void onResume() {
-	// super.onResume();
+	// protected void onRestart() {
+	// super.onRestart();
 	// // Get the between instance stored values
 	// SharedPreferences preferences = getPreferences(MODE_PRIVATE);
+	// preferences = getPreferences(MODE_PRIVATE);
 	//
+	// if (preferences != null) {
 	// // Set the values of the UI
 	// for (int i = 1; i < linearLayoutBasicInformation.getChildCount(); i++) {
 	// linearLayoutBasicInformation.getChildAt(i).setVisibility(
 	// preferences.getInt(linearLayoutBasicInformation.getChildAt(i).toString(),
-	// 2));
+	// View.VISIBLE));
+	// }
+	// }
 	// }
 	//
-	// }
-
 	// @Override
-	// protected void onPause() {
-	// super.onPause();
+	// protected void onStop() {
+	// super.onStop();
 	//
 	// SharedPreferences preferences = getPreferences(MODE_PRIVATE);
 	// SharedPreferences.Editor editor = preferences.edit();
@@ -127,16 +134,17 @@ public class BasicInformationActivity extends Activity {
 	// for (int i = 1; i < linearLayoutBasicInformation.getChildCount(); i++) {
 	// if (linearLayoutBasicInformation.getChildAt(i).getVisibility() ==
 	// View.GONE) {
-	// editor.putInt(linearLayoutBasicInformation.getChildAt(i).toString(), 2);
+	// editor.putInt(linearLayoutBasicInformation.getChildAt(i).toString(),
+	// View.GONE);
 	// } else if (linearLayoutBasicInformation.getChildAt(i).getVisibility() ==
 	// View.VISIBLE) {
-	// editor.putInt(linearLayoutBasicInformation.getChildAt(i).toString(), 0);
+	// editor.putInt(linearLayoutBasicInformation.getChildAt(i).toString(),
+	// View.VISIBLE);
 	// } else {
-	// editor.putInt(linearLayoutBasicInformation.getChildAt(i).toString(), 1);
+	// editor.putInt(linearLayoutBasicInformation.getChildAt(i).toString(),
+	// View.INVISIBLE);
 	// }
-	//
 	// }
-	//
 	// editor.commit();
 	// }
 
@@ -247,6 +255,9 @@ public class BasicInformationActivity extends Activity {
 		return true;
 	}
 
+	/*
+	 * When the Back key is pressed states of the view are saved
+	 */
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 		if (keyCode == KeyEvent.KEYCODE_BACK) {

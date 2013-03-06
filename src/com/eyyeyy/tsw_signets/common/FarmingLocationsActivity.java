@@ -594,6 +594,9 @@ public class FarmingLocationsActivity extends Activity {
 		return true;
 	}
 
+	/*
+	 * When the Back key is pressed states of the view are saved
+	 */
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 		if (keyCode == KeyEvent.KEYCODE_BACK) {

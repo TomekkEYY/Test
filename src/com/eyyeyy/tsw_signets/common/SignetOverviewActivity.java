@@ -2,6 +2,7 @@ package com.eyyeyy.tsw_signets.common;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.Menu;
 
 import com.eyyeyy.tsw_signets.R;
@@ -12,33 +13,23 @@ public class SignetOverviewActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.quests_activity);
-		// Show the Up button in the action bar.
-		// getActionBar().setDisplayHomeAsUpEnabled(true);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.options_menu, menu);
 		return true;
 	}
-	//
-	// @Override
-	// public boolean onOptionsItemSelected(MenuItem item) {
-	// switch (item.getItemId()) {
-	// case android.R.id.home:
-	// // This ID represents the Home or Up button. In the case of this
-	// // activity, the Up button is shown. Use NavUtils to allow users
-	// // to navigate up one level in the application structure. For
-	// // more details, see the Navigation pattern on Android Design:
-	// //
-	// //
-	// http://developer.android.com/design/patterns/navigation.html#up-vs-back
-	// //
-	// NavUtils.navigateUpFromSameTask(this);
-	// return true;
-	// }
-	// return super.onOptionsItemSelected(item);
-	// }
 
+	/*
+	 * When the Back key is pressed states of the view are saved
+	 */
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+			moveTaskToBack(true);
+			return true;
+		}
+		return super.onKeyDown(keyCode, event);
+	}
 }
