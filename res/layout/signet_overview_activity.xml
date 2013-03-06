@@ -6,6 +6,7 @@
     tools:context=".MainActivity" >
 
     <LinearLayout
+        android:id="@+id/ll_signet_overview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
@@ -26,11 +27,184 @@
             </View>
         </LinearLayout>
 
+        <!-- START BASICS -->
+
+        <Button
+            android:id="@+id/basics_signets_overview"
+            style="@style/ViewToggleButton"
+            android:text="@string/basics_signets_overview" />
+
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/text_view_padding"
-            android:text="@string/placeholder" />
+            android:id="@+id/basics_signet_overview_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/overview_info"
+            style="@style/StandardTextAppearance"
+            android:text="@string/overview_info"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/overview_info_shape_text"
+            style="@style/TopLogo"
+            android:src="@drawable/overview_info_shape_text"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/placeholder"
+            style="@style/TopLogo"
+            android:src="@drawable/placeholder"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/overview_info_dps"
+            style="@style/StandardTextAppearance"
+            android:text="@string/overview_info_dps"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/basics_signets_overview_close"
+            style="@style/ViewToggleButtonRight"
+            android:text="@string/basics_signets_overview_close"
+            android:visibility="gone" />
+        <!-- END Basics -->
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+        <!-- START BUTTONS -->
+
+        <Button
+            android:id="@+id/all_signets"
+            style="@style/ViewToggleButton"
+            android:onClick="startAllSignets"
+            android:text="@string/all_signets" />
+
+        <TextView
+            android:id="@+id/all_signets_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/dps_signets"
+            style="@style/ViewToggleButton"
+            android:onClick="startDpsSignets"
+            android:text="@string/dps_signets" />
+
+        <TextView
+            android:id="@+id/dps_signets_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/healer_signets"
+            style="@style/ViewToggleButton"
+            android:onClick="startHealerSignets"
+            android:text="@string/healer_signets" />
+
+        <TextView
+            android:id="@+id/healer_signets_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/tank_signets"
+            style="@style/ViewToggleButton"
+            android:onClick="startTankSignets"
+            android:text="@string/tank_signets" />
+
+        <TextView
+            android:id="@+id/tank_signets_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/auxiliary_signets"
+            style="@style/ViewToggleButton"
+            android:onClick="startAuxSignets"
+            android:text="@string/auxiliary_signets" />
+
+        <TextView
+            android:id="@+id/auxiliary_signets_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+        <!-- END BUTTONS -->
+
     </LinearLayout>
 
 </ScrollView>

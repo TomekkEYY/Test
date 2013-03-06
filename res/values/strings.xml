@@ -44,6 +44,25 @@
         London&lt;/font&gt;. 
         [BUY] > [Upgrade(ItemType)] > [Signet(SubType)]&lt;br&gt;(Note: high prices)</string>
 
+    <!-- Signet Overview -->
+    <string name="basics_signets_overview">> Basics</string>
+    <string name="basics_signets_overview_close">CLOSE Basics &lt;</string>
+    <string name="overview_info">Signets can be attached to a weapon or a talisman, but there is one restriction. Every signet belongs to a 
+        particular type that describes to which items it can be attached. 
+		These types are:\n
+		(Note: all signet types have a specific shape)</string>
+    <string name="overview_info_shape">Head\n\nHead / Weapon\n\nMajor\n\nMinor\n\nAuxiliary</string>
+    <string name="overview_info_dps">Signets can also be divided by the type of role you are playing in TSW. If you are playing a DPS you 
+        are only interested in signets that raise your offensive stats. Therefore you can divide the signets in three types: &lt;font 
+        color=&quot;#ff4444&quot;&gt;DPS&lt;/font&gt;, &lt;font color=&quot;#ff4444&quot;&gt;HEALER&lt;/font&gt; and &lt;font color=&quot;#ff4444&quot;&gt;
+        TANK&lt;/font&gt;.&lt;br&gt; 
+		(Note: a DPS can still attach a defensive signet, but it doesn’t make much sense because you want to do as much damage as possible)</string>
+    <string name="all_signets">> All Signets</string>
+    <string name="dps_signets">> DPS Signets</string>
+    <string name="healer_signets">> Healer Signets</string>
+    <string name="tank_signets">> Tank Signets</string>
+    <string name="auxiliary_signets">> Auxiliary Signets</string>
+
     <!-- farming locations -->
     <string name="basics_farming_locations">> Basics</string>
     <string name="farming_locations_close"> CLOSE Basics &lt;</string>
@@ -260,5 +279,10 @@ As the mobs in every zone have different skills you should visit each of them an
     <string name="title_activity_signet_overview">SignetOverviewActivity</string>
     <string name="title_activity_quests">QuestsActivity</string>
     <string name="title_activity_farming_locations">FarmingLocationsActivity</string>
+    <string name="title_activity_all_signets">AllSignets</string>
+    <string name="title_activity_dps_signets">DpsSignets</string>
+    <string name="title_activity_healer_signets">HealerSignets</string>
+    <string name="title_activity_tank_signets">TankSignets</string>
+    <string name="title_activity_aux_signets">AuxSignets</string>
 
 </resources>

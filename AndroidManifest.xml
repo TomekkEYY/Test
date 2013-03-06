@@ -59,6 +59,51 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.eyyeyy.tsw_signets.MainActivity" />
         </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.signetoverview.AllSignets"
+            android:label="@string/title_activity_all_signets"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.SignetOverviewActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.SignetOverviewActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.signetoverview.DpsSignets"
+            android:label="@string/title_activity_dps_signets"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.SignetOverviewActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.SignetOverviewActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.signetoverview.HealerSignets"
+            android:label="@string/title_activity_healer_signets"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.SignetOverviewActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.SignetOverviewActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.signetoverview.TankSignets"
+            android:label="@string/title_activity_tank_signets"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.SignetOverviewActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.SignetOverviewActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.signetoverview.AuxSignets"
+            android:label="@string/title_activity_aux_signets"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.SignetOverviewActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.SignetOverviewActivity" />
+        </activity>
     </application>
 
 </manifest>
