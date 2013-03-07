@@ -1,14 +1,183 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".AllSignets" >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/ll_all_signets"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
+        android:orientation="vertical" >
 
-</RelativeLayout>
+        <ImageView
+            style="@style/TopLogo"
+            android:src="@drawable/all_signets" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <!-- START Head -->
+
+        <Button
+            android:id="@+id/all_signets_head"
+            style="@style/ViewToggleButton"
+            android:text="@string/head" />
+
+        <TextView
+            android:id="@+id/all_signets_head_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/all_signets_head_text"
+            style="@style/StandardTextAppearance"
+            android:text="@string/all_signets_head_text"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/all_signets_head_close"
+            style="@style/ViewToggleButtonRight"
+            android:text="@string/head_close"
+            android:visibility="gone" />
+        <!-- END head -->
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <!-- START Head/weapon -->
+
+        <Button
+            android:id="@+id/all_signets_head_weapon"
+            style="@style/ViewToggleButton"
+            android:text="@string/head_weapon" />
+
+        <TextView
+            android:id="@+id/all_signets_head_weapon_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/all_signets_head_weapon_text"
+            style="@style/StandardTextAppearance"
+            android:text="@string/all_signets_head_weapon_text"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/all_signets_head_weapon_close"
+            style="@style/ViewToggleButtonRight"
+            android:text="@string/head_weapon_close"
+            android:visibility="gone" />
+        <!-- END head/weapon -->
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <!-- START major -->
+
+        <Button
+            android:id="@+id/all_signets_major"
+            style="@style/ViewToggleButton"
+            android:text="@string/major" />
+
+        <TextView
+            android:id="@+id/all_signets_major_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/all_signets_major_text"
+            style="@style/StandardTextAppearance"
+            android:text="@string/all_signets_major_text"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/all_signets_major_close"
+            style="@style/ViewToggleButtonRight"
+            android:text="@string/major_close"
+            android:visibility="gone" />
+        <!-- END major -->
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <!-- START minor -->
+
+        <Button
+            android:id="@+id/all_signets_minor"
+            style="@style/ViewToggleButton"
+            android:text="@string/minor" />
+
+        <TextView
+            android:id="@+id/all_signets_minor_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/all_signets_minor_text"
+            style="@style/StandardTextAppearance"
+            android:text="@string/all_signets_minor_text"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/all_signets_minor_close"
+            style="@style/ViewToggleButtonRight"
+            android:text="@string/minor_close"
+            android:visibility="gone" />
+        <!-- END minor -->
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

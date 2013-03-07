@@ -56,13 +56,1287 @@
         are only interested in signets that raise your offensive stats. Therefore you can divide the signets in three types: &lt;font 
         color=&quot;#ff4444&quot;&gt;DPS&lt;/font&gt;, &lt;font color=&quot;#ff4444&quot;&gt;HEALER&lt;/font&gt; and &lt;font color=&quot;#ff4444&quot;&gt;
         TANK&lt;/font&gt;.&lt;br&gt; 
-		(Note: a DPS can still attach a defensive signet, but it doesn’t make much sense because you want to do as much damage as possible)</string>
+		(Note: a DPS can still attach a defensive signet, but it doesn’t make much sense because you want to do as much damage as possible)&lt;br&gt;
+		(Note: &lt;font 
+        color=&quot;#ff4444&quot;&gt;All information is subject to change.&lt;/font&gt;)</string>
     <string name="all_signets">> All Signets</string>
     <string name="dps_signets">> DPS Signets</string>
     <string name="healer_signets">> Healer Signets</string>
     <string name="tank_signets">> Tank Signets</string>
     <string name="auxiliary_signets">> Auxiliary Signets</string>
 
+    <!-- Head / WEAPON / MAJOR / MINOR -->
+    <string name="head">> Head</string>
+    <string name="head_close">CLOSE Head &lt;</string>
+    <string name="head_weapon">> Head / Weapon</string>
+    <string name="head_weapon_close">CLOSE Head / Weapon &lt;</string>
+    <string name="major">> Major</string>
+    <string name="major_close">CLOSE Major &lt;</string>
+    <string name="minor">> Minor</string>
+    <string name="minor_close">CLOSE Minor &lt;</string>
+
+    <!-- All Signets -->
+    <string name="all_signets_head_text">&lt;font color=&quot;#ff4444&quot;&gt;Corruption    &lt;/font&gt;
+        :    &lt;br&gt;
+        Your affliction effects deal     &lt;font color=&quot;#99cc00&quot;&gt;
+        5    &lt;/font&gt;
+        /    &lt;font color=&quot;#33b5b5&quot;&gt;
+        10    &lt;/font&gt;
+        /    &lt;font color=&quot;#aa66cc&quot;&gt;
+        15    &lt;/font&gt;
+        % more damage.    &lt;br&gt;    &lt;br&gt;
+        
+        
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Discipline    &lt;/font&gt;
+:    &lt;br&gt;
+When you are glanced you gain a     &lt;font color=&quot;#99cc00&quot;&gt;
+62    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+124    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+186    &lt;/font&gt;
+ defense rating for 8 seconds.    &lt;br&gt;
+ (10 second cooldown)    &lt;br&gt;
+     &lt;br&gt;
+ 
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Order    &lt;/font&gt;
+:    &lt;br&gt;
+When you block you gain a     &lt;font color=&quot;#99cc00&quot;&gt;
+10    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+20    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+30    &lt;/font&gt;
+% block chance for 4 seconds.    &lt;br&gt;
+(10 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Reinforcement    &lt;/font&gt;
+:    &lt;br&gt;
+When you are glanced you gain magical and physical protection of     &lt;font color=&quot;#99cc00&quot;&gt;
+47    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+94    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+141    &lt;/font&gt;
+ per stack for 4 seconds, up to 3 stacks.    &lt;br&gt;
+     &lt;br&gt;
+ 
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Resilience    &lt;/font&gt;
+:    &lt;br&gt;
+When you block you gain     &lt;font color=&quot;#99cc00&quot;&gt;
+31    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+62    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+93    &lt;/font&gt;
+ block rating per stack for 4 seconds, up to 3 stacks.</string>
+    <string name="all_signets_head_weapon_text">    &lt;font color=&quot;#ff4444&quot;&gt;
+        Abuse    &lt;/font&gt;
+        :    &lt;br&gt;
+When you hit a target, you have a 10% chance to gain a damage increase of     &lt;font color=&quot;#99cc00&quot;&gt;
+7    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+14    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+21    &lt;/font&gt;
+% for 5 seconds.    &lt;br&gt;
+(11 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Aggression    &lt;/font&gt;
+:    &lt;br&gt;
+When you hit a weakened target you have a 15% chance to gain     &lt;font color=&quot;#99cc00&quot;&gt;
+5    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+10    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+15    &lt;/font&gt;
+% damage increase for 6 seconds.    &lt;br&gt;
+(10 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Benediction    &lt;/font&gt;
+:    &lt;br&gt;
+When you heal a target there is a 20% chance they will gain a barrier that absorbs     &lt;font color=&quot;#99cc00&quot;&gt;
+40    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+80    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+120    &lt;/font&gt;
+ and lasts 10 seconds.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Breaching    &lt;/font&gt;
+:    &lt;br&gt;
+When you penetrate a target you have a 33% chance to make your target take     &lt;font color=&quot;#99cc00&quot;&gt;
+10    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+20    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+30    &lt;/font&gt;
+% more damage from further penetrating hits for 7 seconds.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Castigation    &lt;/font&gt;
+:    &lt;br&gt;
+When you hit a target you have a 10% chance to make your next     &lt;font color=&quot;#99cc00&quot;&gt;
+4    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+8    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+12    &lt;/font&gt;
+ hits never miss.    &lt;br&gt;
+(10 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Cruel Delight    &lt;/font&gt;
+:    &lt;br&gt;
+When you hit a weakened target, you have a 5% chance to be healed for     &lt;font color=&quot;#99cc00&quot;&gt;
+47    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+94    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+141    &lt;/font&gt;
+ every 2 seconds for 8 seconds.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Detainment    &lt;/font&gt;
+:    &lt;br&gt;
+Your hinder effects last     &lt;font color=&quot;#99cc00&quot;&gt;
+10    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+20    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+30    &lt;/font&gt;
+% longer.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Extrication    &lt;/font&gt;
+:    &lt;br&gt;
+When you hinder a target you are healed for     &lt;font color=&quot;#99cc00&quot;&gt;
+40    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+80    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+120    &lt;/font&gt;
+.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Fury    &lt;/font&gt;
+:    &lt;br&gt;
+When you achieve 10 hits you gain     &lt;font color=&quot;#99cc00&quot;&gt;
+3    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+6    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+9    &lt;/font&gt;
+% damage increase for 6 seconds.    &lt;br&gt;
+(6 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Interdiction    &lt;/font&gt;
+:    &lt;br&gt;
+When you impair a target you are healed for     &lt;font color=&quot;#99cc00&quot;&gt;
+26    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+53    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+78    &lt;/font&gt;
+ every 2 for 6 seconds.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Laceration    &lt;/font&gt;
+:    &lt;br&gt;
+When you critically hit a target you gain a critical damage increase of     &lt;font color=&quot;#99cc00&quot;&gt;
+6    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+12    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+18    &lt;/font&gt;
+% for 15 seconds.    &lt;br&gt;
+(15 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Obedience    &lt;/font&gt;
+:    &lt;br&gt;
+When you hit an impaired target you gain increased damage of     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% per stack for 5 seconds, up to 3 stacks.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Opportunism    &lt;/font&gt;
+:    &lt;br&gt;
+When you hit an afflicted target, you have a 20% chance to hit them for an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+48    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+95    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+144    &lt;/font&gt;
+ damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Sadism    &lt;/font&gt;
+:    &lt;br&gt;
+When you hit a target you have a 10% chance to hit them for an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+80    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+158    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+236    &lt;/font&gt;
+ damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Temperance    &lt;/font&gt;
+:    &lt;br&gt;
+When you heal a target below 50% health they are healed for     &lt;font color=&quot;#99cc00&quot;&gt;
+24    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+48    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+72    &lt;/font&gt;
+ every 2 seconds for 8 seconds.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Valour    &lt;/font&gt;
+:    &lt;br&gt;
+When you critically hit a target you gain a barrier that absorbs     &lt;font color=&quot;#99cc00&quot;&gt;
+40    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+80    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+120    &lt;/font&gt;
+ and last 10 seconds.    </string>
+    <string name="all_signets_major_text">        &lt;font color=&quot;#ff4444&quot;&gt;
+        Amelioration    &lt;/font&gt;
+        :    &lt;br&gt;
+Your heal rating is increased by     &lt;font color=&quot;#99cc00&quot;&gt;
+47    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+94    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+141    &lt;/font&gt;
+.    &lt;br&gt;
+    &lt;br&gt;
+
+	    &lt;font color=&quot;#ff4444&quot;&gt;
+	Vigour    &lt;/font&gt;
+	:    &lt;br&gt;
+Your health is increased by     &lt;font color=&quot;#99cc00&quot;&gt;
+165    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+330    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+494    &lt;/font&gt;
+.    &lt;br&gt;
+	    &lt;br&gt;
+	
+	    &lt;font color=&quot;#ff4444&quot;&gt;
+	Violence    &lt;/font&gt;
+	:    &lt;br&gt;
+Your attack rating is increased by     &lt;font color=&quot;#99cc00&quot;&gt;
+47    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+94    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+141    &lt;/font&gt;
+.      </string>
+    <string name="all_signets_minor_text">    &lt;font color=&quot;#ff4444&quot;&gt;
+        Ablation    &lt;/font&gt;
+        :    &lt;br&gt;
+When your health is below 50% the next 5 hits against you do     &lt;font color=&quot;#99cc00&quot;&gt;
+9    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+17    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+25    &lt;/font&gt;
+% less damage.    &lt;br&gt;
+(12 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Assassination    &lt;/font&gt;
+:    &lt;br&gt;
+Your strike attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Barrage    &lt;/font&gt;
+:    &lt;br&gt;
+Your blast attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Cleaving    &lt;/font&gt;
+:    &lt;br&gt;
+Your focus attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Distortion    &lt;/font&gt;
+:    &lt;br&gt;
+Your Chaos attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Echoes    &lt;/font&gt;
+:    &lt;br&gt;
+Whenever you critically heal a target they gain a heal over time effect, healing them for     &lt;font color=&quot;#99cc00&quot;&gt;
+7    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+13    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+20    &lt;/font&gt;
+ heal every 1 second for 5 seconds.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Equilibrium    &lt;/font&gt;
+:    &lt;br&gt;
+When you critically heal a target they gain a     &lt;font color=&quot;#99cc00&quot;&gt;
+5    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+10    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+15    &lt;/font&gt;
+% damage increase for 5 seconds.    &lt;br&gt;
+(15 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Execution    &lt;/font&gt;
+:    &lt;br&gt;
+Your Assault Rifle attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Flux    &lt;/font&gt;
+:    &lt;br&gt;
+Your Elemental attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Fortification    &lt;/font&gt;
+:    &lt;br&gt;
+When your health is below 50% you gain a barrier that will absorb up to     &lt;font color=&quot;#99cc00&quot;&gt;
+126    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+252    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+277    &lt;/font&gt;
+ damage for 10 seconds.    &lt;br&gt;
+(12 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Harmony    &lt;/font&gt;
+:    &lt;br&gt;
+Your healing effects are increased by     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+%.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Hatred    &lt;/font&gt;
+:    &lt;br&gt;
+When you block, evade, or are glanced you generate a     &lt;font color=&quot;#99cc00&quot;&gt;
+minor    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+medium    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+large    &lt;/font&gt;
+ amount of hate on your offensive target.    &lt;br&gt;
+(6 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Hunger    &lt;/font&gt;
+:    &lt;br&gt;
+Your leech effects are increased by     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+%.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Liquidation    &lt;/font&gt;
+:    &lt;br&gt;
+Your Pistol attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Rage    &lt;/font&gt;
+:    &lt;br&gt;
+Your frenzy attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Recursion    &lt;/font&gt;
+:    &lt;br&gt;
+Your chain attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Rejuvenation    &lt;/font&gt;
+:    &lt;br&gt;
+When your health is below 50% you are healed for     &lt;font color=&quot;#99cc00&quot;&gt;
+50    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+100    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+150    &lt;/font&gt;
+ and affected by a heal over time effect healing you for     &lt;font color=&quot;#99cc00&quot;&gt;
+19    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+38    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+57    &lt;/font&gt;
+ every 2 seconds for 8 seconds.    &lt;br&gt;
+(12 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Salvation    &lt;/font&gt;
+:    &lt;br&gt;
+When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+4    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+6    &lt;/font&gt;
+% damage reduction for 5 seconds.    &lt;br&gt;
+(6 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Security    &lt;/font&gt;
+:    &lt;br&gt;
+Your barrier effects are increased by     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+%.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Serenity    &lt;/font&gt;
+:    &lt;br&gt;
+When you critically heal a target you reduce your offensives targets hate towards you by a     &lt;font color=&quot;#99cc00&quot;&gt;
+small    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+medium    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+large    &lt;/font&gt;
+ amount.    &lt;br&gt;
+(15 seconds cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Serration    &lt;/font&gt;
+:    &lt;br&gt;
+Your Fist attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Shards    &lt;/font&gt;
+:    &lt;br&gt;
+Your Shotgun attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Shattering    &lt;/font&gt;
+:    &lt;br&gt;
+Your Hammer attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Storms    &lt;/font&gt;
+:    &lt;br&gt;
+Your burst attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Subjugation    &lt;/font&gt;
+:    &lt;br&gt;
+When you land a critical or penetrating hit you reduce your offensive targets hate towards you by a     &lt;font color=&quot;#99cc00&quot;&gt;
+small    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+medium    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+large    &lt;/font&gt;
+ amount.    &lt;br&gt;
+(15 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Swords    &lt;/font&gt;
+:    &lt;br&gt;
+Your Blade attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Thirst    &lt;/font&gt;
+:    &lt;br&gt;
+When you critically heal a target they gain a     &lt;font color=&quot;#99cc00&quot;&gt;
+5    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+10    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+15    &lt;/font&gt;
+% leech effect 5 seconds.    &lt;br&gt;
+(15 seconds cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Tomes    &lt;/font&gt;
+:    &lt;br&gt;
+Your Blood attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.      </string>
+    <string name="dps_signets_head_text">&lt;font color=&quot;#ff4444&quot;&gt;Corruption    &lt;/font&gt;
+        :    &lt;br&gt;
+        Your affliction effects deal     &lt;font color=&quot;#99cc00&quot;&gt;
+        5    &lt;/font&gt;
+        /    &lt;font color=&quot;#33b5b5&quot;&gt;
+        10    &lt;/font&gt;
+        /    &lt;font color=&quot;#aa66cc&quot;&gt;
+        15    &lt;/font&gt;
+        % more damage.    </string>
+    <string name="dps_signets_head_weapon_text">    &lt;font color=&quot;#ff4444&quot;&gt;
+        Abuse    &lt;/font&gt;
+        :    &lt;br&gt;
+When you hit a target, you have a 10% chance to gain a damage increase of     &lt;font color=&quot;#99cc00&quot;&gt;
+7    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+14    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+21    &lt;/font&gt;
+% for 5 seconds.    &lt;br&gt;
+(11 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Aggression    &lt;/font&gt;
+:    &lt;br&gt;
+When you hit a weakened target you have a 15% chance to gain     &lt;font color=&quot;#99cc00&quot;&gt;
+5    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+10    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+15    &lt;/font&gt;
+% damage increase for 6 seconds.    &lt;br&gt;
+(10 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Breaching    &lt;/font&gt;
+:    &lt;br&gt;
+When you penetrate a target you have a 33% chance to make your target take     &lt;font color=&quot;#99cc00&quot;&gt;
+10    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+20    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+30    &lt;/font&gt;
+% more damage from further penetrating hits for 7 seconds.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Castigation    &lt;/font&gt;
+:    &lt;br&gt;
+When you hit a target you have a 10% chance to make your next     &lt;font color=&quot;#99cc00&quot;&gt;
+4    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+8    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+12    &lt;/font&gt;
+ hits never miss.    &lt;br&gt;
+(10 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Fury    &lt;/font&gt;
+:    &lt;br&gt;
+When you achieve 10 hits you gain     &lt;font color=&quot;#99cc00&quot;&gt;
+3    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+6    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+9    &lt;/font&gt;
+% damage increase for 6 seconds.    &lt;br&gt;
+(6 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Laceration    &lt;/font&gt;
+:    &lt;br&gt;
+When you critically hit a target you gain a critical damage increase of     &lt;font color=&quot;#99cc00&quot;&gt;
+6    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+12    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+18    &lt;/font&gt;
+% for 15 seconds.    &lt;br&gt;
+(15 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Obedience    &lt;/font&gt;
+:    &lt;br&gt;
+When you hit an impaired target you gain increased damage of     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% per stack for 5 seconds, up to 3 stacks.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Opportunism    &lt;/font&gt;
+:    &lt;br&gt;
+When you hit an afflicted target, you have a 20% chance to hit them for an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+48    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+95    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+144    &lt;/font&gt;
+ damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Sadism    &lt;/font&gt;
+:    &lt;br&gt;
+When you hit a target you have a 10% chance to hit them for an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+80    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+158    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+236    &lt;/font&gt;
+ damage.   </string>
+    <string name="dps_signets_major_text">	    &lt;font color=&quot;#ff4444&quot;&gt;
+	Violence    &lt;/font&gt;
+	:    &lt;br&gt;
+Your attack rating is increased by     &lt;font color=&quot;#99cc00&quot;&gt;
+47    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+94    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+141    &lt;/font&gt;
+.      </string>
+    <string name="dps_signets_minor_text" formatted="false">    &lt;font color=&quot;#ff4444&quot;&gt;
+Assassination    &lt;/font&gt;
+:    &lt;br&gt;
+Your strike attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Barrage    &lt;/font&gt;
+:    &lt;br&gt;
+Your blast attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Cleaving    &lt;/font&gt;
+:    &lt;br&gt;
+Your focus attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Distortion    &lt;/font&gt;
+:    &lt;br&gt;
+Your Chaos attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Execution    &lt;/font&gt;
+:    &lt;br&gt;
+Your Assault Rifle attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Flux    &lt;/font&gt;
+:    &lt;br&gt;
+Your Elemental attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.&lt;br&gt;&lt;br&gt;
+    
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Liquidation    &lt;/font&gt;
+:    &lt;br&gt;
+Your Pistol attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Rage    &lt;/font&gt;
+:    &lt;br&gt;
+Your frenzy attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Recursion    &lt;/font&gt;
+:    &lt;br&gt;
+Your chain attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Serration    &lt;/font&gt;
+:    &lt;br&gt;
+Your Fist attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Shards    &lt;/font&gt;
+:    &lt;br&gt;
+Your Shotgun attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Shattering    &lt;/font&gt;
+:    &lt;br&gt;
+Your Hammer attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Storms    &lt;/font&gt;
+:    &lt;br&gt;
+Your burst attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Subjugation    &lt;/font&gt;
+:    &lt;br&gt;
+When you land a critical or penetrating hit you reduce your offensive targets hate towards you by a     &lt;font color=&quot;#99cc00&quot;&gt;
+small    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+medium    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+large    &lt;/font&gt;
+ amount.    &lt;br&gt;
+(15 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Swords    &lt;/font&gt;
+:    &lt;br&gt;
+Your Blade attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Tomes    &lt;/font&gt;
+:    &lt;br&gt;
+Your Blood attacks do an additional     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+% damage.      </string>
+    <string name="healer_signets_head_text">&lt;font color=&quot;#ff4444&quot;&gt;No proper head signets.&lt;/font&gt;</string>
+    <string name="healer_signets_head_weapon_text" formatted="false">        &lt;font color=&quot;#ff4444&quot;&gt;
+Benediction    &lt;/font&gt;
+:    &lt;br&gt;
+When you heal a target there is a 20% chance they will gain a barrier that absorbs     &lt;font color=&quot;#99cc00&quot;&gt;
+40    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+80    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+120    &lt;/font&gt;
+ and lasts 10 seconds.    &lt;br&gt;
+    &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;
+Temperance    &lt;/font&gt;
+:    &lt;br&gt;
+When you heal a target below 50% health they are healed for     &lt;font color=&quot;#99cc00&quot;&gt;
+24    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+48    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+72    &lt;/font&gt;
+ every 2 seconds for 8 seconds.</string>
+    <string name="healer_signets_major_text">        &lt;font color=&quot;#ff4444&quot;&gt;
+        Amelioration    &lt;/font&gt;
+        :    &lt;br&gt;
+Your heal rating is increased by     &lt;font color=&quot;#99cc00&quot;&gt;
+47    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+94    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+141    &lt;/font&gt;
+.</string>
+    <string name="healer_signets_minor_text" formatted="false">         &lt;font color=&quot;#ff4444&quot;&gt;
+Echoes    &lt;/font&gt;
+:    &lt;br&gt;
+Whenever you critically heal a target they gain a heal over time effect, healing them for     &lt;font color=&quot;#99cc00&quot;&gt;
+7    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+13    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+20    &lt;/font&gt;
+ heal every 1 second for 5 seconds.    &lt;br&gt;
+    &lt;br&gt;
+   &lt;font color=&quot;#ff4444&quot;&gt;
+Equilibrium    &lt;/font&gt;
+:    &lt;br&gt;
+When you critically heal a target they gain a     &lt;font color=&quot;#99cc00&quot;&gt;
+5    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+10    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+15    &lt;/font&gt;
+% damage increase for 5 seconds.    &lt;br&gt;
+(15 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Harmony    &lt;/font&gt;
+:    &lt;br&gt;
+Your healing effects are increased by     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+%.    &lt;br&gt;
+    &lt;br&gt;
+   &lt;font color=&quot;#ff4444&quot;&gt;
+Hunger    &lt;/font&gt;
+:    &lt;br&gt;
+Your leech effects are increased by     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+%.    &lt;br&gt;
+    &lt;br&gt;
+  &lt;font color=&quot;#ff4444&quot;&gt;
+Security    &lt;/font&gt;
+:    &lt;br&gt;
+Your barrier effects are increased by     &lt;font color=&quot;#99cc00&quot;&gt;
+1    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+3    &lt;/font&gt;
+%.    &lt;br&gt;
+    &lt;br&gt;
+     &lt;font color=&quot;#ff4444&quot;&gt;
+Serenity    &lt;/font&gt;
+:    &lt;br&gt;
+When you critically heal a target you reduce your offensives targets hate towards you by a     &lt;font color=&quot;#99cc00&quot;&gt;
+small    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+medium    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+large    &lt;/font&gt;
+ amount.    &lt;br&gt;
+(15 seconds cooldown)    &lt;br&gt;
+    &lt;br&gt;
+    &lt;font color=&quot;#ff4444&quot;&gt;
+Thirst    &lt;/font&gt;
+:    &lt;br&gt;
+When you critically heal a target they gain a     &lt;font color=&quot;#99cc00&quot;&gt;
+5    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+10    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+15    &lt;/font&gt;
+% leech effect 5 seconds.    &lt;br&gt;
+(15 seconds cooldown)          </string>
+    <string name="tank_signets_head_text">      &lt;font color=&quot;#ff4444&quot;&gt;
+Discipline    &lt;/font&gt;
+:    &lt;br&gt;
+When you are glanced you gain a     &lt;font color=&quot;#99cc00&quot;&gt;
+62    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+124    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+186    &lt;/font&gt;
+ defense rating for 8 seconds.    &lt;br&gt;
+ (10 second cooldown)    &lt;br&gt;
+     &lt;br&gt;
+      &lt;font color=&quot;#ff4444&quot;&gt;
+Order    &lt;/font&gt;
+:    &lt;br&gt;
+When you block you gain a     &lt;font color=&quot;#99cc00&quot;&gt;
+10    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+20    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+30    &lt;/font&gt;
+% block chance for 4 seconds.    &lt;br&gt;
+(10 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+     &lt;font color=&quot;#ff4444&quot;&gt;
+Reinforcement    &lt;/font&gt;
+:    &lt;br&gt;
+When you are glanced you gain magical and physical protection of     &lt;font color=&quot;#99cc00&quot;&gt;
+47    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+94    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+141    &lt;/font&gt;
+ per stack for 4 seconds, up to 3 stacks.    &lt;br&gt;
+     &lt;br&gt;
+ &lt;font color=&quot;#ff4444&quot;&gt;
+Resilience    &lt;/font&gt;
+:    &lt;br&gt;
+When you block you gain     &lt;font color=&quot;#99cc00&quot;&gt;
+31    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+62    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+93    &lt;/font&gt;
+ block rating per stack for 4 seconds, up to 3 stacks.     </string>
+    <string name="tank_signets_head_weapon_text" formatted="false">         &lt;font color=&quot;#ff4444&quot;&gt;
+Cruel Delight    &lt;/font&gt;
+:    &lt;br&gt;
+When you hit a weakened target, you have a 5% chance to be healed for     &lt;font color=&quot;#99cc00&quot;&gt;
+47    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+94    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+141    &lt;/font&gt;
+ every 2 seconds for 8 seconds.    &lt;br&gt;
+    &lt;br&gt;
+  &lt;font color=&quot;#ff4444&quot;&gt;
+Detainment    &lt;/font&gt;
+:    &lt;br&gt;
+Your hinder effects last     &lt;font color=&quot;#99cc00&quot;&gt;
+10    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+20    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+30    &lt;/font&gt;
+% longer.    &lt;br&gt;
+    &lt;br&gt;
+   &lt;font color=&quot;#ff4444&quot;&gt;
+Extrication    &lt;/font&gt;
+:    &lt;br&gt;
+When you hinder a target you are healed for     &lt;font color=&quot;#99cc00&quot;&gt;
+40    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+80    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+120    &lt;/font&gt;
+.    &lt;br&gt;
+    &lt;br&gt;
+  &lt;font color=&quot;#ff4444&quot;&gt;
+Interdiction    &lt;/font&gt;
+:    &lt;br&gt;
+When you impair a target you are healed for     &lt;font color=&quot;#99cc00&quot;&gt;
+26    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+53    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+78    &lt;/font&gt;
+ every 2 for 6 seconds.    &lt;br&gt;
+    &lt;br&gt;
+     &lt;font color=&quot;#ff4444&quot;&gt;
+Valour    &lt;/font&gt;
+:    &lt;br&gt;
+When you critically hit a target you gain a barrier that absorbs     &lt;font color=&quot;#99cc00&quot;&gt;
+40    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+80    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+120    &lt;/font&gt;
+ and last 10 seconds.        </string>
+    <string name="tank_signets_major_text">         &lt;font color=&quot;#ff4444&quot;&gt;
+	Vigour    &lt;/font&gt;
+	:    &lt;br&gt;
+Your health is increased by     &lt;font color=&quot;#99cc00&quot;&gt;
+165    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+330    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+494    &lt;/font&gt;
+.</string>
+    <string name="tank_signets_minor_text">        &lt;font color=&quot;#ff4444&quot;&gt;
+        Ablation    &lt;/font&gt;
+        :    &lt;br&gt;
+When your health is below 50% the next 5 hits against you do     &lt;font color=&quot;#99cc00&quot;&gt;
+9    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+17    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+25    &lt;/font&gt;
+% less damage.    &lt;br&gt;
+(12 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+     &lt;font color=&quot;#ff4444&quot;&gt;
+Fortification    &lt;/font&gt;
+:    &lt;br&gt;
+When your health is below 50% you gain a barrier that will absorb up to     &lt;font color=&quot;#99cc00&quot;&gt;
+126    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+252    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+277    &lt;/font&gt;
+ damage for 10 seconds.    &lt;br&gt;
+(12 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+     &lt;font color=&quot;#ff4444&quot;&gt;
+Hatred    &lt;/font&gt;
+:    &lt;br&gt;
+When you block, evade, or are glanced you generate a     &lt;font color=&quot;#99cc00&quot;&gt;
+minor    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+medium    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+large    &lt;/font&gt;
+ amount of hate on your offensive target.    &lt;br&gt;
+(6 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+     &lt;font color=&quot;#ff4444&quot;&gt;
+Rejuvenation    &lt;/font&gt;
+:    &lt;br&gt;
+When your health is below 50% you are healed for     &lt;font color=&quot;#99cc00&quot;&gt;
+50    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+100    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+150    &lt;/font&gt;
+ and affected by a heal over time effect healing you for     &lt;font color=&quot;#99cc00&quot;&gt;
+19    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+38    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+57    &lt;/font&gt;
+ every 2 seconds for 8 seconds.    &lt;br&gt;
+(12 second cooldown)    &lt;br&gt;
+    &lt;br&gt;
+     &lt;font color=&quot;#ff4444&quot;&gt;
+Salvation    &lt;/font&gt;
+:    &lt;br&gt;
+When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00&quot;&gt;
+2    &lt;/font&gt;
+/    &lt;font color=&quot;#33b5b5&quot;&gt;
+4    &lt;/font&gt;
+/    &lt;font color=&quot;#aa66cc&quot;&gt;
+6    &lt;/font&gt;
+% damage reduction for 5 seconds.    &lt;br&gt;
+(6 second cooldown)</string>
+    <!--
+    &lt;font color=&quot;#ff4444&quot;&gt;
+    red
+    &lt;/font&gt;
+    
+    &lt;font color=&quot;#99cc00&quot;&gt;
+    green
+    &lt;/font&gt;
+    
+    &lt;font color=&quot;#33b5b5&quot;&gt;
+    blue
+    &lt;/font&gt;
+    
+    &lt;font color=&quot;#aa66cc&quot;&gt;
+    purple
+    &lt;/font&gt;
+    
+    &lt;br&gt;
+    -->
     <!-- farming locations -->
     <string name="basics_farming_locations">> Basics</string>
     <string name="farming_locations_close"> CLOSE Basics &lt;</string>

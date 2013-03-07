@@ -53,9 +53,9 @@
             android:visibility="gone" />
 
         <ImageView
-            android:id="@+id/placeholder"
+            android:id="@+id/gear"
             style="@style/TopLogo"
-            android:src="@drawable/placeholder"
+            android:src="@drawable/gear"
             android:visibility="gone" />
 
         <TextView
