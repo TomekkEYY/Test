@@ -1318,6 +1318,356 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
 6    &lt;/font&gt;
 % damage reduction for 5 seconds.    &lt;br&gt;
 (6 second cooldown)</string>
+    <string name="chainsaw">> Chainsaw</string>
+    <string name="chainsaw_close">CLOSE Chainsaw &lt;</string>
+    <string name="rocketlauncher">> Rocketlauncher</string>
+    <string name="rocketlauncher_close">CLOSE Rocketlauncher &lt;</string>
+    <string name="quantum">> Quantum Brace</string>
+    <string name="quantum_close">CLOSE Quantum Brace &lt;</string>
+    <string name="aux_signets_chainsaw_text">     &lt;font color=&quot;#ff4444&quot;&gt;
+        Augur    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Timber    &lt;/font&gt;
+         has an     &lt;font color=&quot;#99cc00&quot;&gt;
+         11    &lt;/font&gt;
+         /    &lt;font color=&quot;#33b5b5&quot;&gt;
+         22    &lt;/font&gt;
+         /    &lt;font color=&quot;#aa66cc&quot;&gt;
+         33    &lt;/font&gt;
+         % chance to deal 45% more damage.&lt;br&gt;&lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Binding    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+        When you use     &lt;font color=&quot;#ff4444&quot;&gt;
+        Timber    &lt;/font&gt;
+        , all damage you receive is reduced by 5% for     &lt;font color=&quot;#99cc00&quot;&gt;
+        2    &lt;/font&gt;
+        /    &lt;font color=&quot;#33b5b5&quot;&gt;
+        4    &lt;/font&gt;
+        /    &lt;font color=&quot;#aa66cc&quot;&gt;
+        6    &lt;/font&gt;
+         seconds.&lt;br&gt;&lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Charge    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+        Increase the radius of     &lt;font color=&quot;#ff4444&quot;&gt;
+        Hurly-Burly    &lt;/font&gt;
+         to 7 meters and damage dealt by     &lt;font color=&quot;#99cc00&quot;&gt;
+         10    &lt;/font&gt;
+         /    &lt;font color=&quot;#33b5b5&quot;&gt;
+         20    &lt;/font&gt;
+         /    &lt;font color=&quot;#aa66cc&quot;&gt;
+         30    &lt;/font&gt;
+         %.&lt;br&gt;&lt;br&gt;
+       
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Imprint    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+        Whenever you hit with     &lt;font color=&quot;#ff4444&quot;&gt;
+        Hurly-Burly    &lt;/font&gt;
+        , you gain a single stack of the Imprint effect, 
+        which increases your Magical and Physical Protection by     &lt;font color=&quot;#99cc00&quot;&gt;
+        5    &lt;/font&gt;
+        /    &lt;font color=&quot;#33b5b5&quot;&gt;
+        10    &lt;/font&gt;
+        /    &lt;font color=&quot;#aa66cc&quot;&gt;
+        15    &lt;/font&gt;
+         per stack for 8 seconds. Stacks up to 25 times.&lt;br&gt;&lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Mod    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Diamond Grit    &lt;/font&gt;
+         pulses a point blank AoE, affecting up to 5 enemies in a 5 meter radius around you every second, dealing     &lt;font color=&quot;#99cc00&quot;&gt;
+         38    &lt;/font&gt;
+         /    &lt;font color=&quot;#33b5b5&quot;&gt;
+         77    &lt;/font&gt;
+         /    &lt;font color=&quot;#aa66cc&quot;&gt;
+         115    &lt;/font&gt;
+          physical damage.&lt;br&gt;&lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Overdrive    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+        Increases the barrier of     &lt;font color=&quot;#ff4444&quot;&gt;
+        Diamond Grit    &lt;/font&gt;
+         by     &lt;font color=&quot;#99cc00&quot;&gt;
+         10    &lt;/font&gt;
+         /    &lt;font color=&quot;#33b5b5&quot;&gt;
+         20    &lt;/font&gt;
+         /    &lt;font color=&quot;#aa66cc&quot;&gt;
+         30    &lt;/font&gt;
+         %.&lt;br&gt;&lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Seal    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+        Improves     &lt;font color=&quot;#ff4444&quot;&gt;
+        The Carver\'s Art    &lt;/font&gt;
+         to perform an additional hit at the end of the channel dealing     &lt;font color=&quot;#99cc00&quot;&gt;
+         172    &lt;/font&gt;
+         /    &lt;font color=&quot;#33b5b5&quot;&gt;
+         377    &lt;/font&gt;
+         /    &lt;font color=&quot;#aa66cc&quot;&gt;
+         582    &lt;/font&gt;
+          physical damage.&lt;br&gt;&lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Tune    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+        Whenever you hit with     &lt;font color=&quot;#ff4444&quot;&gt;
+        The Carver\'s Art    &lt;/font&gt;
+         you also heal for     &lt;font color=&quot;#99cc00&quot;&gt;
+         10    &lt;/font&gt;
+         /    &lt;font color=&quot;#33b5b5&quot;&gt;
+         20    &lt;/font&gt;
+         /    &lt;font color=&quot;#aa66cc&quot;&gt;
+         30    &lt;/font&gt;
+         % of the damage dealt.</string>
+    <string name="aux_signets_rocketlauncher_text" formatted="false">       &lt;font color=&quot;#ff4444&quot;&gt;
+        Augur    &lt;/font&gt;
+        :    &lt;br&gt;  
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Pop Shot    &lt;/font&gt;
+        causes a detrimental effect that deals a     &lt;font color=&quot;#99cc00&quot;&gt;
+       low&lt;/font&gt;/    &lt;font color=&quot;#33b5b5&quot;&gt;
+       medium&lt;/font&gt;/    &lt;font color=&quot;#aa66cc&quot;&gt;
+       high&lt;/font&gt; amount of damage after 2 seconds.    &lt;br&gt;    &lt;br&gt;
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Binding    &lt;/font&gt;
+       :    &lt;br&gt;
+       Each enemy you kill with &lt;font color=&quot;#ff4444&quot;&gt;
+       Pop Shot    &lt;/font&gt;
+        reduces its cooldown by     &lt;font color=&quot;#99cc00&quot;&gt;
+       1&lt;/font&gt;/    &lt;font color=&quot;#33b5b5&quot;&gt;
+       2&lt;/font&gt;/    &lt;font color=&quot;#aa66cc&quot;&gt;
+       3&lt;/font&gt; second(s).    &lt;br&gt;    &lt;br&gt;
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Charge    &lt;/font&gt;
+       :    &lt;br&gt;
+           &lt;font color=&quot;#99cc00&quot;&gt;
+       10&lt;/font&gt;/    &lt;font color=&quot;#33b5b5&quot;&gt;
+       20&lt;/font&gt;/    &lt;font color=&quot;#aa66cc&quot;&gt;
+       30&lt;/font&gt;% damage increase for &lt;font color=&quot;#ff4444&quot;&gt;
+       Clusterstruck    &lt;/font&gt;
+       .    &lt;br&gt;    &lt;br&gt;
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Imprint    &lt;/font&gt;
+       :    &lt;br&gt;
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Clusterstruck    &lt;/font&gt;
+        has a     &lt;font color=&quot;#99cc00&quot;&gt;
+       8&lt;/font&gt;/    &lt;font color=&quot;#33b5b5&quot;&gt;
+       16&lt;/font&gt;/    &lt;font color=&quot;#aa66cc&quot;&gt;
+       24&lt;/font&gt;% chance of not triggering its recharge timer.    &lt;br&gt;    &lt;br&gt;
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Mod    &lt;/font&gt;
+       :    &lt;br&gt;
+       Reduces the damage you receive when you activate &lt;font color=&quot;#ff4444&quot;&gt;
+       Death from Above    &lt;/font&gt;
+        to     &lt;font color=&quot;#99cc00&quot;&gt;
+       6&lt;/font&gt;/    &lt;font color=&quot;#33b5b5&quot;&gt;
+       3&lt;/font&gt;/    &lt;font color=&quot;#aa66cc&quot;&gt;
+       0&lt;/font&gt;% of your maximum health.    &lt;br&gt;    &lt;br&gt;
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Overdrive    &lt;/font&gt;
+       :    &lt;br&gt;
+       Whenever you activate &lt;font color=&quot;#ff4444&quot;&gt;
+       Death From Above    &lt;/font&gt;
+        you gain a beneficial effect that increases your movement speed by     &lt;font color=&quot;#99cc00&quot;&gt;
+       5&lt;/font&gt;/    &lt;font color=&quot;#33b5b5&quot;&gt;
+       10&lt;/font&gt;/    &lt;font color=&quot;#aa66cc&quot;&gt;
+       15&lt;/font&gt;% for 7 seconds.    &lt;br&gt;    &lt;br&gt;
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Seal    &lt;/font&gt;
+       :    &lt;br&gt;
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Big Red Button    &lt;/font&gt;
+        leaves a 5 meter radius area around your target for 5 seconds that does a     &lt;font color=&quot;#99cc00&quot;&gt;
+       low&lt;/font&gt;/    &lt;font color=&quot;#33b5b5&quot;&gt;
+       medium&lt;/font&gt;/    &lt;font color=&quot;#aa66cc&quot;&gt;
+       high&lt;/font&gt; amount of damage every second for 5 seconds on up to 5 enemies.    &lt;br&gt;    &lt;br&gt;
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Tune    &lt;/font&gt;
+       :    &lt;br&gt;
+       Reduces movement penalty of &lt;font color=&quot;#ff4444&quot;&gt;
+       Big Red Button    &lt;/font&gt;
+        by     &lt;font color=&quot;#99cc00&quot;&gt;
+       33.3&lt;/font&gt;/    &lt;font color=&quot;#33b5b5&quot;&gt;
+       66.6&lt;/font&gt;/    &lt;font color=&quot;#aa66cc&quot;&gt;
+       100&lt;/font&gt;%.</string>
+    <string name="aux_signets_quantum_text" formatted="false">        &lt;font color=&quot;#ff4444&quot;&gt;
+        Augur    &lt;/font&gt;
+        :        &lt;br&gt;
+
+          
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       The Vector    &lt;/font&gt;
+        damage over time effect can spread up to     &lt;font color=&quot;#99cc00&quot;&gt;
+       1    &lt;/font&gt;
+       /    &lt;font color=&quot;#33b5b5&quot;&gt;
+       2    &lt;/font&gt;
+       /    &lt;font color=&quot;#aa66cc&quot;&gt;
+       3    &lt;/font&gt;
+        enemies in a 5 meter radius around your target.     &lt;br&gt;
+    &lt;br&gt;
+
+       
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Binding    &lt;/font&gt;
+       :        &lt;br&gt;
+
+       
+       Reduces the activation time of &lt;font color=&quot;#ff4444&quot;&gt;
+       Space    &lt;/font&gt;
+        by     &lt;font color=&quot;#99cc00&quot;&gt;
+       0.3    &lt;/font&gt;
+       /    &lt;font color=&quot;#33b5b5&quot;&gt;
+       0.5    &lt;/font&gt;
+       /    &lt;font color=&quot;#aa66cc&quot;&gt;
+       0.7    &lt;/font&gt;
+        seconds.      &lt;br&gt;
+    &lt;br&gt;
+
+       
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Charge    &lt;/font&gt;
+       :        &lt;br&gt;
+
+       
+       Improves &lt;font color=&quot;#ff4444&quot;&gt;
+       Collider    &lt;/font&gt;
+        to hit an additional target and increases damage dealt by     &lt;font color=&quot;#99cc00&quot;&gt;
+       5    &lt;/font&gt;
+       /    &lt;font color=&quot;#33b5b5&quot;&gt;
+       10    &lt;/font&gt;
+       /    &lt;font color=&quot;#aa66cc&quot;&gt;
+       15    &lt;/font&gt;
+       %.       &lt;br&gt;
+    &lt;br&gt;
+
+       
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Imprint    &lt;/font&gt;
+       :      &lt;br&gt;
+
+       
+       Improves &lt;font color=&quot;#ff4444&quot;&gt;
+       Collapse    &lt;/font&gt;
+        with a     &lt;font color=&quot;#99cc00&quot;&gt;
+       3    &lt;/font&gt;
+       /    &lt;font color=&quot;#33b5b5&quot;&gt;
+       6    &lt;/font&gt;
+       /    &lt;font color=&quot;#aa66cc&quot;&gt;
+       9    &lt;/font&gt;
+        meter backward dash.        &lt;br&gt;
+    &lt;br&gt;
+
+       
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Mod&lt;/font&gt;:        &lt;br&gt;
+
+       
+       Increases the duration of the &lt;font color=&quot;#ff4444&quot;&gt;
+       Charge    &lt;/font&gt;
+        heal over time effect by     &lt;font color=&quot;#99cc00&quot;&gt;
+       1    &lt;/font&gt;
+       /    &lt;font color=&quot;#33b5b5&quot;&gt;
+       2    &lt;/font&gt;
+       /    &lt;font color=&quot;#aa66cc&quot;&gt;
+       3    &lt;/font&gt;
+        seconds.        &lt;br&gt;
+    &lt;br&gt;
+
+       
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Overdrive    &lt;/font&gt;
+       :       &lt;br&gt;
+
+       
+       Increases the effectiveness of the &lt;font color=&quot;#ff4444&quot;&gt;
+       Density&lt;/font&gt; persistent ground area by     &lt;font color=&quot;#99cc00&quot;&gt;
+       25    &lt;/font&gt;
+       /    &lt;font color=&quot;#33b5b5&quot;&gt;
+       50    &lt;/font&gt;
+       /    &lt;font color=&quot;#aa66cc&quot;&gt;
+       75    &lt;/font&gt;
+       %.        &lt;br&gt;
+    &lt;br&gt;
+
+       
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Seal    &lt;/font&gt;
+       :        &lt;br&gt;
+
+       
+       Increases the radius of &lt;font color=&quot;#ff4444&quot;&gt;
+       Polestar    &lt;/font&gt;
+        by     &lt;font color=&quot;#99cc00&quot;&gt;
+       1    &lt;/font&gt;
+       /    &lt;font color=&quot;#33b5b5&quot;&gt;
+       2    &lt;/font&gt;
+       /    &lt;font color=&quot;#aa66cc&quot;&gt;
+       3    &lt;/font&gt;
+        meters. Increases the maximum number of targets by &lt;font color=&quot;#ff4444&quot;&gt;
+       Polestar    &lt;/font&gt;
+        by     &lt;font color=&quot;#99cc00&quot;&gt;
+       1    &lt;/font&gt;
+       /    &lt;font color=&quot;#33b5b5&quot;&gt;
+       2    &lt;/font&gt;
+       /    &lt;font color=&quot;#aa66cc&quot;&gt;
+       3    &lt;/font&gt;
+       . Increases the damage dealt by &lt;font color=&quot;#ff4444&quot;&gt;
+       Polestar    &lt;/font&gt;
+        by     &lt;font color=&quot;#99cc00&quot;&gt;
+       3    &lt;/font&gt;
+       /    &lt;font color=&quot;#33b5b5&quot;&gt;
+       6    &lt;/font&gt;
+       /    &lt;font color=&quot;#aa66cc&quot;&gt;
+       9    &lt;/font&gt;
+       %.        &lt;br&gt;
+    &lt;br&gt;
+
+       
+       
+       &lt;font color=&quot;#ff4444&quot;&gt;
+       Tune    &lt;/font&gt;
+       :        &lt;br&gt;
+       While casting &lt;font color=&quot;#ff4444&quot;&gt;
+       Oblivion    &lt;/font&gt;
+        and for     &lt;font color=&quot;#99cc00&quot;&gt;
+       1    &lt;/font&gt;
+       /    &lt;font color=&quot;#33b5b5&quot;&gt;
+       2    &lt;/font&gt;
+       /    &lt;font color=&quot;#aa66cc&quot;&gt;
+       3    &lt;/font&gt;
+        seconds after, you will be immune to all forms of crowd control.</string>
+
     <!--
     &lt;font color=&quot;#ff4444&quot;&gt;
     red
@@ -1335,7 +1685,7 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
     purple
     &lt;/font&gt;
     
-    &lt;br&gt;
+    &lt;br&gt;
     -->
     <!-- farming locations -->
     <string name="basics_farming_locations">> Basics</string>

@@ -6,6 +6,7 @@
     tools:context=".AuxSignets" >
 
     <LinearLayout
+        android:id="@+id/ll_aux_signets"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
@@ -26,11 +27,119 @@
             </View>
         </LinearLayout>
 
+        <!-- START Chainsaw -->
+
+        <Button
+            android:id="@+id/aux_signets_chainsaw"
+            style="@style/ViewToggleButton"
+            android:text="@string/chainsaw" />
+
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/text_view_padding"
-            android:text="@string/placeholder" />
+            android:id="@+id/aux_signets_chainsaw_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/aux_signets_chainsaw_text"
+            style="@style/StandardTextAppearance"
+            android:text="@string/aux_signets_chainsaw_text"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/aux_signets_chainsaw_close"
+            style="@style/ViewToggleButtonRight"
+            android:text="@string/chainsaw_close"
+            android:visibility="gone" />
+        <!-- END Chainsaw -->
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <!-- START Rocketlauncher -->
+
+        <Button
+            android:id="@+id/aux_signets_rocketlauncher"
+            style="@style/ViewToggleButton"
+            android:text="@string/rocketlauncher" />
+
+        <TextView
+            android:id="@+id/aux_signets_rocketlauncher_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/aux_signets_rocketlauncher_text"
+            style="@style/StandardTextAppearance"
+            android:text="@string/aux_signets_rocketlauncher_text"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/aux_signets_rocketlauncher_close"
+            style="@style/ViewToggleButtonRight"
+            android:text="@string/rocketlauncher_close"
+            android:visibility="gone" />
+        <!-- END Rocketlauncher -->
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <!-- START Quantum Brace -->
+
+        <Button
+            android:id="@+id/aux_signets_quantum"
+            style="@style/ViewToggleButton"
+            android:text="@string/quantum" />
+
+        <TextView
+            android:id="@+id/aux_signets_quantum_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/aux_signets_quantum_text"
+            style="@style/StandardTextAppearance"
+            android:text="@string/aux_signets_quantum_text"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/aux_signets_quantum_close"
+            style="@style/ViewToggleButtonRight"
+            android:text="@string/quantum_close"
+            android:visibility="gone" />
+        <!-- END Quantum Brace -->
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>
