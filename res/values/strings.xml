@@ -37,7 +37,7 @@
         > dropped by &lt;font color=&quot;#ff4444&quot;&gt;Nightmare and Lair mobs&lt;/font&gt;&lt;br&gt;(Note: drop rate is low)
         &lt;br&gt;(Note: the location of these mobs can be found in the &lt;font color=&quot;#ff4444&quot;&gt;[App Main Menu] > 
         [Farming Locations]&lt;/font&gt;)&lt;br&gt;&lt;br&gt;> &lt;font color=&quot;#ff4444&quot;&gt;Quests&lt;/font&gt;&lt;br&gt;
-        (Note: one &lt;font color=&quot;#ff4444&quot;&gt;[Signet Bag]&lt;/font&gt; as reward after completion; 68 hour cooldown)
+        (Note: one &lt;font color=&quot;#ff4444&quot;&gt;[Signet ???Reward??? Bag]&lt;/font&gt; after completion; 48?68 hour cooldown)
         &lt;br&gt;(Note: which quests guarantee 
         signets and their locations can be found in the &lt;font color=&quot;#ff4444&quot;&gt;[App Main Menu] > 
         [Quests]&lt;/font&gt;)&lt;br&gt;&lt;br&gt;> B&amp;D Bank or Ealdwic Post Office in &lt;font color=&quot;#ff4444&quot;&gt;
@@ -1668,6 +1668,16 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
        3    &lt;/font&gt;
         seconds after, you will be immune to all forms of crowd control.</string>
 
+    <!-- Quests -->
+    <string name="basics_quests">> Basics</string>
+    <string name="basics_quests_close">CLOSE Basics &lt;</string>
+    <string name="basics_quests_text">There are total of &lt;font color=&quot;#ff4444&quot;&gt;30&lt;/font&gt; quests that give you 
+        a &lt;font color=&quot;#ff4444&quot;&gt;[Signet ???Reward??? Bag]&lt;/font&gt; 
+        after completion. The signet bag\'s color indicates the grade of the signet you find inside. To open a [Signet Reward Bag] just double-click it.&lt;br&gt; 
+        (Note:&lt;font color=&quot;#ff4444&quot;&gt;[Signet Reward Bags]&lt;/font&gt; contain signets of every type.They have a bigger 
+        chance of droping major signets than Nightmare and Lair mobs)</string>
+    <string name="basics_quests_text2">With the &lt;font color=&quot;#ff4444&quot;&gt;QuestAlarm _TODO_&lt;/font&gt;</string>
+    <string name="alarm_quests">> Quest Alarm</string>
     <!--
     &lt;font color=&quot;#ff4444&quot;&gt;
     red
@@ -1685,7 +1695,7 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
     purple
     &lt;/font&gt;
     
-    &lt;br&gt;
+    &lt;br&gt;
     -->
     <!-- farming locations -->
     <string name="basics_farming_locations">> Basics</string>
@@ -1698,6 +1708,7 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
 (Note: QL10 gear with blue and/or purple parts)&lt;br&gt;&lt;br&gt;
 Mobs in the &lt;font color=&quot;#ff4444&quot;&gt;Lair zone&lt;/font&gt; should be done in a group&lt;br&gt;
 (Note: Mobs have 8k to 71k health points)&lt;br&gt;&lt;br&gt;
+The mobs drop &lt;font color=&quot;#ff4444&quot;&gt;mostly minor signets&lt;/font&gt;, but there is a small chance of a major signet drop.
 As the mobs in every zone have different skills you should visit each of them and find out which farming location works best for you and/or your group.</string>
     <string name="kingsmouth_farming_locations">> Kingsmouth</string>
     <string name="kingsmouth_farming_locations_close"> CLOSE Kingsmouth &lt;</string>
@@ -1884,7 +1895,6 @@ As the mobs in every zone have different skills you should visit each of them an
         1140, 1050
         &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
         Chasm Entrance</string>
-
     <!-- AppRater -->
     <string name="rate_and_comment">"Rate and Comment"</string>
     <string name="rate_and_comment_support">"If you enjoy using this app, please take a moment to rate it. Thanks for your support!"</string>
@@ -1908,5 +1918,6 @@ As the mobs in every zone have different skills you should visit each of them an
     <string name="title_activity_healer_signets">HealerSignets</string>
     <string name="title_activity_tank_signets">TankSignets</string>
     <string name="title_activity_aux_signets">AuxSignets</string>
+    <string name="title_activity_quest_alarm">QuestAlarm</string>
 
 </resources>

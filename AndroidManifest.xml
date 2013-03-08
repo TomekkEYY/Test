@@ -104,6 +104,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.eyyeyy.tsw_signets.common.SignetOverviewActivity" />
         </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.quest.QuestAlarm"
+            android:label="@string/title_activity_quest_alarm"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.QuestsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.QuestsActivity" />
+        </activity>
     </application>
 
 </manifest>
