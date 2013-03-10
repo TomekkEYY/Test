@@ -61,7 +61,7 @@ public class HealerSignets extends Activity {
 		linearLayoutHealerSignets = (ViewGroup) findViewById(R.id.ll_healer_signets);
 
 		// Head Views
-		healerSignetsHeadBlank = findViewById(R.id.healer_signets_head_blank);
+		healerSignetsHeadBlank = (TextView) findViewById(R.id.healer_signets_head_blank);
 
 		healerSignetsHeadText = (TextView) findViewById(R.id.healer_signets_head_text);
 		healerSignetsHeadText.setText(Html.fromHtml(getString(R.string.healer_signets_head_text)));

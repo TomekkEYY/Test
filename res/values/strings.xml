@@ -1678,10 +1678,227 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
         (Hint:&lt;font color=&quot;#ff4444&quot;&gt;[Signet Reward Bags]&lt;/font&gt; contain signets of every type.They have a bigger 
         chance of droping major signets than Nightmare and Lair mobs)</string>
     <string name="basics_quests_text2">With the &lt;font color=&quot;#ff4444&quot;&gt;QuestAlarm _TODO_&lt;/font&gt;</string>
+    <string name="map_kingsmouth_quest_text"> &lt;font color=&quot;#ff4444&quot;&gt;No "signet reward bag" missions available.&lt;/font&gt;</string>
+    <string name="map_blue_quest1_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Search for Tyler Freeborn (Main Mission) [1]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; SD Card &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 140, 214; End at 148, 822&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Old Asylum Approach&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; short&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt;&lt;br&gt; 
+After completing this quest you can start [Quest: The Research of Tyler Freeborn]</string>
+    <string name="map_blue_quest2_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Research of Tyler Freeborn (Main Mission) [2]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; SD Card &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 148, 822; End at 307, 929&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Agartha Entrance&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; moderate&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+[Quest: The Tenacity of Tylor Freeborn] starts immediately after you completed this quest. </string>
+    <string name="map_blue_quest3_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Tenacity of Tyler Freeborn (Main Mission) [3]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Orochi tablet&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 307, 929; End at 203,928&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Agartha Entrance&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; moderate&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+After completing this quest you can start [Quest: The Vanishing of Tyler Freeborn]</string>
+    <string name="map_blue_quest4_text">        &lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Vanishing of Tyler Freeborn (Main Mission) [4]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Camera&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 203,928; End at 411, 962 &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Agartha Entrance&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; moderate&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+The only quest right now that gives a blue [Signet Reward Bag]</string>
+    <string name="map_blue_quest5_text">        &lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Orochi Group (Main Mission) [5]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Orochi computer in the van&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 677, 827; End at 616, 490&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Moon Cave&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; long&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_scorched_quest1_text">        &lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Last Legion (Main Mission) [1]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Khalid (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 430, 625; End at 148, 661&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Forsaken Oasis&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; long&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+Can be done while doing [Quest: Scattered to the Wind].&lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_scorched_quest2_text">        &lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Scattered to the Wind (Side Mission) [1]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Khalid (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 437, 629; End at 437, 629 &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Forsaken Oasis&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; short&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+Can be done while doing [Quest:The Last Legion].</string>
+    <string name="map_sun_quest1_text">    &lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Eye of Horus (Main Mission) [1]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Thutmose (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 627, 904; End at 508, 623&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Vulture’s Pass&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; long&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_farm_quest1_text">   &lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Foul Banquet (Main Mission) [1]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Father Lucian (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 883, 1214; End at 653, 1322&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; St. Haralambie&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; moderate&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+After completing this quest you can start [Quest: The Red Hands Aren’t Idle Hands].&lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_farm_quest2_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Red Hands Aren’t Idle Hands Dummies (Side Mission) [2] &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Tracking device &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 653, 1322; End at 1119, 1071 &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; St. Haralambie &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; very short &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; -</string>
+    <string name="map_farm_quest3_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Ripples (Main Mission) [3]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Vampire Hunter (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 538, 1102; End at 538, 836&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Red Hand Observatory&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; moderate&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+After completing this quest you can start [Quest: Scarecrows for Dummies].&lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_farm_quest4_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Scarecrows for Dummies (Side Mission) [4]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Handwritten Hint&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 538, 836; End at 608, 602&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; The Perch&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; very short&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+After completing this quest you can start [Quest: Revenge Served Hot].</string>
+    <string name="map_farm_quest5_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Revenge Served Hot (Main Mission) [5]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Celine (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 608, 602; End at 854, 142&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Hollander’s Mill&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; moderate&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+After completing this quest you can start [Quest: Herbal Essence].&lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_farm_quest6_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Herbal Essence (Side Mission) [6]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Fallen Blajini&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 926, 220; End at 943, 546&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Hermit’s Crossing / Cucuvea’s Grave&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; very short&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; -</string>
+    <string name="map_farm_quest7_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Girl Who Kicked the Vampire’s Nest (Main Mission) [7]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Zaha (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 468, 875; End at 367, 622&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; The Perch&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; very long&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+After completing this quest you can start [Quest: Blood Sample].&lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_farm_quest8_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Blood Sample (Side Mission) [8]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Onyx Box&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 347, 635; End at 537, 1100&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; The Perch&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; very short&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; -</string>
+    <string name="map_farm_quest9_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Cost of Magic (Main Mission) [7] &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Zaha (NPC) &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 468, 875; End at 320, 443 &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; The Perch &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; very long&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; -</string>
+    <string name="map_forest_quest1_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Knight of the Draculesti (Main Mission) [1]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Tibor (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 845, 850; End at 795, 575&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Tree of Life&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; long&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].&lt;br&gt;
+While doing this quest you can start [Quest: Fatal Framing].</string>
+    <string name="map_forest_quest2_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Fatal Framing (Side Mission) [2]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Romany Corpse&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 840, 600; End at 835, 860&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Mirewood&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; short&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; -</string>
+    <string name="map_forest_quest3_text">        &lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Last Dance of the Pâdurii (Main Mission) [3]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Anastasia (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 960, 810; End at 1205, 655&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Tree of Life&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; long&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+After completing this quest you can start [Quest: Root Cage].&lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_forest_quest4_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Free Spirit (Side Mission) [5]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Root cage&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 1070, 680; End at 880, 695&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Mirewood&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; very short&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+After completing this quest you can start [Quest: The Wild Hunt].</string>
+    <string name="map_forest_quest5_text">        &lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Wild Hunt (Main Mission) [6]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; The Iele (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 960, 810; End at 903, 545&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Mirewood&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; moderate&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+After completing this quest you can start [Quest: Root of the Problem].&lt;br&gt;
+While doing this quest you can start [Quest: Fatal Fungi].&lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_forest_quest6_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Root of the Problem (Side Mission) [4]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Large infectious spore pod&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 960,615; End at 960,615&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Mirewood&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; very short&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; -</string>
+    <string name="map_forest_quest7_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Fatal Fungi (Side Mission) [7]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Fungi &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 815, 465; End at 830, 860&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; The Spoiled Garden&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; very short&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+After completing this quest you can start [Quest: The Draculesti].</string>
+    <string name="map_forest_quest8_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Draculesti (Main Mission) [1]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Milosh (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 830, 860; End at 585, 595&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Tree of Life&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; long&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+After completing this quest you can start [Quest: Crossroads].&lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_forest_quest9_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Crossroads (Main Mission) [8]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Mosul (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 570, 610; End at 555, 430&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Hell’s Pass&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; very long&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_fangs_quest1_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Girl is Gone (Main Mission) [1]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Lidya’s Terminal&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 1010, 915; End at 890, 645&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Chasm Entrance&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; long&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_fangs_quest2_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Contagion (Main Mission) [2]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; The Smiths’ Computer&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 630, 635; End at 835, 565&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Zân Springs&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; moderate&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_fangs_quest3_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; Too Deep (Main Mission) [2]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; The Smiths’ Computer&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 630, 635; End at 785, 411&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Zân Springs&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; long &lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
+    <string name="map_fangs_quest4_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; A History of Violins (Main Mission) [3]&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Callisto (NPC)&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 905, 425; End at 1125, 370&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Repentance Cavern&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; moderate&lt;br&gt;
+&lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
+Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
     <!--
     &lt;font color=&quot;#ff4444&quot;&gt;
     red
     &lt;/font&gt;
+    
+    &lt;br&gt;
     
     &lt;font color=&quot;#99cc00&quot;&gt;
     green
@@ -1695,12 +1912,15 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
     purple
     &lt;/font&gt;
     
-    &lt;br&gt;
+    &lt;br&gt;
     -->
     <!-- farming locations -->
     <string name="solomon_titel">> Solomon Island</string>
     <string name="egypt_titel">> Egypt</string>
     <string name="trans_titel">> Transylvania</string>
+    <string name="trans_farm_titel">> Transylvania (Besieged Farmlands)</string>
+    <string name="trans_forest_titel">> Transylvania (Shadowy Forest)</string>
+    <string name="trans_fangs_titel">> Transylvania (Carpathian Fangs)</string>
     <string name="framing_locations_go_to_map_activity">> Open Map &lt;</string>
     <string name="basics_farming_locations">> Basics</string>
     <string name="farming_locations_close"> CLOSE Basics &lt;</string>
@@ -2114,5 +2334,11 @@ to hinder and impair effects&lt;/font&gt;)</string>
     <string name="title_activity_solomon_island_farming">SolomonIslandFarmingActivity</string>
     <string name="title_activity_egypt_farming">EgyptFarmingActivity</string>
     <string name="title_activity_transylvania_farming">TransylvaniaFarmingActivity</string>
+    <string name="title_activity_solomon_island_quest">SolomonIslandQuestActivity</string>
+    <string name="title_activity_egypt_quest">EgyptQuestActivity</string>
+    <string name="title_activity_transylvania_quest">TransylvaniaQuestActivity</string>
+    <string name="title_activity_transylvania_farm_quest">TransylvaniaFarmQuestActivity</string>
+    <string name="title_activity_transylvania_forest_quest">TransylvaniaForestQuestActivity</string>
+    <string name="title_activity_transylvania_fangs_quest">TransylvaniaFangsQuestActivity</string>
 
 </resources>

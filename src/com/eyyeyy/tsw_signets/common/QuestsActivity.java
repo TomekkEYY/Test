@@ -13,7 +13,11 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.eyyeyy.tsw_signets.R;
-import com.eyyeyy.tsw_signets.common.maps.BlueMapMarkedActivity;
+import com.eyyeyy.tsw_signets.common.quests.EgyptQuestActivity;
+import com.eyyeyy.tsw_signets.common.quests.SolomonIslandQuestActivity;
+import com.eyyeyy.tsw_signets.common.quests.TransylvaniaFangsQuestActivity;
+import com.eyyeyy.tsw_signets.common.quests.TransylvaniaFarmQuestActivity;
+import com.eyyeyy.tsw_signets.common.quests.TransylvaniaForestQuestActivity;
 
 public class QuestsActivity extends Activity {
 
@@ -93,16 +97,40 @@ public class QuestsActivity extends Activity {
 		}
 	};
 
-	public void openBlueMapMarked(View view) {
-
-		Intent intent = new Intent(this, BlueMapMarkedActivity.class);
-		startActivity(intent);
-	}
-
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.options_menu, menu);
 		return true;
+	}
+
+	public void startSolomonQuest(View view) {
+
+		Intent intent = new Intent(this, SolomonIslandQuestActivity.class);
+		startActivity(intent);
+	}
+
+	public void startEgyptQuest(View view) {
+
+		Intent intent = new Intent(this, EgyptQuestActivity.class);
+		startActivity(intent);
+	}
+
+	public void startTransFarmQuest(View view) {
+
+		Intent intent = new Intent(this, TransylvaniaFarmQuestActivity.class);
+		startActivity(intent);
+	}
+
+	public void startTransForestQuest(View view) {
+
+		Intent intent = new Intent(this, TransylvaniaForestQuestActivity.class);
+		startActivity(intent);
+	}
+
+	public void startTransFangsQuest(View view) {
+
+		Intent intent = new Intent(this, TransylvaniaFangsQuestActivity.class);
+		startActivity(intent);
 	}
 
 	/*

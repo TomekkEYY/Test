@@ -2,7 +2,6 @@ package com.eyyeyy.tsw_signets.common.maps;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
@@ -32,18 +31,6 @@ public class FarmMapMarkedActivity extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.farm_map_marked_activity, menu);
 		return true;
-	}
-
-	/*
-	 * When the Back key is pressed states of the view are saved
-	 */
-	@Override
-	public boolean onKeyDown(int keyCode, KeyEvent event) {
-		if (keyCode == KeyEvent.KEYCODE_BACK) {
-			moveTaskToBack(true);
-			return true;
-		}
-		return super.onKeyDown(keyCode, event);
 	}
 
 }

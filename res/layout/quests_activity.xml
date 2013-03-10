@@ -77,744 +77,119 @@
             </View>
         </LinearLayout>
 
-        <!-- START Blue Mountain -->
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="startSolomonQuest"
+            android:text="@string/solomon_titel" />
+
+        <TextView
+            android:id="@+id/all_signets_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
 
         <Button
-            android:id="@+id/blue_quests"
             style="@style/ViewToggleButton"
-            android:onClick="openBlueMapMarked"
-            android:text="@string/blue_farming_locations" />
+            android:onClick="startEgyptQuest"
+            android:text="@string/egypt_titel" />
 
-        <!-- <TextView -->
-        <!-- android:id="@+id/blue_quests_blank" -->
-        <!-- android:layout_width="@dimen/blank_width_size" -->
-        <!-- android:layout_height="@dimen/blank_height_size" -->
-        <!-- android:visibility="visible" /> -->
+        <TextView
+            android:id="@+id/dps_signets_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
 
+        <LinearLayout style="@style/SeparatorLinearLayout" >
 
-        <!-- <TextView -->
-        <!-- android:id="@+id/blue_quest_filth_amendment" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/blue_quest_filth_amendment" -->
-        <!-- android:visibility="gone" /> -->
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
 
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
 
-        <!-- <TextView -->
-        <!-- android:id="@+id/blue_quest_search_for_tyler_freeborn" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/blue_quest_search_for_tyler_freeborn" -->
-        <!-- android:visibility="gone" /> -->
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
 
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="startTransFarmQuest"
+            android:text="@string/trans_farm_titel" />
 
-        <!-- <TextView -->
-        <!-- android:id="@+id/blue_quest_research_of_tyler_freeborn" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/blue_quest_research_of_tyler_freeborn" -->
-        <!-- android:visibility="gone" /> -->
+        <TextView
+            android:id="@+id/healer_signets_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
 
+        <LinearLayout style="@style/SeparatorLinearLayout" >
 
-        <!-- <TextView -->
-        <!-- android:id="@+id/blue_quest_tenacity_of_tyler_freeborn" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/blue_quest_tenacity_of_tyler_freeborn" -->
-        <!-- android:visibility="gone" /> -->
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
 
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
 
-        <!-- <TextView -->
-        <!-- android:id="@+id/blue_quest_vanishing_of_tyler_freeborn" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/blue_quest_vanishing_of_tyler_freeborn" -->
-        <!-- android:visibility="gone" /> -->
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
 
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="startTransForestQuest"
+            android:text="@string/trans_forest_titel" />
 
-        <!-- <Button -->
-        <!-- android:id="@+id/blue_quests_close" -->
-        <!-- style="@style/ViewToggleButtonRight" -->
-        <!-- android:text="@string/blue_quests_close" -->
-        <!-- android:visibility="gone" /> -->
+        <TextView
+            android:id="@+id/healer_signets_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
 
+        <LinearLayout style="@style/SeparatorLinearLayout" >
 
-        <!-- END Blue Mountain -->
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
 
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
 
-        <!-- <LinearLayout style="@style/SeparatorLinearLayout" > -->
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
 
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="startTransFangsQuest"
+            android:text="@string/trans_fangs_titel" />
 
-        <!-- <View style="@style/SeparatorBlackSpaceBorder" > -->
-        <!-- </View> -->
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
 
+        <LinearLayout style="@style/SeparatorLinearLayout" >
 
-        <!-- <View style="@style/SeparatorWhiteSpaceBorder" > -->
-        <!-- </View> -->
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
 
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
 
-        <!-- <View style="@style/SeparatorBlackSpaceBorder" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- START Scorched Desert -->
-
-
-        <!-- <Button -->
-        <!-- android:id="@+id/scorched_quests" -->
-        <!-- style="@style/ViewToggleButton" -->
-        <!-- android:text="@string/scorched_quests" /> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/scorched_quests_blank" -->
-        <!-- android:layout_width="@dimen/blank_width_size" -->
-        <!-- android:layout_height="@dimen/blank_height_size" -->
-        <!-- android:visibility="visible" /> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_scorched_nm_text" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_scorched_nm_text" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_scorched_nm_image" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/sorced_nm_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <LinearLayout -->
-        <!-- style="@style/SeparatorLinearLayout" -->
-        <!-- android:visibility="gone" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_scorched_lair_text" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_scorched_lair_text" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_scorched_lair_image" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/sorced_lair_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <Button -->
-        <!-- android:id="@+id/scorched_quests_close" -->
-        <!-- style="@style/ViewToggleButtonRight" -->
-        <!-- android:text="@string/scorched_quests_close" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- END Scorched Desert -->
-
-
-        <!-- <LinearLayout style="@style/SeparatorLinearLayout" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpaceBorder" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpaceBorder" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpaceBorder" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- START  City of Sun God -->
-
-
-        <!-- <Button -->
-        <!-- android:id="@+id/sun_quests" -->
-        <!-- style="@style/ViewToggleButton" -->
-        <!-- android:text="@string/sun_quests" /> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/sun_quests_blank" -->
-        <!-- android:layout_width="@dimen/blank_width_size" -->
-        <!-- android:layout_height="@dimen/blank_height_size" -->
-        <!-- android:visibility="visible" /> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_sun_nm_text" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_sun_nm_text" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_sun_nm_image" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/sun_nm_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <LinearLayout -->
-        <!-- style="@style/SeparatorLinearLayout" -->
-        <!-- android:visibility="gone" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_sun_lair_text" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_sun_lair_text" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_sun_lair_image" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/sun_lair_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <Button -->
-        <!-- android:id="@+id/sun_quests_close" -->
-        <!-- style="@style/ViewToggleButtonRight" -->
-        <!-- android:text="@string/sun_quests_close" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- END City of Sun God -->
-
-
-        <!-- <LinearLayout style="@style/SeparatorLinearLayout" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpaceBorder" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpaceBorder" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpaceBorder" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- START  Besieged Farmlands -->
-
-
-        <!-- <Button -->
-        <!-- android:id="@+id/farm_quests" -->
-        <!-- style="@style/ViewToggleButton" -->
-        <!-- android:text="@string/farm_quests" /> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/farm_quests_blank" -->
-        <!-- android:layout_width="@dimen/blank_width_size" -->
-        <!-- android:layout_height="@dimen/blank_height_size" -->
-        <!-- android:visibility="visible" /> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_farm_nm_text1" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_farm_nm_text1" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_farm_nm_image1" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/farm_nm1_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <LinearLayout -->
-        <!-- style="@style/SeparatorLinearLayout" -->
-        <!-- android:visibility="gone" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_farm_nm_text2" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_farm_nm_text2" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_farm_nm_image2" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/farm_nm2_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <LinearLayout -->
-        <!-- style="@style/SeparatorLinearLayout" -->
-        <!-- android:visibility="gone" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_farm_nm_text3" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_farm_nm_text3" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_farm_nm_image3" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/farm_nm3_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <LinearLayout -->
-        <!-- style="@style/SeparatorLinearLayout" -->
-        <!-- android:visibility="gone" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_farm_lair_text" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_farm_lair_text" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_farm_lair_image" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/farm_lair_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <Button -->
-        <!-- android:id="@+id/farm_quests_close" -->
-        <!-- style="@style/ViewToggleButtonRight" -->
-        <!-- android:text="@string/farm_quests_close" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- END Besieged Farmlands -->
-
-
-        <!-- <LinearLayout style="@style/SeparatorLinearLayout" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpaceBorder" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpaceBorder" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpaceBorder" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- START  Shadowy Forest -->
-
-
-        <!-- <Button -->
-        <!-- android:id="@+id/forest_quests" -->
-        <!-- style="@style/ViewToggleButton" -->
-        <!-- android:text="@string/forest_quests" /> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/forest_quests_blank" -->
-        <!-- android:layout_width="@dimen/blank_width_size" -->
-        <!-- android:layout_height="@dimen/blank_height_size" -->
-        <!-- android:visibility="visible" /> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_forest_nm_text1" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_forest_nm_text1" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_forest_nm_image1" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/forest_nm1_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <LinearLayout -->
-        <!-- style="@style/SeparatorLinearLayout" -->
-        <!-- android:visibility="gone" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_forest_nm_text2" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_forest_nm_text2" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_forest_nm_image2" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/forest_nm2_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <LinearLayout -->
-        <!-- style="@style/SeparatorLinearLayout" -->
-        <!-- android:visibility="gone" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_forest_nm_text3" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_forest_nm_text3" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_forest_nm_image3" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/forest_nm3_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <LinearLayout -->
-        <!-- style="@style/SeparatorLinearLayout" -->
-        <!-- android:visibility="gone" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_forest_lair_text" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_forest_lair_text" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_forest_lair_image" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/forest_lair_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <Button -->
-        <!-- android:id="@+id/forest_quests_close" -->
-        <!-- style="@style/ViewToggleButtonRight" -->
-        <!-- android:text="@string/forest_quests_close" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- END Shadowy Forest -->
-
-
-        <!-- <LinearLayout style="@style/SeparatorLinearLayout" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpaceBorder" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpaceBorder" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpaceBorder" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- START Carpathian Fangs -->
-
-
-        <!-- <Button -->
-        <!-- android:id="@+id/fangs_quests" -->
-        <!-- style="@style/ViewToggleButton" -->
-        <!-- android:text="@string/fangs_quests" /> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/fangs_quests_blank" -->
-        <!-- android:layout_width="@dimen/blank_width_size" -->
-        <!-- android:layout_height="@dimen/blank_height_size" -->
-        <!-- android:visibility="visible" /> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_fangs_nm_text1" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_fangs_nm_text1" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_fangs_nm_image1" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/fangs_nm1_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <LinearLayout -->
-        <!-- style="@style/SeparatorLinearLayout" -->
-        <!-- android:visibility="gone" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_fangs_nm_text2" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_fangs_nm_text2" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_fangs_nm_image2" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/fangs_nm2_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <LinearLayout -->
-        <!-- style="@style/SeparatorLinearLayout" -->
-        <!-- android:visibility="gone" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_fangs_nm_text3" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_fangs_nm_text3" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_fangs_nm_image3" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/fangs_nm3_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <LinearLayout -->
-        <!-- style="@style/SeparatorLinearLayout" -->
-        <!-- android:visibility="gone" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_fangs_nm_text4" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_fangs_nm_text4" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_fangs_nm_image4" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/fangs_nm4_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <LinearLayout -->
-        <!-- style="@style/SeparatorLinearLayout" -->
-        <!-- android:visibility="gone" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpace" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpace" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
-
-
-        <!-- <TextView -->
-        <!-- android:id="@+id/map_fangs_lair_text" -->
-        <!-- style="@style/FarmingLocationsTextAppearance" -->
-        <!-- android:text="@string/map_fangs_lair_text" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <ImageView -->
-        <!-- android:id="@+id/map_fangs_lair_image" -->
-        <!-- style="@style/ImageFarmingLocation" -->
-        <!-- android:src="@drawable/fangs_lair_map" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- <Button -->
-        <!-- android:id="@+id/fangs_quests_close" -->
-        <!-- style="@style/ViewToggleButtonRight" -->
-        <!-- android:text="@string/fangs_quests_close" -->
-        <!-- android:visibility="gone" /> -->
-
-
-        <!-- END Carpathian Fangs -->
-
-
-        <!-- <LinearLayout style="@style/SeparatorLinearLayout" > -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpaceBorder" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorWhiteSpaceBorder" > -->
-        <!-- </View> -->
-
-
-        <!-- <View style="@style/SeparatorBlackSpaceBorder" > -->
-        <!-- </View> -->
-        <!-- </LinearLayout> -->
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>

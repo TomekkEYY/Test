@@ -8,7 +8,7 @@
 
     <ImageView
         style="@style/TopLogo"
-        android:src="@drawable/farming_locations" />
+        android:src="@drawable/savage_coast" />
 
     <LinearLayout style="@style/SeparatorLinearLayout" >
 

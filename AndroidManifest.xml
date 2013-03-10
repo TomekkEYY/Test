@@ -224,6 +224,60 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" />
         </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.quests.SolomonIslandQuestActivity"
+            android:label="@string/title_activity_solomon_island_quest"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.QuestsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.QuestsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.quests.EgyptQuestActivity"
+            android:label="@string/title_activity_egypt_quest"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.QuestsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.QuestsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.quests.TransylvaniaQuestActivity"
+            android:label="@string/title_activity_transylvania_quest"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.QuestsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.QuestsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.quests.TransylvaniaFarmQuestActivity"
+            android:label="@string/title_activity_transylvania_farm_quest"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.QuestsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.QuestsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.quests.TransylvaniaForestQuestActivity"
+            android:label="@string/title_activity_transylvania_forest_quest"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.QuestsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.QuestsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.quests.TransylvaniaFangsQuestActivity"
+            android:label="@string/title_activity_transylvania_fangs_quest"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.QuestsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.QuestsActivity" />
+        </activity>
     </application>
 
 </manifest>
