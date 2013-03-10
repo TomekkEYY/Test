@@ -1,10 +1,13 @@
 package com.eyyeyy.tsw_signets.common.signetoverview;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.KeyEvent;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -12,6 +15,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.eyyeyy.tsw_signets.R;
+import com.eyyeyy.tsw_signets.utils.ShowInfo;
 
 public class HealerSignets extends Activity {
 
@@ -255,8 +259,18 @@ public class HealerSignets extends Activity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.healer_signets_activity, menu);
+		getMenuInflater().inflate(R.menu.options_menu, menu);
 		return true;
+	}
+
+	private final static String APP_PNAME = "com.eyyeyy.tsw_signets";
+
+	public void showInfoMenu(MenuItem item) {
+		ShowInfo.showInfoDialog(this);
+	}
+
+	public void openRateAndCommentMenu(MenuItem item) {
+		startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + APP_PNAME)));
 	}
 
 	/*

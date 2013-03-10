@@ -3,18 +3,13 @@
 
     <item
         android:id="@+id/info"
-        android:icon="@drawable/app_info"
+        android:icon="@drawable/info"
         android:onClick="showInfoMenu"
-        android:orderInCategory="80"/>
+        android:orderInCategory="100"/>
     <item
         android:id="@+id/rate_and_comment_menu"
         android:icon="@drawable/rate"
         android:onClick="openRateAndCommentMenu"
-        android:orderInCategory="90"/>
-    <item
-        android:id="@+id/reset"
-        android:icon="@drawable/reset"
-        android:onClick="resetQuestsMenu"
         android:orderInCategory="100"/>
 
 </menu>

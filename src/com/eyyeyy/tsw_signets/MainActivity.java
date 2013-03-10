@@ -2,21 +2,19 @@ package com.eyyeyy.tsw_signets;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.eyyeyy.tsw_signets.R;
-import com.eyyeyy.tsw_signets.R.layout;
-import com.eyyeyy.tsw_signets.R.menu;
 import com.eyyeyy.tsw_signets.common.BasicInformationActivity;
 import com.eyyeyy.tsw_signets.common.FarmingLocationsActivity;
 import com.eyyeyy.tsw_signets.common.MapsActivity;
 import com.eyyeyy.tsw_signets.common.QuestsActivity;
 import com.eyyeyy.tsw_signets.common.SignetOverviewActivity;
 import com.eyyeyy.tsw_signets.utils.AppRater;
+import com.eyyeyy.tsw_signets.utils.ShowInfo;
 
 public class MainActivity extends Activity {
 
@@ -34,18 +32,14 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+	private final static String APP_PNAME = "com.eyyeyy.tsw_signets";
+
 	public void showInfoMenu(MenuItem item) {
-		// TODO add dialog info and add it to all other activities
+		ShowInfo.showInfoDialog(this);
 	}
 
 	public void openRateAndCommentMenu(MenuItem item) {
-		// TODO open google market app and add it to all other activities
-	}
-
-	public void resetQuestsMenu(MenuItem item) {
-		// TODO reset quests timer + dialog
-		// ("you want really erase all timermarkes?") and add it to all other
-		// activities
+		startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + APP_PNAME)));
 	}
 
 	public void startBasicInformation(View view) {
@@ -78,15 +72,15 @@ public class MainActivity extends Activity {
 		startActivity(intent);
 	}
 
-	/*
-	 * When the Back key is pressed states of the view are saved
-	 */
-	@Override
-	public boolean onKeyDown(int keyCode, KeyEvent event) {
-		if (keyCode == KeyEvent.KEYCODE_BACK) {
-			moveTaskToBack(true);
-			return true;
-		}
-		return super.onKeyDown(keyCode, event);
-	}
+	// /*
+	// * When the Back key is pressed states of the view are saved
+	// */
+	// @Override
+	// public boolean onKeyDown(int keyCode, KeyEvent event) {
+	// if (keyCode == KeyEvent.KEYCODE_BACK) {
+	// moveTaskToBack(true);
+	// return true;
+	// }
+	// return super.onKeyDown(keyCode, event);
+	// }
 }
