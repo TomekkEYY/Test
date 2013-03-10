@@ -90,6 +90,24 @@
 
         <LinearLayout style="@style/SeparatorLinearLayout" >
 
+            <View style="@style/SeparatorBlackSpace" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpace" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpace" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signet_maps"
+            style="@style/MainMenuButton"
+            android:onClick="startMaps"
+            android:text="@string/signet_maps" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
             <View style="@style/SeparatorBlackSpaceBorder" >
             </View>
 

@@ -1,0 +1,219 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/ll_quests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            style="@style/TopLogo"
+            android:src="@drawable/quests" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+        <!-- START Kingsmouth -->
+
+        <Button
+            android:id="@+id/kingsmouth_quests"
+            style="@style/ViewToggleButton"
+            android:onClick="openKingMapMarked"
+            android:text="@string/kingsmouth_farming_locations" />
+
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <!-- START Savage -->
+
+        <Button
+            android:id="@+id/savage_quests"
+            style="@style/ViewToggleButton"
+            android:onClick="openSavageMapMarked"
+            android:text="@string/savage_farming_locations" />
+
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+        <!-- START Blue Mountain -->
+
+        <Button
+            android:id="@+id/blue_quests"
+            style="@style/ViewToggleButton"
+            android:onClick="openBlueMapMarked"
+            android:text="@string/blue_farming_locations" />
+
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <!-- START Scorched -->
+
+        <Button
+            android:id="@+id/scorched_quests"
+            style="@style/ViewToggleButton"
+            android:onClick="openScorchedMapMarked"
+            android:text="@string/scorched_farming_locations" />
+
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+        <!-- START Sun -->
+
+        <Button
+            android:id="@+id/sun_quests"
+            style="@style/ViewToggleButton"
+            android:onClick="openSunMapMarked"
+            android:text="@string/sun_farming_locations" />
+
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <!-- START Besieged -->
+
+        <Button
+            android:id="@+id/farm_quests"
+            style="@style/ViewToggleButton"
+            android:onClick="openFarmMapMarked"
+            android:text="@string/farm_farming_locations" />
+
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+        <!-- START Forest -->
+
+        <Button
+            android:id="@+id/forest_quests"
+            style="@style/ViewToggleButton"
+            android:onClick="openForestMapMarked"
+            android:text="@string/forest_farming_locations" />
+
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <!-- START Fangs -->
+
+        <Button
+            android:id="@+id/fangs_quests"
+            style="@style/ViewToggleButton"
+            android:onClick="openFangsMapMarked"
+            android:text="@string/fangs_farming_locations" />
+
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

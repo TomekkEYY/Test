@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.eyyeyy.tsw_signets.R;
-import com.eyyeyy.tsw_signets.common.quest.QuestAlarm;
+import com.eyyeyy.tsw_signets.common.maps.BlueMapMarkedActivity;
 
 public class QuestsActivity extends Activity {
 
@@ -93,9 +93,9 @@ public class QuestsActivity extends Activity {
 		}
 	};
 
-	public void startQuestAlarm(View view) {
+	public void openBlueMapMarked(View view) {
 
-		Intent intent = new Intent(this, QuestAlarm.class);
+		Intent intent = new Intent(this, BlueMapMarkedActivity.class);
 		startActivity(intent);
 	}
 

@@ -8,6 +8,7 @@
     <string name="signet_overview">Signet overview</string>
     <string name="signet_quests">Quests</string>
     <string name="signet_farming">Farming locations</string>
+    <string name="signet_maps">Maps</string>
 
     <!-- basic information -->
     <string name="what_are_signets">> What are Signets?</string>
@@ -17,32 +18,32 @@
         to combine the effect with the item itself.</string>
     <string name="basic_information_part2">Signets are divided into three types: &lt;font color=&quot;#99cc00&quot;&gt;green&lt;/font&gt;, 
         &lt;font color=&quot;#33b5b5&quot;&gt;blue&lt;/font&gt; and &lt;font color=&quot;#aa66cc&quot;&gt;purple&lt;/font&gt;. It takes 
-        ten identical green signets to form a blue signet of the same name and ten identical blue signets to form a purple signet.&lt;br&gt;(Note: 
+        ten identical green signets to form a blue signet of the same name and ten identical blue signets to form a purple signet.&lt;br&gt;(Hint: 
         you need 100 green signets with the same name to build one purple signet)</string>
-    <string name="basic_information_part3">(Note: an overview of all available signets can be found in the &lt;font color=&quot;#ff4444&quot;&gt;
+    <string name="basic_information_part3">(Hint: an overview of all available signets can be found in the &lt;font color=&quot;#ff4444&quot;&gt;
         [App Main Menu] > [Signet Overview]&lt;/font&gt;)	</string>
     <string name="attach">> Signet Attaching</string>
     <string name="attach_close"> CLOSE Signet Attaching &lt;</string>
     <string name="basic_information_part4">To attach a signet, place the item and the signet in the &lt;font color=&quot;#ff4444&quot;&gt;
         [Assembly Window]&lt;/font&gt; and click the &lt;font color=&quot;#ff4444&quot;&gt;[ASSEMBLE]&lt;/font&gt; 
-        button.&lt;br&gt;(Note: the item must be at &lt;font color=&quot;#ff4444&quot;&gt;full durability&lt;/font&gt;)&lt;br&gt;(Note: 
+        button.&lt;br&gt;(Hint: the item must be at &lt;font color=&quot;#ff4444&quot;&gt;full durability&lt;/font&gt;)&lt;br&gt;(Hint: 
         read the signet description as 
         signets can only be attached to the item type specified there. Detailed description of each signet can be found in the &lt;font 
         color=&quot;#ff4444&quot;&gt;[App Main Menu] > [Signet Overview]&lt;/font&gt;)</string>
-    <string name="basic_information_part5">If an item contains a signet you can overwrite it with a new one.&lt;br&gt;(Note: the old signet will be 
+    <string name="basic_information_part5">If an item contains a signet you can overwrite it with a new one.&lt;br&gt;(Hint: the old signet will be 
         &lt;font color=&quot;#ff4444&quot;&gt;destroyed&lt;/font&gt;)</string>
     <string name="where_do_i_get_signets">> Where do I get Signets?</string>
     <string name="where_do_i_get_signets_close"> CLOSE Where do I get Signets? &lt;</string>
     <string name="find_signets_text">Signets cannot be crafted, but there are three possibilities to get signets:&lt;br&gt;
-        > dropped by &lt;font color=&quot;#ff4444&quot;&gt;Nightmare and Lair mobs&lt;/font&gt;&lt;br&gt;(Note: drop rate is low)
-        &lt;br&gt;(Note: the location of these mobs can be found in the &lt;font color=&quot;#ff4444&quot;&gt;[App Main Menu] > 
+        > dropped by &lt;font color=&quot;#ff4444&quot;&gt;Nightmare and Lair mobs&lt;/font&gt;&lt;br&gt;
+        (Hint: the location of these mobs can be found in the &lt;font color=&quot;#ff4444&quot;&gt;[App Main Menu] > 
         [Farming Locations]&lt;/font&gt;)&lt;br&gt;&lt;br&gt;> &lt;font color=&quot;#ff4444&quot;&gt;Quests&lt;/font&gt;&lt;br&gt;
-        (Note: one &lt;font color=&quot;#ff4444&quot;&gt;[Signet ???Reward??? Bag]&lt;/font&gt; after completion; 48?68 hour cooldown)
-        &lt;br&gt;(Note: which quests guarantee 
+        (Hint: one &lt;font color=&quot;#ff4444&quot;&gt;[Signet Reward Bag]&lt;/font&gt; after completion)
+        &lt;br&gt;(Hint: which quests guarantee 
         signets and their locations can be found in the &lt;font color=&quot;#ff4444&quot;&gt;[App Main Menu] > 
         [Quests]&lt;/font&gt;)&lt;br&gt;&lt;br&gt;> B&amp;D Bank or Ealdwic Post Office in &lt;font color=&quot;#ff4444&quot;&gt;
         London&lt;/font&gt;. 
-        [BUY] > [Upgrade(ItemType)] > [Signet(SubType)]&lt;br&gt;(Note: high prices)</string>
+        [BUY] > [Upgrade(ItemType)] > [Signet(SubType)]</string>
 
     <!-- Signet Overview -->
     <string name="basics_signets_overview">> Basics</string>
@@ -50,14 +51,14 @@
     <string name="overview_info">Signets can be attached to a weapon or a talisman, but there is one restriction. Every signet belongs to a 
         particular type that describes to which items it can be attached. 
 		These types are:\n
-		(Note: all signet types have a specific shape)</string>
+		(Hint: all signet types have a specific shape)</string>
     <string name="overview_info_shape">Head\n\nHead / Weapon\n\nMajor\n\nMinor\n\nAuxiliary</string>
     <string name="overview_info_dps">Signets can also be divided by the type of role you are playing in TSW. If you are playing a DPS you 
         are only interested in signets that raise your offensive stats. Therefore you can divide the signets in three types: &lt;font 
         color=&quot;#ff4444&quot;&gt;DPS&lt;/font&gt;, &lt;font color=&quot;#ff4444&quot;&gt;HEALER&lt;/font&gt; and &lt;font color=&quot;#ff4444&quot;&gt;
         TANK&lt;/font&gt;.&lt;br&gt; 
-		(Note: a DPS can still attach a defensive signet, but it doesn’t make much sense because you want to do as much damage as possible)&lt;br&gt;
-		(Note: &lt;font 
+		(Hint: a DPS can still attach a defensive signet, but it doesn’t make much sense because you want to do as much damage as possible)&lt;br&gt;
+		(Hint: &lt;font 
         color=&quot;#ff4444&quot;&gt;All information is subject to change.&lt;/font&gt;)</string>
     <string name="all_signets">> All Signets</string>
     <string name="dps_signets">> DPS Signets</string>
@@ -1674,10 +1675,9 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
     <string name="basics_quests_text">There are total of &lt;font color=&quot;#ff4444&quot;&gt;30&lt;/font&gt; quests that give you 
         a &lt;font color=&quot;#ff4444&quot;&gt;[Signet ???Reward??? Bag]&lt;/font&gt; 
         after completion. The signet bag\'s color indicates the grade of the signet you find inside. To open a [Signet Reward Bag] just double-click it.&lt;br&gt; 
-        (Note:&lt;font color=&quot;#ff4444&quot;&gt;[Signet Reward Bags]&lt;/font&gt; contain signets of every type.They have a bigger 
+        (Hint:&lt;font color=&quot;#ff4444&quot;&gt;[Signet Reward Bags]&lt;/font&gt; contain signets of every type.They have a bigger 
         chance of droping major signets than Nightmare and Lair mobs)</string>
     <string name="basics_quests_text2">With the &lt;font color=&quot;#ff4444&quot;&gt;QuestAlarm _TODO_&lt;/font&gt;</string>
-    <string name="alarm_quests">> Quest Alarm</string>
     <!--
     &lt;font color=&quot;#ff4444&quot;&gt;
     red
@@ -1695,206 +1695,388 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
     purple
     &lt;/font&gt;
     
-    &lt;br&gt;
+    &lt;br&gt;
     -->
     <!-- farming locations -->
+    <string name="solomon_titel">> Solomon Island</string>
+    <string name="egypt_titel">> Egypt</string>
+    <string name="trans_titel">> Transylvania</string>
+    <string name="framing_locations_go_to_map_activity">> Open Map &lt;</string>
     <string name="basics_farming_locations">> Basics</string>
     <string name="farming_locations_close"> CLOSE Basics &lt;</string>
     <string name="basics_farming_locations_text">Every area in TSW has &lt;font color=&quot;#ff4444&quot;&gt;one or more Nightmare and one Lair mobs 
         zone&lt;/font&gt;. The mobs have a &lt;font color=&quot;#ff4444&quot;&gt;special buff&lt;/font&gt; 
         that indicates their Nightmare/Lair status: </string>
     <string name="zone_details_text">Mobs in the &lt;font color=&quot;#ff4444&quot;&gt;Nightmare zone&lt;/font&gt; can be soloed&lt;br&gt; 
-(Note: Mobs have 7k to 21k health points)&lt;br&gt; 
-(Note: QL10 gear with blue and/or purple parts)&lt;br&gt;&lt;br&gt;
+(Hint: Mobs have 7k to 21k health points)&lt;br&gt; 
+(Hint: QL10 gear with blue and/or purple parts)&lt;br&gt;&lt;br&gt;
 Mobs in the &lt;font color=&quot;#ff4444&quot;&gt;Lair zone&lt;/font&gt; should be done in a group&lt;br&gt;
-(Note: Mobs have 8k to 71k health points)&lt;br&gt;&lt;br&gt;
-The mobs drop &lt;font color=&quot;#ff4444&quot;&gt;mostly minor signets&lt;/font&gt;, but there is a small chance of a major signet drop.
-As the mobs in every zone have different skills you should visit each of them and find out which farming location works best for you and/or your group.</string>
+(Hint: Mobs have 8k to 71k health points)&lt;br&gt;&lt;br&gt;
+The mobs drop &lt;font color=&quot;#ff4444&quot;&gt;mostly minor signets&lt;/font&gt;, but there is a small chance of a major signet drop. 
+Furthermore Lair mobs drop more major signets than nightmare mobs. There is also a possibility to summon Lair bosses that 
+drop blue or even purple signets.
+As the mobs in every zone have different skills you should visit each of them and find out which farming location 
+works best for you and/or your group. (Hint: Nightmare and Lair mobs are &lt;font color=&quot;#ff4444&quot;&gt;immune 
+to hinder and impair effects&lt;/font&gt;)</string>
     <string name="kingsmouth_farming_locations">> Kingsmouth</string>
     <string name="kingsmouth_farming_locations_close"> CLOSE Kingsmouth &lt;</string>
     <string name="map_kingsmouth_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
-        &lt;/font&gt;&lt;br&gt;&lt;br&gt;
+        &lt;/font&gt; [A]&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;South of airport&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; South of airport&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;880, 650&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Kingsmouth Municipal Airport</string>
+        Coordinates:&lt;/font&gt; 880, 650&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;
+        Kingsmouth Municipal Airport&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Corpse Clinger (14k HP)&lt;br&gt;
+        [Single]Mouldering Bones (14k HP)&lt;br&gt;
+        [Single]Pustular Undead (14k HP)&lt;br&gt;
+        [Single]Guts Trawler (21k HP)&lt;br&gt;
+        [Single]Freight Smasher (22k HP)&lt;br&gt;
+        [Single]Freight Stomper (22k HP)&lt;br&gt;
+        [Group]Weekend Warrior (3.6k HP)</string>
+    <string name="map_kingsmouth_nm_text2">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+        &lt;/font&gt; [B]&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;
+        Location:&lt;/font&gt; East of Pyramid Point&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;
+        Coordinates:&lt;/font&gt; 830, 140&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;
+        Journey’s End&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Fathomless Sea Scraper (14k HP)&lt;br&gt;
+        [Single]Fathomless Sea Seer (14k HP)&lt;br&gt;
+        [Single]Fathomless Sea Slitter (14k HP)&lt;br&gt;
+        [Single]Savage Fathom (16k HP)</string>
     <string name="map_kingsmouth_lair_text">        &lt;font color=&quot;#ff4444&quot;&gt;
         Lair Zone
-        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt;&lt;br&gt;
+        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt;
         North of airport
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt;&lt;br&gt;
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt;
         880, 890
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Kingsmouth Municipal Airport</string>
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;
+        Kingsmouth Municipal Airport&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Helrisen Seidkona (43k HP)&lt;br&gt;
+        [Single]Helrisen Volva (48k HP)&lt;br&gt;
+        [Single]Helrisen Hird (52k HP)&lt;br&gt;
+        [Single]Helrisen Leidanger (52k HP)&lt;br&gt;
+        [Single]Keelhauled (48k HP)</string>
     <string name="savage_farming_locations">> Savage Coast</string>
     <string name="savage_farming_locations_close"> CLOSE Savage Coast &lt;</string>
-    <string name="map_savage_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+    <string name="map_savage_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [A]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;West to Suicide Bluff&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; Northwest to Suicide Bluff&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;550, 190&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        The Fairgrounds(South)</string>
+        Coordinates:&lt;/font&gt; 550, 190&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:
+        &lt;/font&gt; The Fairgrounds(South)&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]New Flesh (15k HP)&lt;br&gt;
+        [Single]Lab Meat (25k HP)&lt;br&gt;
+        [Pair]Tainted Culture (7.5k HP)&lt;br&gt;
+        [Group]Consumed Culture (3.7k HP)</string>
     <string name="map_savage_lair_text">        &lt;font color=&quot;#ff4444&quot;&gt;
         Lair Zone
-        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt;&lt;br&gt;
-        South of Overlook Motel
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt;&lt;br&gt;
-        780, 700
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        The Fairgrounds(North)</string>
+        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; South of Overlook Motel
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; 780, 700
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; The Fairgrounds(North)
+        &lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Filthiopath (71k HP)&lt;br&gt;
+        [Single]Filthy Regression (71k HP)&lt;br&gt;
+        [Single]Slur (48k HP) (+ Group)&lt;br&gt;
+        [Group]Filth-Changed (7.9 HP)&lt;br&gt;
+        [Group]Obscenity (7.9k HP)</string>
     <string name="blue_farming_locations">> Blue Mountain</string>
     <string name="blue_farming_locations_close"> CLOSE Blue Mountain &lt;</string>
-    <string name="map_blue_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+    <string name="map_blue_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [A]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;The Quarry&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; The Quarry&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;600, 500&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Wabanaki Sacred Site</string>
+        Coordinates:&lt;/font&gt; 600, 500&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:
+        &lt;/font&gt; Wabanaki Sacred Site&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Ellri Seaweaver (13k HP)&lt;br&gt;
+        [Single]Draugslave (14k HP)&lt;br&gt;
+        [Single]Ellri Destroyer (16k HP) &lt;br&gt;
+        [Single]Ellri Cleaver (18k HP)&lt;br&gt;
+        [Single]Ellri Lord (18k HP)&lt;br&gt;
+        [Single]Ellri Ritualist (14k HP) + [Single]Ellri Ritual Guard (16k HP)</string>
     <string name="map_blue_lair_text">        &lt;font color=&quot;#ff4444&quot;&gt;
         Lair Zone
-        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt;&lt;br&gt;
+        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; 
         Golden Wigwam Casino
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt;&lt;br&gt;
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; 
         300, 810
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Agartha Entrance</string>
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        Agartha Entrance&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Safety Hazard (48k HP)&lt;br&gt;
+        [Single]Slate Giant (71k HP)&lt;br&gt;
+        [Group]Deconstructed Worker (3k HP)</string>
     <string name="scorched_farming_locations">> Scorched Desert</string>
     <string name="scorched_farming_locations_close"> CLOSE Scorched Desert &lt;</string>
-    <string name="map_scorched_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+    <string name="map_scorched_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [A]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;Sol Glorificus&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; Sol Glorificus&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;170, 650&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Forsaken Oasis</string>
+        Coordinates:&lt;/font&gt; 170, 650&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        Forsaken Oasis&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Group]Lost Legionary (3.5k HP)&lt;br&gt;
+        [Group]Rejected Legionary (6k HP)</string>
     <string name="map_scorched_lair_text">        &lt;font color=&quot;#ff4444&quot;&gt;
         Lair Zone
-        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt;&lt;br&gt;
+        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; 
         Western Scar
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt;&lt;br&gt;
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; 
         350, 1130
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        The Summits</string>
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        The Summits&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Red Desert Weakener (48k HP)&lt;br&gt;
+        [Single]Red Desert Thresher (48k HP)&lt;br&gt;
+        [Single]Chosen (24k HP) + [Single]Red Desert Nymph (12k HP)&lt;br&gt;
+        [Group]Frenzied Throng (9.5k HP)&lt;br&gt;
+        [Group]Red Desert Swarm (12k HP)</string>
     <string name="sun_farming_locations">> City of the Sun God</string>
     <string name="sun_farming_locations_close"> CLOSE City of the Sun God &lt;</string>
-    <string name="map_sun_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+    <string name="map_sun_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [A]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;The Reformatory(La Salle de Discipline)&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; The Reformatory(La Salle de Discipline)&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;500, 620&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Vulture’s Pass</string>
+        Coordinates:&lt;/font&gt; 500, 620&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        Vulture’s Pass&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Aten\'s Blade (7k HP)&lt;br&gt;
+        [Single]Atenist Soul Defiler (7k HP)&lt;br&gt;
+        [Single]Stoneblooding Cultist (7k HP)&lt;br&gt;
+        [Single]Atenist Armsmaster (14k HP)&lt;br&gt;
+        [Single]Atenist Envenomer (14k HP)&lt;br&gt;
+        [Single]Atenist Guardsman (14k HP)&lt;br&gt;
+        [Single]Atenist Manhunter (14k HP)&lt;br&gt;
+        [Single]Atenist Ritualist (14k HP)&lt;br&gt;
+        [Single]Blightcaster (14k HP)&lt;br&gt;
+        [Single]Quest Mobs (14k-16k HP; 28k HP)&lt;br&gt;
+        [Group]Neophyte (2.8k HP)</string>
     <string name="map_sun_lair_text">        &lt;font color=&quot;#ff4444&quot;&gt;
         Lair Zone
-        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt;&lt;br&gt;
+        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; 
         Al-Ghasr
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt;&lt;br&gt;
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; 
         470, 320
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        The Juncture</string>
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        The Juncture&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Beast of Amarna (37k HP)&lt;br&gt;
+        [Pair]Amarna Priesthood (24k HP)&lt;br&gt;
+        [Pair]Palatial Guard (24k HP)</string>
     <string name="farm_farming_locations">> Besieged Farmlands</string>
     <string name="farm_farming_locations_close"> CLOSE Besieged Farmlands &lt;</string>
-    <string name="map_farm_nm_text1">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+    <string name="map_farm_nm_text1">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [A]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;St. Haralambie Church&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; St. Haralambie Church&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;850, 1250&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        St. Haralambie</string>
-    <string name="map_farm_nm_text2">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+        Coordinates:&lt;/font&gt; 850, 1250&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        St. Haralambie&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Dump Chief (14k HP)&lt;br&gt;
+        [Pair / Group]Ghoul Hoarder (7k HP)&lt;br&gt;
+        [Pair / Group]Ghoul Forager (7k HP)&lt;br&gt;
+        [Group]Trash Ghoul (2.8k HP)</string>
+    <string name="map_farm_nm_text2">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [B]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;Mara’s Field&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; Mara’s Field&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;254, 703&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        The Perch</string>
-    <string name="map_farm_nm_text3">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+        Coordinates:&lt;/font&gt; 254, 703&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        The Perch&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Wallachian Guard (21k HP)&lt;br&gt;
+        [Pair]Wallachian Division (7k HP)&lt;br&gt;
+        [Pair]Wallachian Magus (7k HP)&lt;br&gt;
+        [Pair]Wallachian Reserves (7k HP)&lt;br&gt;
+        [Pair]Wallachian Thrall (3.6k HP) + [Single]Wallachian Division (7k HP)&lt;br&gt;
+        [Group]Death Squad (7k HP)</string>
+    <string name="map_farm_nm_text3">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [C]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;Giant’s Table&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; Giant’s Table&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;640, 900&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        The Perch</string>
+        Coordinates:&lt;/font&gt; 640, 900&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        The Perch&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Charnel Cutter (14k HP)&lt;br&gt;
+        [Single]Massacre Scarecrow (14k HP)&lt;br&gt;
+        [Single]Thing Possessed (14k HP)&lt;br&gt;
+        [Single]Watchman (14k HP)&lt;br&gt;
+        [Single]Sentinel (14k HP)&lt;br&gt;
+        [Single]Effigy of Evil (16k HP)&lt;br&gt;
+        [Single]Straw Shooter (16k HP)&lt;br&gt;
+        [Single]Patchwork Executioner (16k HP)</string>
+    <string name="map_farm_nm_text4">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [D]
+        &lt;/font&gt;&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;
+        Location:&lt;/font&gt; Valley of the Wolf&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;
+        Coordinates:&lt;/font&gt; 850, 245&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        Hermit\'s Crossing / Cucuvea\'s Grave&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Den Omega (14k HP)&lt;br&gt;
+        [Single]Den Leader (7k HP) + [Group]Pack Wolf (4.7k HP)&lt;br&gt;
+        [Pair]Den Scrapper (7k HP)&lt;br&gt;
+        [Group]Prowling Wolf (4.7k HP)</string>
     <string name="map_farm_lair_text">        &lt;font color=&quot;#ff4444&quot;&gt;
         Lair Zone
-        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt;&lt;br&gt;
+        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; 
         Our Lady Monastery
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt;&lt;br&gt;
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; 
         1300, 310
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Hermit’s Crossing</string>
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        Hermit\'s Crossing&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Hungry Mourner (48k HP)&lt;br&gt;
+        [Single]Queen\'s Sect (48k HP)&lt;br&gt;
+        [Single]Queen\'s Sect Friar (48k HP)&lt;br&gt;
+        [Single]Queen\'s Sect Chaplain (24k HP) + [Group]Penitent (7.9k HP)&lt;br&gt;
+        [Group]Bloodied Earth (16k HP)</string>
     <string name="forest_farming_locations">> Shadowy Forest</string>
     <string name="forest_farming_locations_close"> CLOSE Shadowy Forest &lt;</string>
-    <string name="map_forest_nm_text1">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+    <string name="map_forest_nm_text1">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [A]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;Mirewood&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; The Pale Forest &lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;910, 460&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        The Spoiled Garden</string>
-    <string name="map_forest_nm_text2">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+        Coordinates:&lt;/font&gt; 1040, 675&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection 
+        Point:&lt;/font&gt; Mirewood / The Spoiled Garden&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt;&lt;br&gt; 
+        [Single]Pervading Filth (16k HP)&lt;br&gt;
+        [Single]Vagrant Colonist (28k HP)</string>
+    <string name="map_forest_nm_text2">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [B]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;Chapel of the Prince&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; Chapel of the Prince&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;790, 590&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Mirewood&#47;Hell\'s Pass</string>
-    <string name="map_forest_nm_text3">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+        Coordinates:&lt;/font&gt; 790, 590&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;
+        Resurrection Point:&lt;/font&gt; 
+        Mirewood&#47;Hell\'s Pass&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Faithless (14k HP)&lt;br&gt;
+        [Single]House of Danesti Vandal (20k HP)&lt;br&gt;
+        [Pair / Group]Undelivered (7k HP)</string>
+    <string name="map_forest_nm_text3">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [C]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;Hell’s Row&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; Hell’s Row&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;540, 421&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Hell’s Pass</string>
+        Coordinates:&lt;/font&gt; 540, 421&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;
+        Resurrection Point:&lt;/font&gt; 
+        Hell’s Pass&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Burning Banner Soldier (7k HP)&lt;br&gt;
+        [Single]Tactician of the Tuning (7k HP)&lt;br&gt;
+        [Single]Siege Hound (14k HP)&lt;br&gt;
+        [Single]Temperskin Strategist (19k HP)&lt;br&gt;
+        [Pair / Group]Burning Banner Fist (7k HP)&lt;br&gt;
+        [Pair / Group]Burning Banner Sawbone (7k HP)&lt;br&gt;
+        [Group]Hellcur (4.7k HP)</string>
+    <string name="map_forest_nm_text4">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [D]
+        &lt;/font&gt;&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;
+        Location:&lt;/font&gt; West of Mirewood&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;
+        Coordinates:&lt;/font&gt; 800, 515&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;
+        Resurrection Point:&lt;/font&gt;The Spoiled Garden&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Fungal Seeder (14k HP)&lt;br&gt;
+        [Single]Fungal Becoming (22k HP)&lt;br&gt;
+        [Pair]Fungal Incubator (7k HP)&lt;br&gt;
+        [Group]Fungal Chitterer (2.8k HP)</string>
     <string name="map_forest_lair_text">        &lt;font color=&quot;#ff4444&quot;&gt;
         Lair Zone
-        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt;&lt;br&gt;
+        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; 
         Mirewood
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt;&lt;br&gt;
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; 
         1100, 460
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        The Spoiled Garden</string>
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        The Spoiled Garden&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Creeping Seed (48k HP)&lt;br&gt;
+        [Single]Creeping End (71k HP)&lt;br&gt;
+        [Pair]Creeping Birth (24k HP)&lt;br&gt;
+        [Group]Creeping Spoil (9.5k HP)</string>
     <string name="fangs_farming_locations">> Carpathian Fangs</string>
     <string name="fangs_farming_locations_close"> CLOSE Carpathian Fangs &lt;</string>
-    <string name="map_fangs_nm_text1">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+    <string name="map_fangs_nm_text1">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [A]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;Monastery of the First Mother&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; Monastery of the First Mother&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;1112, 290&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Repentance Cavern</string>
-    <string name="map_fangs_nm_text2">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+        Coordinates:&lt;/font&gt; 1112, 290&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection 
+        Point:&lt;/font&gt; 
+        Repentance Cavern&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Lingering One (14k HP)&lt;br&gt;
+        [Single]Scourged Monk (14k HP)&lt;br&gt;
+        [Single]The Ascetic (18k HP)&lt;br&gt;
+        [Single]Chaplain of the Mother (7k HP) + [Group]Scalded Soul (2.4k HP)&lt;br&gt;
+        [Single]Instrument of the Mother (7k HP) + [Group]Scalded Soul (2.4k HP)</string>
+    <string name="map_fangs_nm_text2">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [B]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;Z&#226;n Springs&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; Z&#226;n Springs&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;770, 530&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Z&#226;n Springs</string>
-    <string name="map_fangs_nm_text3">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+        Coordinates:&lt;/font&gt; 770, 530&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        Z&#226;n Springs&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Black Springs Earthshaker (22k HP)&lt;br&gt;
+        [Single]Black Springs Zmeu (22k HP)&lt;br&gt;
+        [Single]Elder Zmeu Crusher (22k HP)&lt;br&gt;
+        [Single]Elder Zmeu Sunderer (22k HP)&lt;br&gt;
+        [Single]Deep Spring Awoken (25k HP)</string>
+    <string name="map_fangs_nm_text3">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [C]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;Roman Baths&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; Roman Baths&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;720, 360&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Z&#226;n Springs</string>
-    <string name="map_fangs_nm_text4">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone
+        Coordinates:&lt;/font&gt; 720, 360&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        Z&#226;n Springs&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Dream-Claimed Auxiliary (14k HP)&lt;br&gt;
+        [Single]Dream-Claimed Legionary (14k HP)&lt;br&gt;
+        [Single]Swallowed Centurion (14k HP)&lt;br&gt;
+        [Single]Septimus (19k HP)</string>
+    <string name="map_fangs_nm_text4">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [D]
         &lt;/font&gt;&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Location:&lt;/font&gt;&lt;br&gt;Red Hand Compound&lt;br&gt;&lt;br&gt;
+        Location:&lt;/font&gt; Red Hand Compound&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
-        Coordinates:&lt;/font&gt;&lt;br&gt;940, 730&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Chasm Entrance/Raven\'s Field</string>
+        Coordinates:&lt;/font&gt; 940, 730&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        Chasm Entrance / Raven\'s Field&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Cryo Punisher (22k HP)&lt;br&gt;
+        [Pair]Cryo Controller (7k HP)&lt;br&gt;
+        [Pair]Cryo Operative (7k HP)</string>
     <string name="map_fangs_lair_text">        &lt;font color=&quot;#ff4444&quot;&gt;
         Lair Zone
-        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt;&lt;br&gt;
+        &lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; 
         Installation 10
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt;&lt;br&gt;
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; 
         1140, 1050
-        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt;&lt;br&gt;
-        Chasm Entrance</string>
+        &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; 
+        Chasm Entrance&lt;br&gt;&lt;br&gt;
+        &lt;font color=&quot;#ff4444&quot;&gt;Mobs:&lt;/font&gt;&lt;br&gt; 
+        [Single]Biocharged Engineer (24k HP)&lt;br&gt;
+        [Single]Biocharged Warden (71k HP)&lt;br&gt;
+        [Single]Burov (71k HP)&lt;br&gt;
+        [Single]Mara\'s Solomonar (71k HP)&lt;br&gt;
+        [Single]Type-X Hulk (71k HP)&lt;br&gt;
+        [Pair]Type-X Assassin (24k HP)&lt;br&gt;
+        [Pair]Type-X Controller (24k HP)</string>
     <!-- AppRater -->
     <string name="rate_and_comment">"Rate and Comment"</string>
     <string name="rate_and_comment_support">"If you enjoy using this app, please take a moment to rate it. Thanks for your support!"</string>
@@ -1919,5 +2101,18 @@ As the mobs in every zone have different skills you should visit each of them an
     <string name="title_activity_tank_signets">TankSignets</string>
     <string name="title_activity_aux_signets">AuxSignets</string>
     <string name="title_activity_quest_alarm">QuestAlarm</string>
+    <string name="title_activity_blue_map_marked">BlueMapMarkedActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_king_map_marked">KingMapMarkedActivity</string>
+    <string name="title_activity_savage_map_marked">SavageMapMarkedActivity</string>
+    <string name="title_activity_scorched_map_marked">ScorchedMapMarkedActivity</string>
+    <string name="title_activity_sun_map_marked">SunMapMarkedActivity</string>
+    <string name="title_activity_farm_map_marked">FarmMapMarkedActivity</string>
+    <string name="title_activity_map_marked">MapMarkedActivity</string>
+    <string name="title_activity_forest_map_marked">ForestMapMarkedActivity</string>
+    <string name="title_activity_fangs_map_marked">FangsMapMarkedActivity</string>
+    <string name="title_activity_solomon_island_farming">SolomonIslandFarmingActivity</string>
+    <string name="title_activity_egypt_farming">EgyptFarmingActivity</string>
+    <string name="title_activity_transylvania_farming">TransylvaniaFarmingActivity</string>
 
 </resources>

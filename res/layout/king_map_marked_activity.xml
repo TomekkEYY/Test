@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    android:id="@+id/ll_king_map_marked"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        style="@style/TopLogo"
+        android:src="@drawable/farming_locations" />
+
+    <LinearLayout style="@style/SeparatorLinearLayout" >
+
+        <View style="@style/SeparatorBlackSpaceBorder" >
+        </View>
+
+        <View style="@style/SeparatorWhiteSpaceBorder" >
+        </View>
+
+        <View style="@style/SeparatorBlackSpaceBorder" >
+        </View>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/legend_map"
+        style="@style/Legend"
+        android:src="@drawable/legend_map" />
+
+    <LinearLayout style="@style/SeparatorLinearLayout" >
+
+        <View style="@style/SeparatorBlackSpaceBorder" >
+        </View>
+
+        <View style="@style/SeparatorWhiteSpaceBorder" >
+        </View>
+
+        <View style="@style/SeparatorBlackSpaceBorder" >
+        </View>
+    </LinearLayout>
+
+</LinearLayout>

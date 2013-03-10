@@ -77,41 +77,13 @@
             </View>
         </LinearLayout>
 
-        <!-- START QuestAlarm -->
-
-        <Button
-            android:id="@+id/alarm_quests"
-            style="@style/ViewToggleButton"
-            android:onClick="startQuestAlarm"
-            android:text="@string/alarm_quests" />
-
-        <TextView
-            android:id="@+id/quests_alarm_blank"
-            android:layout_width="@dimen/blank_width_size"
-            android:layout_height="@dimen/blank_height_size"
-            android:visibility="visible" />
-        <!-- END QuestAlarm -->
-
-        <LinearLayout style="@style/SeparatorLinearLayout" >
-
-            <View style="@style/SeparatorBlackSpaceBorder" >
-            </View>
-
-            <View style="@style/SeparatorWhiteSpaceBorder" >
-            </View>
-
-            <View style="@style/SeparatorBlackSpaceBorder" >
-            </View>
-        </LinearLayout>
-
         <!-- START Blue Mountain -->
 
-
-        <!-- <Button -->
-        <!-- android:id="@+id/blue_quests" -->
-        <!-- style="@style/ViewToggleButton" -->
-        <!-- android:text="@string/blue_quests" /> -->
-
+        <Button
+            android:id="@+id/blue_quests"
+            style="@style/ViewToggleButton"
+            android:onClick="openBlueMapMarked"
+            android:text="@string/blue_farming_locations" />
 
         <!-- <TextView -->
         <!-- android:id="@+id/blue_quests_blank" -->

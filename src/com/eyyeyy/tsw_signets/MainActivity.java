@@ -3,12 +3,17 @@ package com.eyyeyy.tsw_signets;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.eyyeyy.tsw_signets.R;
+import com.eyyeyy.tsw_signets.R.layout;
+import com.eyyeyy.tsw_signets.R.menu;
 import com.eyyeyy.tsw_signets.common.BasicInformationActivity;
 import com.eyyeyy.tsw_signets.common.FarmingLocationsActivity;
+import com.eyyeyy.tsw_signets.common.MapsActivity;
 import com.eyyeyy.tsw_signets.common.QuestsActivity;
 import com.eyyeyy.tsw_signets.common.SignetOverviewActivity;
 import com.eyyeyy.tsw_signets.utils.AppRater;
@@ -67,4 +72,21 @@ public class MainActivity extends Activity {
 		startActivity(intent);
 	}
 
+	public void startMaps(View view) {
+
+		Intent intent = new Intent(this, MapsActivity.class);
+		startActivity(intent);
+	}
+
+	/*
+	 * When the Back key is pressed states of the view are saved
+	 */
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+			moveTaskToBack(true);
+			return true;
+		}
+		return super.onKeyDown(keyCode, event);
+	}
 }
