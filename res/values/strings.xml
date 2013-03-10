@@ -14,52 +14,61 @@
     <string name="what_are_signets">> What are Signets?</string>
     <string name="what_are_signets_close">CLOSE What are Signets? &lt;</string>
     <string name="basic_information_part1">Signets are part of the endgame gearing in TSW that provide a proc effect or passive stat boost. 
-        They can be attached to a talisman or weapon with an &lt;font color=&quot;#ff4444&quot;&gt;[Empty Signet Slot]&lt;/font&gt; in order 
+        They can be attached to a talisman or weapon with an &lt;font color=&quot;#ff4444&quot;&gt;Empty Signet Slot&lt;/font&gt; in order 
         to combine the effect with the item itself.</string>
     <string name="basic_information_part2">Signets are divided into three types: &lt;font color=&quot;#99cc00&quot;&gt;green&lt;/font&gt;, 
         &lt;font color=&quot;#33b5b5&quot;&gt;blue&lt;/font&gt; and &lt;font color=&quot;#aa66cc&quot;&gt;purple&lt;/font&gt;. It takes 
         ten identical green signets to form a blue signet of the same name and ten identical blue signets to form a purple signet.&lt;br&gt;(Hint: 
-        you need 100 green signets with the same name to build one purple signet)</string>
+        You need 100 green signets with the same name to build one purple signet)</string>
     <string name="basic_information_part3">(Hint: an overview of all available signets can be found in the &lt;font color=&quot;#ff4444&quot;&gt;
         [App Main Menu] > [Signet Overview]&lt;/font&gt;)	</string>
     <string name="attach">> Signet Attaching</string>
     <string name="attach_close"> CLOSE Signet Attaching &lt;</string>
     <string name="basic_information_part4">To attach a signet, place the item and the signet in the &lt;font color=&quot;#ff4444&quot;&gt;
-        [Assembly Window]&lt;/font&gt; and click the &lt;font color=&quot;#ff4444&quot;&gt;[ASSEMBLE]&lt;/font&gt; 
+        Assembly Window&lt;/font&gt; and click the &lt;font color=&quot;#ff4444&quot;&gt;ASSEMBLE&lt;/font&gt; 
         button.&lt;br&gt;(Hint: the item must be at &lt;font color=&quot;#ff4444&quot;&gt;full durability&lt;/font&gt;)&lt;br&gt;(Hint: 
         read the signet description as 
         signets can only be attached to the item type specified there. Detailed description of each signet can be found in the &lt;font 
         color=&quot;#ff4444&quot;&gt;[App Main Menu] > [Signet Overview]&lt;/font&gt;)</string>
-    <string name="basic_information_part5">If an item contains a signet you can overwrite it with a new one.&lt;br&gt;(Hint: the old signet will be 
+    <string name="basic_information_part5">If an item contains a signet you can overwrite it with a new one.&lt;br&gt;(Hint: The old signet will be 
         &lt;font color=&quot;#ff4444&quot;&gt;destroyed&lt;/font&gt;)</string>
     <string name="where_do_i_get_signets">> Where do I get Signets?</string>
     <string name="where_do_i_get_signets_close"> CLOSE Where do I get Signets? &lt;</string>
     <string name="find_signets_text">Signets cannot be crafted, but there are three possibilities to get signets:&lt;br&gt;
         > dropped by &lt;font color=&quot;#ff4444&quot;&gt;Nightmare and Lair mobs&lt;/font&gt;&lt;br&gt;
-        (Hint: the location of these mobs can be found in the &lt;font color=&quot;#ff4444&quot;&gt;[App Main Menu] > 
+        (Hint: The location of these mobs can be found in the &lt;font color=&quot;#ff4444&quot;&gt;[App Main Menu] > 
         [Farming Locations]&lt;/font&gt;)&lt;br&gt;&lt;br&gt;> &lt;font color=&quot;#ff4444&quot;&gt;Quests&lt;/font&gt;&lt;br&gt;
-        (Hint: one &lt;font color=&quot;#ff4444&quot;&gt;[Signet Reward Bag]&lt;/font&gt; after completion)
-        &lt;br&gt;(Hint: which quests guarantee 
+        (Hint: One &lt;font color=&quot;#ff4444&quot;&gt;Signet Reward Bag&lt;/font&gt; after completion)
+        &lt;br&gt;(Hint: Which quests guarantee 
         signets and their locations can be found in the &lt;font color=&quot;#ff4444&quot;&gt;[App Main Menu] > 
         [Quests]&lt;/font&gt;)&lt;br&gt;&lt;br&gt;> B&amp;D Bank or Ealdwic Post Office in &lt;font color=&quot;#ff4444&quot;&gt;
         London&lt;/font&gt;. 
-        [BUY] > [Upgrade(ItemType)] > [Signet(SubType)]</string>
+        [BUY] > [(ItemType): Upgrade] > [(SubType): Signet]</string>
 
     <!-- Signet Overview -->
     <string name="basics_signets_overview">> Basics</string>
     <string name="basics_signets_overview_close">CLOSE Basics &lt;</string>
-    <string name="overview_info">Signets can be attached to a weapon or a talisman, but there is one restriction. Every signet belongs to a 
+    <string name="overview_info">Signets can be attached to a weapon or a talisman, but there are 
+        &lt;font color=&quot;#ff4444&quot;&gt;two restriction&lt;/font&gt;. Every signet belongs to a 
         particular type that describes to which items it can be attached. 
-		These types are:\n
-		(Hint: all signet types have a specific shape)</string>
+		These types are:&lt;br&gt;
+		(Hint: All signet types have a &lt;font color=&quot;#ff4444&quot;&gt;specific shape&lt;/font&gt;)</string>
     <string name="overview_info_shape">Head\n\nHead / Weapon\n\nMajor\n\nMinor\n\nAuxiliary</string>
-    <string name="overview_info_dps">Signets can also be divided by the type of role you are playing in TSW. If you are playing a DPS you 
+    <string name="overview_info_dps">        &lt;font color=&quot;#ff4444&quot;&gt;Second restriction&lt;/font&gt; is that you can\'t stack some of the 
+        signets. For example: you can\'t attach a [Signet of Abuse] to your head and to both of your weapons. 
+        You can only have this signet once in your build. In the following you can see what types of signet you can stack:&lt;br&gt; 
+        [&lt;font color=&quot;#ff4444&quot;&gt;STACKABLE&lt;/font&gt;]&lt;br&gt;
+        - all major signets&lt;br&gt;
+        - minor signets with the description \'\'Your XXX atacks &#8230;\'\'&lt;br&gt;
+        [&lt;font color=&quot;#ff4444&quot;&gt;NOT STACKABLE&lt;/font&gt;]&lt;br&gt;
+        - all head signets&lt;br&gt;
+        - all head / weapon signets&lt;br&gt;
+        - minor signets without the description \'\'Your XXX atacks &#8230;\'\'&lt;br&gt;&lt;br&gt;
+        Signets can also be divided by the type of role you are playing in TSW. If you are playing a DPS you 
         are only interested in signets that raise your offensive stats. Therefore you can divide the signets in three types: &lt;font 
         color=&quot;#ff4444&quot;&gt;DPS&lt;/font&gt;, &lt;font color=&quot;#ff4444&quot;&gt;HEALER&lt;/font&gt; and &lt;font color=&quot;#ff4444&quot;&gt;
         TANK&lt;/font&gt;.&lt;br&gt; 
-		(Hint: a DPS can still attach a defensive signet, but it doesn’t make much sense because you want to do as much damage as possible)&lt;br&gt;
-		(Hint: &lt;font 
-        color=&quot;#ff4444&quot;&gt;All information is subject to change.&lt;/font&gt;)</string>
+		(Hint: A DPS can still attach a defensive signet, but it doesn’t make much sense because you want to do as much damage as possible)&lt;br&gt;</string>
     <string name="all_signets">> All Signets</string>
     <string name="dps_signets">> DPS Signets</string>
     <string name="healer_signets">> Healer Signets</string>
@@ -1672,12 +1681,18 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
     <!-- Quests -->
     <string name="basics_quests">> Basics</string>
     <string name="basics_quests_close">CLOSE Basics &lt;</string>
-    <string name="basics_quests_text">There are total of &lt;font color=&quot;#ff4444&quot;&gt;30&lt;/font&gt; quests that give you 
-        a &lt;font color=&quot;#ff4444&quot;&gt;[Signet ???Reward??? Bag]&lt;/font&gt; 
-        after completion. The signet bag\'s color indicates the grade of the signet you find inside. To open a [Signet Reward Bag] just double-click it.&lt;br&gt; 
-        (Hint:&lt;font color=&quot;#ff4444&quot;&gt;[Signet Reward Bags]&lt;/font&gt; contain signets of every type.They have a bigger 
+    <string name="basics_quests_text">There are total of &lt;font color=&quot;#ff4444&quot;&gt;30&lt;/font&gt; 
+        quests that give you 
+        a &lt;font color=&quot;#ff4444&quot;&gt;Signet Reward Bag&lt;/font&gt; 
+        after completion. The signet bag\'s color indicates the grade of the signet you find inside. To open a 
+        Signet Reward Bag just double-click it.&lt;br&gt; 
+        (Hint: Signet Reward Bags contain signets of &lt;font color=&quot;#ff4444&quot;&gt;every type&lt;/font&gt;.They have a much bigger 
         chance of droping major signets than Nightmare and Lair mobs)</string>
-    <string name="basics_quests_text2">With the &lt;font color=&quot;#ff4444&quot;&gt;QuestAlarm _TODO_&lt;/font&gt;</string>
+    <string name="basics_quests_text2">29 of 30 quests give you a &lt;font color=&quot;#99cc00&quot;&gt;green
+        &lt;/font&gt; Signet Reward Bag. 
+        Only the quest &lt;font color=&quot;#ff4444&quot;&gt;
+        [The Vanishing of Tyler Freeborn]&lt;/font&gt; in Blue Mountain rewards you with a 
+        &lt;font color=&quot;#33b5b5&quot;&gt;blue&lt;/font&gt; Signet Reward Bag.</string>
     <string name="map_kingsmouth_quest_text"> &lt;font color=&quot;#ff4444&quot;&gt;No "signet reward bag" missions available.&lt;/font&gt;</string>
     <string name="map_blue_quest1_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Search for Tyler Freeborn (Main Mission) [1]&lt;br&gt;
 &lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; SD Card &lt;br&gt;
@@ -1893,27 +1908,7 @@ Possibility of finding signets as to complete this quest you have to kill [Night
 &lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; moderate&lt;br&gt;
 &lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
 Possibility of finding signets as to complete this quest you have to kill [Nightmare Mobs].</string>
-    <!--
-    &lt;font color=&quot;#ff4444&quot;&gt;
-    red
-    &lt;/font&gt;
-    
-    &lt;br&gt;
-    
-    &lt;font color=&quot;#99cc00&quot;&gt;
-    green
-    &lt;/font&gt;
-    
-    &lt;font color=&quot;#33b5b5&quot;&gt;
-    blue
-    &lt;/font&gt;
-    
-    &lt;font color=&quot;#aa66cc&quot;&gt;
-    purple
-    &lt;/font&gt;
-    
-    &lt;br&gt;
-    -->
+
     <!-- farming locations -->
     <string name="solomon_titel">> Solomon Island</string>
     <string name="egypt_titel">> Egypt</string>
@@ -1934,9 +1929,9 @@ Mobs in the &lt;font color=&quot;#ff4444&quot;&gt;Lair zone&lt;/font&gt; should 
 (Hint: Mobs have 8k to 71k health points)&lt;br&gt;&lt;br&gt;
 The mobs drop &lt;font color=&quot;#ff4444&quot;&gt;mostly minor signets&lt;/font&gt;, but there is a small chance of a major signet drop. 
 Furthermore Lair mobs drop more major signets than nightmare mobs. There is also a possibility to summon Lair bosses that 
-drop blue or even purple signets.
+drop &lt;font color=&quot;#33b5b5&quot;&gt;blue&lt;/font&gt; or even &lt;font color=&quot;#aa66cc&quot;&gt;purple&lt;/font&gt; signets.
 As the mobs in every zone have different skills you should visit each of them and find out which farming location 
-works best for you and/or your group. (Hint: Nightmare and Lair mobs are &lt;font color=&quot;#ff4444&quot;&gt;immune 
+works best for you and your group. (Hint: Nightmare and Lair mobs are &lt;font color=&quot;#ff4444&quot;&gt;immune 
 to hinder and impair effects&lt;/font&gt;)</string>
     <string name="kingsmouth_farming_locations">> Kingsmouth</string>
     <string name="kingsmouth_farming_locations_close"> CLOSE Kingsmouth &lt;</string>

@@ -20,8 +20,8 @@ import com.eyyeyy.tsw_signets.R;
 public class AppRater {
 	private final static String APP_PNAME = "com.eyyeyy.tsw_signets";
 
-	private final static int DAYS_UNTIL_PROMPT = 0;
-	private final static int LAUNCHES_UNTIL_PROMPT = 0;
+	private final static int DAYS_UNTIL_PROMPT = 1;
+	private final static int LAUNCHES_UNTIL_PROMPT = 5;
 
 	public static void app_launched(Context mContext) {
 		SharedPreferences prefs = mContext.getSharedPreferences("apprater", 0);
@@ -77,7 +77,8 @@ public class AppRater {
 		TextView rateDialogTX = new TextView(mContext);
 		rateDialogTX.setText(R.string.rate_and_comment_support);
 		rateDialogTX.setWidth(250);
-		rateDialogTX.setTextSize((int) rateDialogTX.getResources().getDimension(R.dimen.dialog_text_size));
+		// rateDialogTX.setTextSize((int)
+		// rateDialogTX.getResources().getDimension(R.dimen.dialog_text_size));
 		rateDialogTX.setGravity(Gravity.CENTER);
 		rateDialogTX.setPadding((int) rateDialogTX.getResources().getDimension(R.dimen.dialog_text_padding),
 				(int) rateDialogTX.getResources().getDimension(R.dimen.dialog_text_padding), (int) rateDialogTX
@@ -93,7 +94,8 @@ public class AppRater {
 		rateAndComment.setBackgroundResource(R.drawable.button);
 		rateAndComment.setText(R.string.rate_and_comment);
 		rateAndComment.setTextColor(Color.WHITE);
-		rateAndComment.setTextSize((int) rateAndComment.getResources().getDimension(R.dimen.dialog_text_size));
+		// rateAndComment.setTextSize((int)
+		// rateAndComment.getResources().getDimension(R.dimen.dialog_text_size));
 		rateAndComment.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				mContext.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + APP_PNAME)));
@@ -110,7 +112,8 @@ public class AppRater {
 		remindMeLater.setBackgroundResource(R.drawable.button);
 		remindMeLater.setText(R.string.remind_me_later);
 		remindMeLater.setTextColor(Color.WHITE);
-		remindMeLater.setTextSize((int) remindMeLater.getResources().getDimension(R.dimen.dialog_text_size));
+		// remindMeLater.setTextSize((int)
+		// remindMeLater.getResources().getDimension(R.dimen.dialog_text_size));
 		remindMeLater.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				dialog.dismiss();
@@ -126,7 +129,8 @@ public class AppRater {
 		dontShowAgain.setBackgroundResource(R.drawable.button);
 		dontShowAgain.setText(R.string.no_thanks);
 		dontShowAgain.setTextColor(Color.WHITE);
-		dontShowAgain.setTextSize((int) dontShowAgain.getResources().getDimension(R.dimen.dialog_text_size));
+		// dontShowAgain.setTextSize((int)
+		// dontShowAgain.getResources().getDimension(R.dimen.dialog_text_size));
 		dontShowAgain.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				if (editor != null) {

@@ -27,6 +27,7 @@ public class SignetOverviewActivity extends Activity {
 	// Basics
 	private View basicsSignetOverviewBlank;
 
+	private TextView overviewInfo;
 	private TextView overviewInfoDps;
 
 	private Button basicsSignetsOverview;
@@ -45,6 +46,8 @@ public class SignetOverviewActivity extends Activity {
 		// Basics Views
 		basicsSignetOverviewBlank = findViewById(R.id.basics_signet_overview_blank);
 
+		overviewInfo = (TextView) findViewById(R.id.overview_info);
+		overviewInfo.setText(Html.fromHtml(getString(R.string.overview_info)));
 		overviewInfoDps = (TextView) findViewById(R.id.overview_info_dps);
 		overviewInfoDps.setText(Html.fromHtml(getString(R.string.overview_info_dps)));
 
