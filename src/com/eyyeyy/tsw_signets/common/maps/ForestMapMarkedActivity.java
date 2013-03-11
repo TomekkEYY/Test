@@ -26,7 +26,7 @@ public class ForestMapMarkedActivity extends Activity {
 		view.setImageResource(R.drawable.forest_map_marked);
 		view.setLayoutParams(params);
 
-		ViewGroup layout = (ViewGroup) findViewById(R.id.ll_forest_map_marked);
+		ViewGroup layout = (ViewGroup) findViewById(R.id.ll_forest_map_marked_map);
 
 		layout.addView(view);
 	}

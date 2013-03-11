@@ -26,7 +26,7 @@ public class FarmMapMarkedActivity extends Activity {
 		view.setImageResource(R.drawable.farm_map_marked);
 		view.setLayoutParams(params);
 
-		ViewGroup layout = (ViewGroup) findViewById(R.id.ll_farm_map_marked);
+		ViewGroup layout = (ViewGroup) findViewById(R.id.ll_farm_map_marked_map);
 
 		layout.addView(view);
 	}

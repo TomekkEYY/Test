@@ -26,7 +26,7 @@ public class ScorchedMapMarkedActivity extends Activity {
 		view.setImageResource(R.drawable.scorched_map_marked);
 		view.setLayoutParams(params);
 
-		ViewGroup layout = (ViewGroup) findViewById(R.id.ll_scorched_map_marked);
+		ViewGroup layout = (ViewGroup) findViewById(R.id.ll_scorched_map_marked_map);
 
 		layout.addView(view);
 	}

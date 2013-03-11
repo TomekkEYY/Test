@@ -26,7 +26,7 @@ public class KingMapMarkedActivity extends Activity {
 		view.setImageResource(R.drawable.kingsmouth_map_marked);
 		view.setLayoutParams(params);
 
-		ViewGroup layout = (ViewGroup) findViewById(R.id.ll_king_map_marked);
+		ViewGroup layout = (ViewGroup) findViewById(R.id.ll_king_map_marked_map);
 
 		layout.addView(view);
 	}
