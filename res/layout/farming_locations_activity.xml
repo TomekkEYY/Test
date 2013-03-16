@@ -79,11 +79,10 @@
 
         <Button
             style="@style/ViewToggleButton"
-            android:onClick="startSolomonFarm"
-            android:text="@string/solomon_titel" />
+            android:onClick="startSolomonKingFarm"
+            android:text="@string/solomon_king_titel" />
 
         <TextView
-            android:id="@+id/all_signets_blank"
             android:layout_width="@dimen/blank_width_size"
             android:layout_height="@dimen/blank_height_size"
             android:visibility="visible" />
@@ -102,11 +101,10 @@
 
         <Button
             style="@style/ViewToggleButton"
-            android:onClick="startEgyptFarm"
-            android:text="@string/egypt_titel" />
+            android:onClick="startSolomonSavageFarm"
+            android:text="@string/solomon_savage_titel" />
 
         <TextView
-            android:id="@+id/dps_signets_blank"
             android:layout_width="@dimen/blank_width_size"
             android:layout_height="@dimen/blank_height_size"
             android:visibility="visible" />
@@ -125,11 +123,120 @@
 
         <Button
             style="@style/ViewToggleButton"
-            android:onClick="startTransFarm"
-            android:text="@string/trans_titel" />
+            android:onClick="startSolomonBlueFarm"
+            android:text="@string/solomon_blue_titel" />
 
         <TextView
-            android:id="@+id/healer_signets_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="startEgyptScorchedFarm"
+            android:text="@string/egypt_scorched_titel" />
+
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="startEgyptSunFarm"
+            android:text="@string/egypt_sun_titel" />
+
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="startTransFarmFarm"
+            android:text="@string/trans_farm_titel" />
+
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="startTransForestFarm"
+            android:text="@string/trans_forest_titel" />
+
+        <TextView
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="startTransFangsFarm"
+            android:text="@string/trans_fangs_titel" />
+
+        <TextView
             android:layout_width="@dimen/blank_width_size"
             android:layout_height="@dimen/blank_height_size"
             android:visibility="visible" />

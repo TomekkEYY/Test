@@ -1333,6 +1333,8 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
     <string name="rocketlauncher_close">CLOSE Rocketlauncher &lt;</string>
     <string name="quantum">> Quantum Brace</string>
     <string name="quantum_close">CLOSE Quantum Brace &lt;</string>
+    <string name="whip">> Whip</string>
+    <string name="whip_close">CLOSE Whip &lt;</string>
     <string name="aux_signets_chainsaw_text">     &lt;font color=&quot;#ff4444&quot;&gt;
         Augur    &lt;/font&gt;
         :    &lt;br&gt;
@@ -1676,6 +1678,118 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
        /    &lt;font color=&quot;#aa66cc&quot;&gt;
        3    &lt;/font&gt;
         seconds after, you will be immune to all forms of crowd control.</string>
+    <string name="aux_signets_whip_text">     &lt;font color=&quot;#ff4444&quot;&gt;
+        Augur    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Timber    &lt;/font&gt;
+         has an     &lt;font color=&quot;#99cc00&quot;&gt;
+         11    &lt;/font&gt;
+         /    &lt;font color=&quot;#33b5b5&quot;&gt;
+         22    &lt;/font&gt;
+         /    &lt;font color=&quot;#aa66cc&quot;&gt;
+         33    &lt;/font&gt;
+         % chance to deal 45% more damage.&lt;br&gt;&lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Binding    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+        When you use     &lt;font color=&quot;#ff4444&quot;&gt;
+        Timber    &lt;/font&gt;
+        , all damage you receive is reduced by 5% for     &lt;font color=&quot;#99cc00&quot;&gt;
+        2    &lt;/font&gt;
+        /    &lt;font color=&quot;#33b5b5&quot;&gt;
+        4    &lt;/font&gt;
+        /    &lt;font color=&quot;#aa66cc&quot;&gt;
+        6    &lt;/font&gt;
+         seconds.&lt;br&gt;&lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Charge    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+        Increase the radius of     &lt;font color=&quot;#ff4444&quot;&gt;
+        Hurly-Burly    &lt;/font&gt;
+         to 7 meters and damage dealt by     &lt;font color=&quot;#99cc00&quot;&gt;
+         10    &lt;/font&gt;
+         /    &lt;font color=&quot;#33b5b5&quot;&gt;
+         20    &lt;/font&gt;
+         /    &lt;font color=&quot;#aa66cc&quot;&gt;
+         30    &lt;/font&gt;
+         %.&lt;br&gt;&lt;br&gt;
+       
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Imprint    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+        Whenever you hit with     &lt;font color=&quot;#ff4444&quot;&gt;
+        Hurly-Burly    &lt;/font&gt;
+        , you gain a single stack of the Imprint effect, 
+        which increases your Magical and Physical Protection by     &lt;font color=&quot;#99cc00&quot;&gt;
+        5    &lt;/font&gt;
+        /    &lt;font color=&quot;#33b5b5&quot;&gt;
+        10    &lt;/font&gt;
+        /    &lt;font color=&quot;#aa66cc&quot;&gt;
+        15    &lt;/font&gt;
+         per stack for 8 seconds. Stacks up to 25 times.&lt;br&gt;&lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Mod    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Diamond Grit    &lt;/font&gt;
+         pulses a point blank AoE, affecting up to 5 enemies in a 5 meter radius around you every second, dealing     &lt;font color=&quot;#99cc00&quot;&gt;
+         38    &lt;/font&gt;
+         /    &lt;font color=&quot;#33b5b5&quot;&gt;
+         77    &lt;/font&gt;
+         /    &lt;font color=&quot;#aa66cc&quot;&gt;
+         115    &lt;/font&gt;
+          physical damage.&lt;br&gt;&lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Overdrive    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+        Increases the barrier of     &lt;font color=&quot;#ff4444&quot;&gt;
+        Diamond Grit    &lt;/font&gt;
+         by     &lt;font color=&quot;#99cc00&quot;&gt;
+         10    &lt;/font&gt;
+         /    &lt;font color=&quot;#33b5b5&quot;&gt;
+         20    &lt;/font&gt;
+         /    &lt;font color=&quot;#aa66cc&quot;&gt;
+         30    &lt;/font&gt;
+         %.&lt;br&gt;&lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Seal    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+        Improves     &lt;font color=&quot;#ff4444&quot;&gt;
+        The Carver\'s Art    &lt;/font&gt;
+         to perform an additional hit at the end of the channel dealing     &lt;font color=&quot;#99cc00&quot;&gt;
+         172    &lt;/font&gt;
+         /    &lt;font color=&quot;#33b5b5&quot;&gt;
+         377    &lt;/font&gt;
+         /    &lt;font color=&quot;#aa66cc&quot;&gt;
+         582    &lt;/font&gt;
+          physical damage.&lt;br&gt;&lt;br&gt;
+        
+            &lt;font color=&quot;#ff4444&quot;&gt;
+        Tune    &lt;/font&gt;
+        :    &lt;br&gt;
+        
+        Whenever you hit with     &lt;font color=&quot;#ff4444&quot;&gt;
+        The Carver\'s Art    &lt;/font&gt;
+         you also heal for     &lt;font color=&quot;#99cc00&quot;&gt;
+         10    &lt;/font&gt;
+         /    &lt;font color=&quot;#33b5b5&quot;&gt;
+         20    &lt;/font&gt;
+         /    &lt;font color=&quot;#aa66cc&quot;&gt;
+         30    &lt;/font&gt;
+         % of the damage dealt.</string>
 
     <!-- Quests -->
     <string name="basics_quests">> Basics</string>
@@ -1683,15 +1797,21 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
     <string name="basics_quests_text">There are total of &lt;font color=&quot;#ff4444&quot;&gt;30&lt;/font&gt; 
         quests that give you 
         a &lt;font color=&quot;#ff4444&quot;&gt;Signet Reward Bag&lt;/font&gt; 
-        after completion. The signet bag\'s color indicates the grade of the signet you find inside. To open a 
-        Signet Reward Bag just double-click it.&lt;br&gt; 
+        after completion. The signet bag\'s color indicates the grade of the signet you find inside.&lt;br&gt;
+        (Hint: There is a very small chance that a Signet Reward Bag contains a signet of a higher grade than the bag color 
+        indicates, e.g. &lt;font color=&quot;#99cc00&quot;&gt;green&lt;/font&gt; Signet Reward Bag could drop a 
+        &lt;font color=&quot;#33b5b5&quot;&gt;blue&lt;/font&gt; signet)&lt;br&gt;
+        To open a Signet Reward Bag just double-click it.&lt;br&gt; 
         (Hint: Signet Reward Bags contain signets of &lt;font color=&quot;#ff4444&quot;&gt;every type&lt;/font&gt;.They have a much bigger 
         chance of droping major signets than Nightmare and Lair mobs)</string>
     <string name="basics_quests_text2">29 of 30 quests give you a &lt;font color=&quot;#99cc00&quot;&gt;green
         &lt;/font&gt; Signet Reward Bag. 
         Only the quest &lt;font color=&quot;#ff4444&quot;&gt;
         [The Vanishing of Tyler Freeborn]&lt;/font&gt; in Blue Mountain rewards you with a 
-        &lt;font color=&quot;#33b5b5&quot;&gt;blue&lt;/font&gt; Signet Reward Bag.</string>
+        &lt;font color=&quot;#33b5b5&quot;&gt;blue&lt;/font&gt; Signet Reward Bag.&lt;br&gt;
+        You can do these quests every 68 hours.&lt;br&gt;
+        (Hint: The duration of each quest should give you a idea of how long it takes to complete this particular quest.
+        It may vary strongly as it depends on the skills and gear you are using.) </string>
     <string name="map_kingsmouth_quest_text"> &lt;font color=&quot;#ff4444&quot;&gt;No "signet reward bag" missions available.&lt;/font&gt;</string>
     <string name="map_blue_quest1_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Search for Tyler Freeborn (Main Mission) [1]&lt;br&gt;
 &lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; SD Card &lt;br&gt;
@@ -1699,7 +1819,7 @@ When you block, evade, or are glanced, you gain     &lt;font color=&quot;#99cc00
 &lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Old Asylum Approach&lt;br&gt;
 &lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; short&lt;br&gt;
 &lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt;&lt;br&gt; 
-After completing this quest you can start [Quest: The Research of Tyler Freeborn]</string>
+[Quest: The Research of Tyler Freeborn] starts immediately after you completed this quest.</string>
     <string name="map_blue_quest2_text">&lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Research of Tyler Freeborn (Main Mission) [2]&lt;br&gt;
 &lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; SD Card &lt;br&gt;
 &lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 148, 822; End at 307, 929&lt;br&gt;
@@ -1713,7 +1833,7 @@ After completing this quest you can start [Quest: The Research of Tyler Freeborn
 &lt;font color=&quot;#ff4444&quot;&gt;Resurrection Point:&lt;/font&gt; Agartha Entrance&lt;br&gt;
 &lt;font color=&quot;#ff4444&quot;&gt;Duration:&lt;/font&gt; moderate&lt;br&gt;
 &lt;font color=&quot;#ff4444&quot;&gt;Hint:&lt;/font&gt; &lt;br&gt;
-After completing this quest you can start [Quest: The Vanishing of Tyler Freeborn]</string>
+[Quest: The Vanishing of Tyler Freeborn] starts immediately after you completed this quest.</string>
     <string name="map_blue_quest4_text">        &lt;font color=&quot;#ff4444&quot;&gt;Quest:&lt;/font&gt; The Vanishing of Tyler Freeborn (Main Mission) [4]&lt;br&gt;
 &lt;font color=&quot;#ff4444&quot;&gt;Location:&lt;/font&gt; Camera&lt;br&gt;
 &lt;font color=&quot;#ff4444&quot;&gt;Coordinates:&lt;/font&gt; Start at 203,928; End at 411, 962 &lt;br&gt;
@@ -1910,11 +2030,16 @@ Possibility of finding signets as to complete this quest you have to kill [Night
 
     <!-- farming locations -->
     <string name="solomon_titel">> Solomon Island</string>
+    <string name="solomon_king_titel">> Solomon Is. (Kingsmouth)</string>
+    <string name="solomon_savage_titel">> Solomon Is. (Savage Coast)</string>
+    <string name="solomon_blue_titel">> Solomon Is. (Blue Mountain)</string>
     <string name="egypt_titel">> Egypt</string>
+    <string name="egypt_scorched_titel">> Egypt (Scorched Desert)</string>
+    <string name="egypt_sun_titel">> Egypt (City of the Sun God)</string>
     <string name="trans_titel">> Transylvania</string>
-    <string name="trans_farm_titel">> Transylvania (Besieged Farmlands)</string>
-    <string name="trans_forest_titel">> Transylvania (Shadowy Forest)</string>
-    <string name="trans_fangs_titel">> Transylvania (Carpathian Fangs)</string>
+    <string name="trans_farm_titel">> Trans. (Besieged Farmlands)</string>
+    <string name="trans_forest_titel">> Trans. (Shadowy Forest)</string>
+    <string name="trans_fangs_titel">> Trans. (Carpathian Fangs)</string>
     <string name="framing_locations_go_to_map_activity">> Open Map &lt;</string>
     <string name="basics_farming_locations">> Basics</string>
     <string name="farming_locations_close"> CLOSE Basics &lt;</string>
@@ -1977,8 +2102,8 @@ to hinder and impair effects&lt;/font&gt;)</string>
         [Single]Keelhauled (48k HP)</string>
     <string name="savage_farming_locations">> Savage Coast</string>
     <string name="savage_farming_locations_close"> CLOSE Savage Coast &lt;</string>
-    <string name="map_savage_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [A]
-        &lt;/font&gt;&lt;br&gt;&lt;br&gt;
+    <string name="map_savage_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone&lt;/font&gt; [A]
+        &lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
         Location:&lt;/font&gt; Northwest to Suicide Bluff&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
@@ -2003,8 +2128,8 @@ to hinder and impair effects&lt;/font&gt;)</string>
         [Group]Obscenity (7.9k HP)</string>
     <string name="blue_farming_locations">> Blue Mountain</string>
     <string name="blue_farming_locations_close"> CLOSE Blue Mountain &lt;</string>
-    <string name="map_blue_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone [A]
-        &lt;/font&gt;&lt;br&gt;&lt;br&gt;
+    <string name="map_blue_nm_text">&lt;font color=&quot;#ff4444&quot;&gt;Nightmare Zone&lt;/font&gt; [A]
+        &lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
         Location:&lt;/font&gt; The Quarry&lt;br&gt;&lt;br&gt;
         &lt;font color=&quot;#ff4444&quot;&gt;
@@ -2295,7 +2420,7 @@ to hinder and impair effects&lt;/font&gt;)</string>
     <string name="rate_and_comment">"Rate and Comment"</string>
     <string name="rate_and_comment_support">"If you enjoy using this app, please 
         take a moment to rate it. Thanks for your support!"</string>
-    <string name="info">Version: 1.0\n\nValid for: TSW Version 1.5.6\n\nMady by: &amp;droyd</string>
+    <string name="info">Version: 1.0\n\nValid for: TSW Version Issue &#35;6\n\nMady by: eYYeYY</string>
     <string name="ok">OK</string>
     <string name="remind_me_later">"Remind me later"</string>
     <string name="no_thanks">"No, thanks"</string>
@@ -2337,5 +2462,14 @@ to hinder and impair effects&lt;/font&gt;)</string>
     <string name="title_activity_transylvania_farm_quest">TransylvaniaFarmQuestActivity</string>
     <string name="title_activity_transylvania_forest_quest">TransylvaniaForestQuestActivity</string>
     <string name="title_activity_transylvania_fangs_quest">TransylvaniaFangsQuestActivity</string>
+    <string name="title_activity_egypt_quest_sun">EgyptQuestSunActivity</string>
+    <string name="title_activity_solomon_island_king_farming">SolomonIslandKingFarmingActivity</string>
+    <string name="title_activity_solomon_island_savage_farming">SolomonIslandSavageFarmingActivity</string>
+    <string name="title_activity_solomon_island_blue_farming">SolomonIslandBlueFarmingActivity</string>
+    <string name="title_activity_egypt_scorched_farming">EgyptScorchedFarmingActivity</string>
+    <string name="title_activity_egypt_sun_farming">EgyptSunFarmingActivity</string>
+    <string name="title_activity_transylvania_farm_farming">TransylvaniaFarmFarmingActivity</string>
+    <string name="title_activity_transylvania_forest_farming">TransylvaniaForestFarmingActivity</string>
+    <string name="title_activity_transylvania_fangs_farming">TransylvaniaFangsFarmingActivity</string>
 
 </resources>

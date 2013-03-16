@@ -15,9 +15,14 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.eyyeyy.tsw_signets.R;
-import com.eyyeyy.tsw_signets.common.farming.EgyptFarmingActivity;
-import com.eyyeyy.tsw_signets.common.farming.SolomonIslandFarmingActivity;
-import com.eyyeyy.tsw_signets.common.farming.TransylvaniaFarmingActivity;
+import com.eyyeyy.tsw_signets.common.farming.EgyptScorchedFarmingActivity;
+import com.eyyeyy.tsw_signets.common.farming.EgyptSunFarmingActivity;
+import com.eyyeyy.tsw_signets.common.farming.SolomonIslandBlueFarmingActivity;
+import com.eyyeyy.tsw_signets.common.farming.SolomonIslandKingFarmingActivity;
+import com.eyyeyy.tsw_signets.common.farming.SolomonIslandSavageFarmingActivity;
+import com.eyyeyy.tsw_signets.common.farming.TransylvaniaFangsFarmingActivity;
+import com.eyyeyy.tsw_signets.common.farming.TransylvaniaFarmFarmingActivity;
+import com.eyyeyy.tsw_signets.common.farming.TransylvaniaForestFarmingActivity;
 import com.eyyeyy.tsw_signets.utils.ShowInfo;
 
 public class FarmingLocationsActivity extends Activity {
@@ -105,21 +110,51 @@ public class FarmingLocationsActivity extends Activity {
 		return true;
 	}
 
-	public void startSolomonFarm(View view) {
+	public void startSolomonKingFarm(View view) {
 
-		Intent intent = new Intent(this, SolomonIslandFarmingActivity.class);
+		Intent intent = new Intent(this, SolomonIslandKingFarmingActivity.class);
 		startActivity(intent);
 	}
 
-	public void startEgyptFarm(View view) {
+	public void startSolomonSavageFarm(View view) {
 
-		Intent intent = new Intent(this, EgyptFarmingActivity.class);
+		Intent intent = new Intent(this, SolomonIslandSavageFarmingActivity.class);
 		startActivity(intent);
 	}
 
-	public void startTransFarm(View view) {
+	public void startSolomonBlueFarm(View view) {
 
-		Intent intent = new Intent(this, TransylvaniaFarmingActivity.class);
+		Intent intent = new Intent(this, SolomonIslandBlueFarmingActivity.class);
+		startActivity(intent);
+	}
+
+	public void startEgyptScorchedFarm(View view) {
+
+		Intent intent = new Intent(this, EgyptScorchedFarmingActivity.class);
+		startActivity(intent);
+	}
+
+	public void startEgyptSunFarm(View view) {
+
+		Intent intent = new Intent(this, EgyptSunFarmingActivity.class);
+		startActivity(intent);
+	}
+
+	public void startTransFarmFarm(View view) {
+
+		Intent intent = new Intent(this, TransylvaniaFarmFarmingActivity.class);
+		startActivity(intent);
+	}
+
+	public void startTransForestFarm(View view) {
+
+		Intent intent = new Intent(this, TransylvaniaForestFarmingActivity.class);
+		startActivity(intent);
+	}
+
+	public void startTransFangsFarm(View view) {
+
+		Intent intent = new Intent(this, TransylvaniaFangsFarmingActivity.class);
 		startActivity(intent);
 	}
 

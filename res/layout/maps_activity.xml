@@ -32,7 +32,7 @@
             android:id="@+id/kingsmouth_quests"
             style="@style/ViewToggleButton"
             android:onClick="openKingMapMarked"
-            android:text="@string/kingsmouth_farming_locations" />
+            android:text="@string/solomon_king_titel" />
 
         <TextView
             android:layout_width="@dimen/blank_width_size"
@@ -56,7 +56,7 @@
             android:id="@+id/savage_quests"
             style="@style/ViewToggleButton"
             android:onClick="openSavageMapMarked"
-            android:text="@string/savage_farming_locations" />
+            android:text="@string/solomon_savage_titel" />
 
         <TextView
             android:layout_width="@dimen/blank_width_size"
@@ -79,7 +79,7 @@
             android:id="@+id/blue_quests"
             style="@style/ViewToggleButton"
             android:onClick="openBlueMapMarked"
-            android:text="@string/blue_farming_locations" />
+            android:text="@string/solomon_blue_titel" />
 
         <TextView
             android:layout_width="@dimen/blank_width_size"
@@ -103,7 +103,7 @@
             android:id="@+id/scorched_quests"
             style="@style/ViewToggleButton"
             android:onClick="openScorchedMapMarked"
-            android:text="@string/scorched_farming_locations" />
+            android:text="@string/egypt_scorched_titel" />
 
         <TextView
             android:layout_width="@dimen/blank_width_size"
@@ -126,7 +126,7 @@
             android:id="@+id/sun_quests"
             style="@style/ViewToggleButton"
             android:onClick="openSunMapMarked"
-            android:text="@string/sun_farming_locations" />
+            android:text="@string/egypt_sun_titel" />
 
         <TextView
             android:layout_width="@dimen/blank_width_size"
@@ -150,7 +150,7 @@
             android:id="@+id/farm_quests"
             style="@style/ViewToggleButton"
             android:onClick="openFarmMapMarked"
-            android:text="@string/farm_farming_locations" />
+            android:text="@string/trans_farm_titel" />
 
         <TextView
             android:layout_width="@dimen/blank_width_size"
@@ -173,7 +173,7 @@
             android:id="@+id/forest_quests"
             style="@style/ViewToggleButton"
             android:onClick="openForestMapMarked"
-            android:text="@string/forest_farming_locations" />
+            android:text="@string/trans_forest_titel" />
 
         <TextView
             android:layout_width="@dimen/blank_width_size"
@@ -197,7 +197,7 @@
             android:id="@+id/fangs_quests"
             style="@style/ViewToggleButton"
             android:onClick="openFangsMapMarked"
-            android:text="@string/fangs_farming_locations" />
+            android:text="@string/trans_fangs_titel" />
 
         <TextView
             android:layout_width="@dimen/blank_width_size"

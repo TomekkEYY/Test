@@ -79,8 +79,8 @@
 
         <Button
             style="@style/ViewToggleButton"
-            android:onClick="startSolomonQuest"
-            android:text="@string/solomon_titel" />
+            android:onClick="startSolomonBlueQuest"
+            android:text="@string/solomon_blue_titel" />
 
         <TextView
             android:id="@+id/all_signets_blank"
@@ -102,11 +102,32 @@
 
         <Button
             style="@style/ViewToggleButton"
-            android:onClick="startEgyptQuest"
-            android:text="@string/egypt_titel" />
+            android:onClick="startEgyptScorchedQuest"
+            android:text="@string/egypt_scorched_titel" />
 
         <TextView
-            android:id="@+id/dps_signets_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="startEgyptSunQuest"
+            android:text="@string/egypt_sun_titel" />
+
+        <TextView
             android:layout_width="@dimen/blank_width_size"
             android:layout_height="@dimen/blank_height_size"
             android:visibility="visible" />

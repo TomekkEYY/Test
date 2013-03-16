@@ -2,6 +2,7 @@ package com.eyyeyy.tsw_signets.common.maps;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
@@ -23,7 +24,13 @@ public class ScorchedMapMarkedActivity extends Activity {
 		LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 
 		GestureImageView view = new GestureImageView(this);
-		view.setImageResource(R.drawable.scorched_map_marked);
+
+		if (this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
+			view.setImageResource(R.drawable.scorched_map_marked);
+		} else {
+			view.setImageResource(R.drawable.scorched_map_marked_land);
+		}
+
 		view.setLayoutParams(params);
 
 		ViewGroup layout = (ViewGroup) findViewById(R.id.ll_scorched_map_marked_map);

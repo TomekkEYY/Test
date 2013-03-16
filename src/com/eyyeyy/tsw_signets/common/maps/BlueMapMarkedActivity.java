@@ -25,7 +25,6 @@ public class BlueMapMarkedActivity extends Activity {
 
 		GestureImageView view = new GestureImageView(this);
 
-		// TODO cut height or make land_pngs
 		if (this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
 			view.setImageResource(R.drawable.blue_map_marked);
 		} else {

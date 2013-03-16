@@ -225,7 +225,7 @@
                 android:value="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" />
         </activity>
         <activity
-            android:name="com.eyyeyy.tsw_signets.common.quests.SolomonIslandQuestActivity"
+            android:name="com.eyyeyy.tsw_signets.common.quests.SolomonIslandBlueQuestActivity"
             android:label="@string/title_activity_solomon_island_quest"
             android:launchMode="singleInstance"
             android:parentActivityName="com.eyyeyy.tsw_signets.common.QuestsActivity" >
@@ -234,8 +234,17 @@
                 android:value="com.eyyeyy.tsw_signets.common.QuestsActivity" />
         </activity>
         <activity
-            android:name="com.eyyeyy.tsw_signets.common.quests.EgyptQuestActivity"
+            android:name="com.eyyeyy.tsw_signets.common.quests.EgyptQuestScorchedActivity"
             android:label="@string/title_activity_egypt_quest"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.QuestsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.QuestsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.quests.EgyptQuestSunActivity"
+            android:label="@string/title_activity_egypt_quest_sun"
             android:launchMode="singleInstance"
             android:parentActivityName="com.eyyeyy.tsw_signets.common.QuestsActivity" >
             <meta-data
@@ -277,6 +286,78 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.eyyeyy.tsw_signets.common.QuestsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.farming.SolomonIslandKingFarmingActivity"
+            android:label="@string/title_activity_solomon_island_king_farming"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.farming.SolomonIslandSavageFarmingActivity"
+            android:label="@string/title_activity_solomon_island_savage_farming"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.farming.SolomonIslandBlueFarmingActivity"
+            android:label="@string/title_activity_solomon_island_blue_farming"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.farming.EgyptScorchedFarmingActivity"
+            android:label="@string/title_activity_egypt_scorched_farming"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.farming.EgyptSunFarmingActivity"
+            android:label="@string/title_activity_egypt_sun_farming"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.farming.TransylvaniaFarmFarmingActivity"
+            android:label="@string/title_activity_transylvania_farm_farming"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.farming.TransylvaniaForestFarmingActivity"
+            android:label="@string/title_activity_transylvania_forest_farming"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" />
+        </activity>
+        <activity
+            android:name="com.eyyeyy.tsw_signets.common.farming.TransylvaniaFangsFarmingActivity"
+            android:label="@string/title_activity_transylvania_fangs_farming"
+            android:launchMode="singleInstance"
+            android:parentActivityName="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.eyyeyy.tsw_signets.common.FarmingLocationsActivity" />
         </activity>
     </application>
 

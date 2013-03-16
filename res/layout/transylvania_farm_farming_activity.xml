@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            style="@style/TopLogo"
+            android:src="@drawable/besieged_farmlands" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <!-- START  Besieged Farmlands -->
+
+        <TextView
+            android:id="@+id/map_farm_nm_text1"
+            style="@style/StandardTextAppearance"
+            android:text="@string/map_farm_nm_text1" />
+
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="openFarmMapMarked"
+            android:text="@string/framing_locations_go_to_map_activity" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/map_farm_nm_text2"
+            style="@style/StandardTextAppearance"
+            android:text="@string/map_farm_nm_text2" />
+
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="openFarmMapMarked"
+            android:text="@string/framing_locations_go_to_map_activity" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/map_farm_nm_text3"
+            style="@style/StandardTextAppearance"
+            android:text="@string/map_farm_nm_text3" />
+
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="openFarmMapMarked"
+            android:text="@string/framing_locations_go_to_map_activity" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/map_farm_nm_text4"
+            style="@style/StandardTextAppearance"
+            android:text="@string/map_farm_nm_text3" />
+
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="openFarmMapMarked"
+            android:text="@string/framing_locations_go_to_map_activity" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/map_farm_lair_text"
+            style="@style/StandardTextAppearance"
+            android:text="@string/map_farm_lair_text" />
+
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="openFarmMapMarked"
+            android:text="@string/framing_locations_go_to_map_activity" />
+
+        <!-- END Besieged Farmlands -->
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/ll_egypt_sun_quest_locations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            style="@style/TopLogo"
+            android:src="@drawable/city_of_the_sun_god" />
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+
+        <!-- START  City of Sun God -->
+
+        <TextView
+            android:id="@+id/map_sun_quest1_text"
+            style="@style/StandardTextAppearance"
+            android:text="@string/map_sun_quest1_text" />
+
+        <Button
+            style="@style/ViewToggleButton"
+            android:onClick="openSunMapMarked"
+            android:text="@string/framing_locations_go_to_map_activity" />
+
+        <!-- END City of Sun God -->
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

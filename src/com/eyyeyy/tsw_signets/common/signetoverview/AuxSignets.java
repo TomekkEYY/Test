@@ -46,6 +46,14 @@ public class AuxSignets extends Activity {
 	private Button auxSignetsQuantum;
 	private Button auxSignetsQuantumClose;
 
+	// Quantum Brace
+	private View auxSignetsWhipBlank;
+
+	private TextView auxSignetsWhipText;
+
+	private Button auxSignetsWhip;
+	private Button auxSignetsWhipClose;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -98,6 +106,20 @@ public class AuxSignets extends Activity {
 		// Quantum Buttons onClickListener
 		auxSignetsQuantum.setOnClickListener(auxSignetsQuantumListener);
 		auxSignetsQuantumClose.setOnClickListener(auxSignetsQuantumCloseListener);
+
+		// Whip Views
+		auxSignetsWhipBlank = findViewById(R.id.aux_signets_whip_blank);
+
+		auxSignetsWhipText = (TextView) findViewById(R.id.aux_signets_whip_text);
+		auxSignetsWhipText.setText(Html.fromHtml(getString(R.string.aux_signets_whip_text)));
+
+		// Whip Buttons
+		auxSignetsWhip = (Button) findViewById(R.id.aux_signets_whip);
+		auxSignetsWhipClose = (Button) findViewById(R.id.aux_signets_whip_close);
+
+		// Whip Buttons onClickListener
+		auxSignetsWhip.setOnClickListener(auxSignetsWhipListener);
+		auxSignetsWhipClose.setOnClickListener(auxSignetsWhipCloseListener);
 	}
 
 	// Chainsaw Button onCLickListener
@@ -199,6 +221,40 @@ public class AuxSignets extends Activity {
 			}
 			auxSignetsQuantumClose.setVisibility(View.GONE);
 			auxSignetsQuantumBlank.setVisibility(View.VISIBLE);
+		}
+	};
+
+	// Whip Button onCLickListener
+	OnClickListener auxSignetsWhipListener = new OnClickListener() {
+		public void onClick(View v) {
+			if (linearLayoutAuxSignets.getChildAt(19).getVisibility() == View.VISIBLE) {
+				for (int i = 19; i <= 20; i++) {
+					viewHolder = linearLayoutAuxSignets.getChildAt(i);
+					viewHolder.setVisibility(View.GONE);
+				}
+				auxSignetsWhipClose.setVisibility(View.GONE);
+				auxSignetsWhipBlank.setVisibility(View.VISIBLE);
+			} else {
+				auxSignetsWhipBlank.setVisibility(View.GONE);
+				for (int i = 19; i <= 21; i++) {
+					viewHolder = linearLayoutAuxSignets.getChildAt(i);
+					viewHolder.setVisibility(View.VISIBLE);
+				}
+				auxSignetsWhipClose.setVisibility(View.VISIBLE);
+			}
+		}
+	};
+
+	// Whip Button onClickListener
+	OnClickListener auxSignetsWhipCloseListener = new OnClickListener() {
+		public void onClick(View v) {
+
+			for (int i = 19; i <= 20; i++) {
+				viewHolder = linearLayoutAuxSignets.getChildAt(i);
+				viewHolder.setVisibility(View.GONE);
+			}
+			auxSignetsWhipClose.setVisibility(View.GONE);
+			auxSignetsWhipBlank.setVisibility(View.VISIBLE);
 		}
 	};
 

@@ -15,8 +15,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.eyyeyy.tsw_signets.R;
-import com.eyyeyy.tsw_signets.common.quests.EgyptQuestActivity;
-import com.eyyeyy.tsw_signets.common.quests.SolomonIslandQuestActivity;
+import com.eyyeyy.tsw_signets.common.quests.EgyptQuestScorchedActivity;
+import com.eyyeyy.tsw_signets.common.quests.EgyptQuestSunActivity;
+import com.eyyeyy.tsw_signets.common.quests.SolomonIslandBlueQuestActivity;
 import com.eyyeyy.tsw_signets.common.quests.TransylvaniaFangsQuestActivity;
 import com.eyyeyy.tsw_signets.common.quests.TransylvaniaFarmQuestActivity;
 import com.eyyeyy.tsw_signets.common.quests.TransylvaniaForestQuestActivity;
@@ -106,15 +107,21 @@ public class QuestsActivity extends Activity {
 		return true;
 	}
 
-	public void startSolomonQuest(View view) {
+	public void startSolomonBlueQuest(View view) {
 
-		Intent intent = new Intent(this, SolomonIslandQuestActivity.class);
+		Intent intent = new Intent(this, SolomonIslandBlueQuestActivity.class);
 		startActivity(intent);
 	}
 
-	public void startEgyptQuest(View view) {
+	public void startEgyptScorchedQuest(View view) {
 
-		Intent intent = new Intent(this, EgyptQuestActivity.class);
+		Intent intent = new Intent(this, EgyptQuestScorchedActivity.class);
+		startActivity(intent);
+	}
+
+	public void startEgyptSunQuest(View view) {
+
+		Intent intent = new Intent(this, EgyptQuestSunActivity.class);
 		startActivity(intent);
 	}
 

@@ -140,6 +140,44 @@
             <View style="@style/SeparatorBlackSpaceBorder" >
             </View>
         </LinearLayout>
+
+        <!-- START Whip -->
+
+        <Button
+            android:id="@+id/aux_signets_whip"
+            style="@style/ViewToggleButton"
+            android:text="@string/whip" />
+
+        <TextView
+            android:id="@+id/aux_signets_whip_blank"
+            android:layout_width="@dimen/blank_width_size"
+            android:layout_height="@dimen/blank_height_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/aux_signets_whip_text"
+            style="@style/StandardTextAppearance"
+            android:text="@string/aux_signets_whip_text"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/aux_signets_whip_close"
+            style="@style/ViewToggleButtonRight"
+            android:text="@string/whip_close"
+            android:visibility="gone" />
+        <!-- END Whip -->
+
+        <LinearLayout style="@style/SeparatorLinearLayout" >
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorWhiteSpaceBorder" >
+            </View>
+
+            <View style="@style/SeparatorBlackSpaceBorder" >
+            </View>
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>
