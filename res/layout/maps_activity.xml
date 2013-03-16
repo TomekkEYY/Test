@@ -13,7 +13,7 @@
 
         <ImageView
             style="@style/TopLogo"
-            android:src="@drawable/quests" />
+            android:src="@drawable/maps" />
 
         <LinearLayout style="@style/SeparatorLinearLayout" >
 
